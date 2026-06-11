@@ -70,7 +70,7 @@ Description: "A laboratory test request from a Zimbabwe health facility to a lab
 * reasonCode from VSZWReasonForTest (preferred)
 
 * subject 1..1 MS
-* subject only Reference(ZWLabPatient)
+* subject only Reference (ZWLabPatient)
 
 * requester 0..1 MS
 * requester ^short = "Ordering clinician/provider"
