@@ -14,6 +14,12 @@ cd "$(dirname "$0")"
 
 ACTOR="${1:?usage: test-session.sh <ehr|lab> [port]}"
 PORT="${2:-8080}"
+# if the requested port is taken (e.g. Docker/OrbStack forwards on 8080/8081),
+# walk up to the next free one
+while lsof -ti tcp:"$PORT" >/dev/null 2>&1; do
+  echo "(port $PORT is in use — trying $((PORT + 1)))"
+  PORT=$((PORT + 1))
+done
 TARGET="${TARGET:-http://173.212.195.88/fhir}"
 SESSION="target/sessions/$(date +%Y%m%d-%H%M%S)-${ACTOR}"
 mkdir -p "$SESSION"
