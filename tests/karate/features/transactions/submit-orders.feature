@@ -1,6 +1,7 @@
 Feature: ZW Lab - Submit order (ServiceRequest)
 
   Background:
+    * callonce read('_ensure-patient.feature')
     * url baseUrl
 
   Scenario: A valid order is accepted

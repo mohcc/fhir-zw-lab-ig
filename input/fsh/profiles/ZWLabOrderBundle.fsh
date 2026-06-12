@@ -18,7 +18,7 @@ Description: "Transaction Bundle used to submit a laboratory order to the Shared
 * type = #transaction
 
 * entry 3..* MS
-* entry ^slicing.discriminator.type = #type
+* entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
 * entry ^slicing.description = "Slice bundle entries by resource profile"
@@ -27,7 +27,9 @@ Description: "Transaction Bundle used to submit a laboratory order to the Shared
     task 1..1 MS and
     serviceRequest 1..1 MS and
     patient 1..1 MS and
-    specimen 0..* MS
+    specimen 0..* MS and
+    pregnancy 0..1 and
+    breastfeeding 0..1
 
 * entry[task].resource 1..1
 * entry[task].resource only ZWLabTask
@@ -56,3 +58,20 @@ Description: "Transaction Bundle used to submit a laboratory order to the Shared
 * entry[specimen].request 1..1 MS
 * entry[specimen].request.method = #POST
 * entry[specimen] ^short = "Specimen(s) collected for the order"
+
+// Clinical context may also travel as standalone Observations (alternative
+// to the ZWLabTask input slices) so LIMS systems that don't process Task
+// inputs can still receive it.
+* entry[pregnancy].resource 1..1
+* entry[pregnancy].resource only ZWPregnancyStatus
+* entry[pregnancy].fullUrl 1..1
+* entry[pregnancy].request 1..1
+* entry[pregnancy].request.method = #POST
+* entry[pregnancy] ^short = "Pregnancy status at time of ordering (ZW.LAB.A.DE13)"
+
+* entry[breastfeeding].resource 1..1
+* entry[breastfeeding].resource only ZWBreastfeedingStatus
+* entry[breastfeeding].fullUrl 1..1
+* entry[breastfeeding].request 1..1
+* entry[breastfeeding].request.method = #POST
+* entry[breastfeeding] ^short = "Breastfeeding status at time of ordering (ZW.LAB.A.DE14)"

@@ -1,6 +1,7 @@
 Feature: ZW Lab - Submit result (DiagnosticReport)
 
   Background:
+    * callonce read('_ensure-patient.feature')
     * url baseUrl
 
   Scenario: A valid result is accepted

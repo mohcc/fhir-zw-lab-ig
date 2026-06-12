@@ -16,6 +16,7 @@ Each actor has a feature file tagged with its role. The Karate suite plays the c
 | `result-consumer.feature` | `@lab-result-consumer` | Results for a patient can be retrieved and correlated to the originating order |
 | `end-to-end.feature` | `@e2e` | The full ①→④ loop, chaining the role features with shared identifiers |
 | `auditor.feature` | `@auditor` | Payloads submitted by *external* systems (a real EHR/LIMS, or manual POST) are found on the server and validated against the IG profiles |
+| `transactions/*.feature` | — | Transaction-level smoke tests (submit/poll orders and results as single resources), driven entirely by external JSON data files |
 
 #### Layered validation
 

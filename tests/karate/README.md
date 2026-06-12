@@ -14,6 +14,13 @@ Zimbabwe laboratory ordering and results workflow defined by this IG:
 | Full loop ①→④ | `features/end-to-end.feature` | `@e2e` |
 | External-submission audit | `features/auditor.feature` | `@auditor` |
 
+Alongside the actor suites, `features/transactions/` holds **transaction-level
+smoke tests** (one feature per transaction: `submit-orders`, `poll-orders`,
+`submit-results`, `poll-results`). They POST/search single resources rather
+than bundles, and all per-test data lives in external JSON files under
+`features/transactions/data/` — drive each case by editing those files rather
+than the `.feature` scripts.
+
 The Karate suite plays the client roles itself; the FHIR server under test
 plays the repository roles. By default that server is a
 [hapi-sandbox](https://github.com/costateixeira/hapi-sandbox) with this IG and

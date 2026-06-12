@@ -10,6 +10,9 @@ function fn() {
   if (env === 'hosted') {
     // TODO: replace with the hosted hapi-sandbox base URL once available
     config.shrUrl = 'https://hosted-sandbox.example.org/fhir';
+  } else if (env === 'zw') {
+    // ZW test server with the IG content loaded
+    config.shrUrl = 'http://173.212.195.88/fhir';
   }
 
   // SHR_URL always wins, regardless of env (e.g. to test your own repository)
@@ -29,6 +32,16 @@ function fn() {
     observation: config.igCanonical + '/StructureDefinition/zw-lab-result-observation'
   };
 
+  // aliases used by the transaction-level features (features/transactions/)
+  config.baseUrl = config.shrUrl;
+  config.profiles.order = config.profiles.serviceRequest;
+  config.profiles.result = config.profiles.diagnosticReport;
+
+  // error/fatal issues from a $validate OperationOutcome (empty == conformant)
+  config.errorIssues = function (oo) {
+    return karate.jsonPath(oo, "$.issue[?(@.severity=='error' || @.severity=='fatal')]");
+  };
+
   config.systems = {
     ehrPatientId: config.igCanonical + '/identifier/ehr-patient-id',
     clientSampleId: config.igCanonical + '/identifier/client-sample-id',
@@ -37,6 +50,7 @@ function fn() {
   };
 
   karate.configure('headers', { 'Content-Type': 'application/fhir+json', 'Accept': 'application/fhir+json' });
+  karate.configure('ssl', true);
   karate.configure('connectTimeout', 10000);
   karate.configure('readTimeout', 60000);
 
