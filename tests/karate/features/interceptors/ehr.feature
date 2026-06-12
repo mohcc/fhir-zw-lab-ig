@@ -11,6 +11,18 @@ Feature: EHR interceptor - order placer + results consumer
     * def System = Java.type('java.lang.System')
     * def target = System.getProperty('target', 'http://173.212.195.88/fhir')
     * def orderProfile = 'http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request'
+    * def orderBundleProfile = 'http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-order-bundle'
+
+  # EHR pushes a full order transaction Bundle to the server root (transaction ①)
+  # -> validate against the ZW order bundle profile (not stored / not executed)
+  Scenario: methodIs('post') && pathMatches('/') && request.resourceType == 'Bundle'
+    * def bundle = request
+    * karate.log('>> EHR pushed an order bundle; validating against', orderBundleProfile)
+    Given url target
+    And path 'Bundle', '$validate'
+    And param profile = orderBundleProfile
+    And request bundle
+    When method post
 
   # EHR places an order -> validate against the ZW order profile (not stored)
   Scenario: methodIs('post') && pathMatches('/ServiceRequest')
