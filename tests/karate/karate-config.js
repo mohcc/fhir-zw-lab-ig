@@ -7,11 +7,8 @@ function fn() {
     shrUrl: 'http://localhost:8090/fhir'
   };
 
-  if (env === 'hosted') {
-    // TODO: replace with the hosted hapi-sandbox base URL once available
-    config.shrUrl = 'https://hosted-sandbox.example.org/fhir';
-  } else if (env === 'zw') {
-    // ZW test server with the IG content loaded
+  if (env === 'hosted' || env === 'zw') {
+    // Hosted hapi-sandbox (ZW server): IGs installed, validation-on-write enabled
     config.shrUrl = 'http://173.212.195.88/fhir';
   }
 
