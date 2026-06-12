@@ -1,0 +1,113 @@
+# ZW Lab Actor Conformance Test Kit
+
+Executable Gherkin/[Karate](https://karatelabs.io/) tests for the six actors of the
+Zimbabwe laboratory ordering and results workflow defined by this IG:
+
+| Role | Feature | Tag |
+|---|---|---|
+| Lab Order Placer | `features/order-placer.feature` | `@lab-order-placer` |
+| Lab Order Repository | `features/order-repository.feature` | `@lab-order-repository` |
+| Lab Order Fulfiller | `features/order-fulfiller.feature` | `@lab-order-fulfiller` |
+| Lab Result Provider | `features/result-provider.feature` | `@lab-result-provider` |
+| Lab Result Repository | `features/result-repository.feature` | `@lab-result-repository` |
+| Lab Result Consumer | `features/result-consumer.feature` | `@lab-result-consumer` |
+| Full loop ①→④ | `features/end-to-end.feature` | `@e2e` |
+| External-submission audit | `features/auditor.feature` | `@auditor` |
+
+The Karate suite plays the client roles itself; the FHIR server under test
+plays the repository roles. By default that server is a
+[hapi-sandbox](https://github.com/costateixeira/hapi-sandbox) with this IG and
+the ZW Core IG loaded.
+
+## Prerequisites
+
+- Java 17+ (`java -version`). With [SDKMAN](https://sdkman.io/) just run
+  `sdk env install` in the repo root (version pinned in `.sdkmanrc`);
+  `run-tests.sh` also picks it up automatically if your default java is older.
+- Network access to the FHIR server under test
+
+The standalone `karate.jar` is downloaded automatically on first run — no
+Maven/Gradle project needed.
+
+## Running
+
+```bash
+./run-tests.sh                          # default: happy path, all roles
+./run-tests.sh @lab-order-placer        # one actor's suite
+./run-tests.sh @e2e                     # the full order-to-result loop
+KARATE_ENV=hosted ./run-tests.sh        # hosted sandbox (URL in karate-config.js)
+SHR_URL=https://my-shr/fhir ./run-tests.sh   # any FHIR base URL
+```
+
+The HTML report lands in `target/karate-reports/karate-summary.html`.
+
+### Local sandbox
+
+```bash
+git clone https://github.com/costateixeira/hapi-sandbox && cd hapi-sandbox
+docker compose up -d        # serves http://localhost:8090/fhir
+```
+
+For the `@validation` scenarios the server needs this IG's conformance
+resources (and the ZW Core dependency). Load them with:
+
+```bash
+scripts/load-ig.sh                          # default http://localhost:8090/fhir
+scripts/load-ig.sh https://my-shr/fhir      # any server
+```
+
+Notes:
+
+- HAPI caches terminology lookups for several minutes, so `@validation`
+  scenarios may need a short wait right after the first load.
+- The test payloads carry only the national codes. The IG examples also
+  include LOINC translations, but an offline sandbox cannot validate LOINC
+  (HAPI only accepts it via its terminology uploader); validating those is
+  deferred to a terminology-capable validator.
+
+## Tags
+
+| Tag | Meaning |
+|---|---|
+| `@lab-*` | The actor role a feature certifies |
+| `@validation` | Steps that call `$validate` — require the IG packages loaded on the server |
+| `@workshop` | Intentionally unimplemented placeholder scenarios, to be authored in workshop sessions (excluded from every default run) |
+| `@pending-validation` | Negative tests that need validation-on-write enabled on the sandbox |
+| `@auditor` | The external-submission audit (needs `AUDIT_PATIENT_IDENTIFIER`) |
+| `@ignore` | Callable helpers in `features/common/`, never run directly |
+
+## Testing your own system
+
+**Your system plays a client role** (Order Placer, Result Provider, ...):
+point it at the sandbox, let it submit, then audit what arrived:
+
+```bash
+AUDIT_PATIENT_IDENTIFIER='http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id|EHR-ZW-00123' \
+  ./run-tests.sh @auditor
+```
+
+**Your system plays a repository role**: run the repository suites against it:
+
+```bash
+SHR_URL=https://your-server/fhir ./run-tests.sh @lab-order-repository
+SHR_URL=https://your-server/fhir ./run-tests.sh @lab-result-repository
+```
+
+## Test data
+
+Payloads in `data/` are **derived from the IG's own examples** so tests and
+spec cannot drift. After changing FSH, regenerate them:
+
+```bash
+cd ../.. && sushi . && tests/karate/scripts/sync-test-data.sh
+```
+
+Helpers in `features/common/` uniquify patient/sample identifiers per run, so
+the suite can run repeatedly against a shared server without collisions.
+
+## Filling in a workshop placeholder
+
+1. Pick a `@workshop` scenario — the TODO comment describes the steps.
+2. Write the steps (copy patterns from the implemented scenarios above it).
+3. Remove the `@workshop` tag and run the feature:
+   `./run-tests.sh @lab-order-fulfiller`
