@@ -1,0 +1,216 @@
+ZWCore : Validation Results
+=========================================
+
+err = 0, warn = 86, info = 15
+IG Publisher Version: 2.2.8
+Generated Fri Jun 12 09:33:30 UTC 2026. FHIR version 4.0.1 for zw.fhir.ig.lab#0.1.0 (canonical = http://mohcc.gov.zw/fhir/lab)
+ Build Errors : 0 / 0 / 0
+ /work/fsh-generated/resources/ActorDefinition-lab-order-fulfiller : 0 / 0 / 2
+ /work/fsh-generated/resources/ActorDefinition-lab-order-placer : 0 / 0 / 2
+ /work/fsh-generated/resources/ActorDefinition-lab-order-repository : 0 / 0 / 2
+ /work/fsh-generated/resources/ActorDefinition-lab-result-consumer : 0 / 0 / 2
+ /work/fsh-generated/resources/ActorDefinition-lab-result-provider : 0 / 0 / 2
+ /work/fsh-generated/resources/ActorDefinition-lab-result-repository : 0 / 0 / 2
+ /work/fsh-generated/resources/Bundle-example-zw-lab-order-bundle : 0 / 8 / 13
+ /work/fsh-generated/resources/Bundle-example-zw-vl-report-bundle : 0 / 5 / 27
+ /work/fsh-generated/resources/CodeSystem-zw-lab-tests : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-laboratories : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-reason-for-test : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-rejection-reasons : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-report-review-state : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-sample-types : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-task-input-type : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-zw-task-output-type : 0 / 0 / 1
+ /work/fsh-generated/resources/DiagnosticReport-example-zw-vl-diagnostic-report : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-zw.fhir.ig.lab : 0 / 0 / 1
+ /work/fsh-generated/resources/Location-example-order-facility : 0 / 0 / 1
+ /work/fsh-generated/resources/Observation-example-zw-vl-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/Organization-example-national-virology-lab : 0 / 0 / 2
+ /work/fsh-generated/resources/Patient-example-zw-lab-patient : 0 / 2 / 1
+ /work/fsh-generated/resources/Requirements-zw-lab-order-pull : 0 / 0 / 2
+ /work/fsh-generated/resources/Requirements-zw-lab-order-push : 0 / 0 / 2
+ /work/fsh-generated/resources/Requirements-zw-lab-result-pull : 0 / 0 / 2
+ /work/fsh-generated/resources/Requirements-zw-lab-result-push : 0 / 0 / 2
+ /work/fsh-generated/resources/ServiceRequest-example-zw-service-request-vl : 0 / 0 / 1
+ /work/fsh-generated/resources/Specimen-example-zw-specimen-plasma : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-citizenship : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-date-of-birth-estimated : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-report-review-state : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-breastfeeding-status : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-zw-facility : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-diagnostic-report : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-order : 0 / 38 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-order-bundle : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-patient : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-report-bundle : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-report-composition : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-result-observation : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-result-report : 0 / 22 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-service-request : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-lab-task : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-laboratory : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-pregnancy-status : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-zw-specimen : 0 / 0 / 1
+ /work/fsh-generated/resources/Task-example-zw-lab-task-order : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-zw-lab-tests : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-zw-laboratories : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-zw-reason-for-test : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-zw-rejection-reasons : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-zw-report-review-state : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-zw-sample-types : 0 / 0 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ActorDefinition-lab-order-fulfiller.json ==
+INFORMATION: ActorDefinition/lab-order-fulfiller: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ActorDefinition-lab-order-placer.json ==
+INFORMATION: ActorDefinition/lab-order-placer: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ActorDefinition-lab-order-repository.json ==
+INFORMATION: ActorDefinition/lab-order-repository: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ActorDefinition-lab-result-consumer.json ==
+INFORMATION: ActorDefinition/lab-result-consumer: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ActorDefinition-lab-result-provider.json ==
+INFORMATION: ActorDefinition/lab-result-provider: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ActorDefinition-lab-result-repository.json ==
+INFORMATION: ActorDefinition/lab-result-repository: ActorDefinition.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Bundle-example-zw-lab-order-bundle.json ==
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[0].resource.basedOn[0]: Entry 1 matches the reference ServiceRequest/example-zw-service-request-vl by type and id but its fullUrl urn:uuid:5a3952e2-1c1a-4a6b-9c5d-0b6e9a3e0002 does not match the full target URL urn:uuid:example-zw-service-request-vl by Bundle resolution rules
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[0].resource.for: Entry 2 matches the reference Patient/example-zw-lab-patient by type and id but its fullUrl urn:uuid:5a3952e2-1c1a-4a6b-9c5d-0b6e9a3e0003 does not match the full target URL urn:uuid:example-zw-lab-patient by Bundle resolution rules
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[1].resource.subject: Entry 2 matches the reference Patient/example-zw-lab-patient by type and id but its fullUrl urn:uuid:5a3952e2-1c1a-4a6b-9c5d-0b6e9a3e0003 does not match the full target URL urn:uuid:example-zw-lab-patient by Bundle resolution rules
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[1].resource.specimen[0]: Entry 3 matches the reference Specimen/example-zw-specimen-plasma by type and id but its fullUrl urn:uuid:5a3952e2-1c1a-4a6b-9c5d-0b6e9a3e0004 does not match the full target URL urn:uuid:example-zw-specimen-plasma by Bundle resolution rules
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[2].resource.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id'
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[2].resource.identifier[1].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/art-number'
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[3].resource.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id'
+WARNING: Bundle/example-zw-lab-order-bundle: Bundle.entry[3].resource.subject: Entry 2 matches the reference Patient/example-zw-lab-patient by type and id but its fullUrl urn:uuid:5a3952e2-1c1a-4a6b-9c5d-0b6e9a3e0003 does not match the full target URL urn:uuid:example-zw-lab-patient by Bundle resolution rules
+== fsh-generated/resources/Bundle-example-zw-vl-report-bundle.json ==
+WARNING: Bundle/example-zw-vl-report-bundle: Bundle.identifier.system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/report-document'
+INFORMATION: Bundle/example-zw-vl-report-bundle: Bundle.entry[1].resource/*DiagnosticReport/example-zw-vl-diagnostic-report*/.code: None of the codings provided are in the value set 'LOINC Diagnostic Report Codes' (http://hl7.org/fhir/ValueSet/report-codes|4.0.1), and a coding is recommended to come from this value set (codes = http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests#LTT0013)
+WARNING: Bundle/example-zw-vl-report-bundle: Bundle.entry[2].resource/*Patient/example-zw-lab-patient*/.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id'
+WARNING: Bundle/example-zw-vl-report-bundle: Bundle.entry[2].resource/*Patient/example-zw-lab-patient*/.identifier[1].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/art-number'
+WARNING: Bundle/example-zw-vl-report-bundle: Bundle.entry[3].resource/*Observation/example-zw-vl-observation*/: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Bundle/example-zw-vl-report-bundle: Bundle.entry[4].resource/*Specimen/example-zw-specimen-plasma*/.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id'
+INFORMATION: Bundle/example-zw-vl-report-bundle: Bundle.entry[6].resource/*Organization/example-national-virology-lab*/.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|4.0.1
+== fsh-generated/resources/CodeSystem-zw-lab-tests.json ==
+== fsh-generated/resources/CodeSystem-zw-laboratories.json ==
+== fsh-generated/resources/CodeSystem-zw-reason-for-test.json ==
+== fsh-generated/resources/CodeSystem-zw-rejection-reasons.json ==
+== fsh-generated/resources/CodeSystem-zw-report-review-state.json ==
+== fsh-generated/resources/CodeSystem-zw-sample-types.json ==
+== fsh-generated/resources/CodeSystem-zw-task-input-type.json ==
+== fsh-generated/resources/CodeSystem-zw-task-output-type.json ==
+== fsh-generated/resources/DiagnosticReport-example-zw-vl-diagnostic-report.json ==
+== fsh-generated/resources/ImplementationGuide-zw.fhir.ig.lab.json ==
+== fsh-generated/resources/Location-example-order-facility.json ==
+== fsh-generated/resources/Observation-example-zw-vl-observation.json ==
+WARNING: Observation/example-zw-vl-observation: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Organization-example-national-virology-lab.json ==
+INFORMATION: Organization/example-national-virology-lab: Organization.type[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|4.0.1
+== fsh-generated/resources/Patient-example-zw-lab-patient.json ==
+WARNING: Patient/example-zw-lab-patient: Patient.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id'
+WARNING: Patient/example-zw-lab-patient: Patient.identifier[1].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/art-number'
+== fsh-generated/resources/Requirements-zw-lab-order-pull.json ==
+INFORMATION: Requirements/zw-lab-order-pull: Requirements.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Requirements-zw-lab-order-push.json ==
+INFORMATION: Requirements/zw-lab-order-push: Requirements.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Requirements-zw-lab-result-pull.json ==
+INFORMATION: Requirements/zw-lab-result-pull: Requirements.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/Requirements-zw-lab-result-push.json ==
+INFORMATION: Requirements/zw-lab-result-push: Requirements.jurisdiction[0]: Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
+== fsh-generated/resources/ServiceRequest-example-zw-service-request-vl.json ==
+== fsh-generated/resources/Specimen-example-zw-specimen-plasma.json ==
+WARNING: Specimen/example-zw-specimen-plasma: Specimen.identifier[0].system: No definition could be found for URL value 'http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id'
+== fsh-generated/resources/StructureDefinition-citizenship.json ==
+WARNING: StructureDefinition/citizenship: StructureDefinition.differential.element[5].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/country' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition/citizenship: StructureDefinition.snapshot.element[8].binding: The definition for the element 'Extension.extension.value[x]' binds to the value set 'http://hl7.org/fhir/ValueSet/country' which is experimental, but this structure is not labeled as experimental
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/lab/StructureDefinition/citizenship'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-date-of-birth-estimated.json ==
+== fsh-generated/resources/StructureDefinition-report-review-state.json ==
+== fsh-generated/resources/StructureDefinition-zw-breastfeeding-status.json ==
+INFORMATION: StructureDefinition/zw-breastfeeding-status: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-breastfeeding-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-zw-facility.json ==
+== fsh-generated/resources/StructureDefinition-zw-lab-diagnostic-report.json ==
+WARNING: StructureDefinition/zw-lab-diagnostic-report: StructureDefinition.snapshot: The slice 'effectiveDateTime' on path 'DiagnosticReport.effective[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+== fsh-generated/resources/StructureDefinition-zw-lab-order.json ==
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[4]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[5]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[6]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[7]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[8]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[9]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[10]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[11]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[12]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[13]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[14]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[15]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[16]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[17]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.snapshot.element[18]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[4]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[5]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[6]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[7]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[8]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[9]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[10]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[11]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[12]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[13]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[14]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[15]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[16]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[17]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-order: StructureDefinition.differential.element[18]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+== fsh-generated/resources/StructureDefinition-zw-lab-order-bundle.json ==
+WARNING: StructureDefinition/zw-lab-order-bundle: StructureDefinition.snapshot: The slice 'pregnancy' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/zw-lab-order-bundle: StructureDefinition.snapshot: The slice 'breastfeeding' on path 'Bundle.entry' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+== fsh-generated/resources/StructureDefinition-zw-lab-patient.json ==
+== fsh-generated/resources/StructureDefinition-zw-lab-report-bundle.json ==
+== fsh-generated/resources/StructureDefinition-zw-lab-report-composition.json ==
+INFORMATION: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-composition'): The Implementation Guide contains no explicitly linked examples for this profile
+== fsh-generated/resources/StructureDefinition-zw-lab-result-observation.json ==
+WARNING: StructureDefinition/zw-lab-result-observation: StructureDefinition.snapshot: The slice 'valueQuantity' on path 'Observation.value[x]' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+== fsh-generated/resources/StructureDefinition-zw-lab-result-report.json ==
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[4]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[5]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[6]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[7]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[8]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[9]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.snapshot.element[10]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[2]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[3]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[4]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[5]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[6]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[7]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[8]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[9]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+WARNING: StructureDefinition/zw-lab-result-report: StructureDefinition.differential.element[10]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
+== fsh-generated/resources/StructureDefinition-zw-lab-service-request.json ==
+== fsh-generated/resources/StructureDefinition-zw-lab-task.json ==
+== fsh-generated/resources/StructureDefinition-zw-laboratory.json ==
+== fsh-generated/resources/StructureDefinition-zw-pregnancy-status.json ==
+WARNING: StructureDefinition.where(url = 'http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-pregnancy-status'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-zw-specimen.json ==
+== fsh-generated/resources/Task-example-zw-lab-task-order.json ==
+== fsh-generated/resources/ValueSet-zw-lab-tests.json ==
+== fsh-generated/resources/ValueSet-zw-laboratories.json ==
+== fsh-generated/resources/ValueSet-zw-reason-for-test.json ==
+== fsh-generated/resources/ValueSet-zw-rejection-reasons.json ==
+== fsh-generated/resources/ValueSet-zw-report-review-state.json ==
+== fsh-generated/resources/ValueSet-zw-sample-types.json ==

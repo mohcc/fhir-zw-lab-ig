@@ -1,0 +1,59 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-zw-service-request-vl"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest example-zw-service-request-vl</b></p><a name=\"example-zw-service-request-vl\"> </a><a name=\"hcexample-zw-service-request-vl\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-service-request.html\">ZW Lab Service Request</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}\">Viral Load Plasma</span></p><p><b>subject</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>authoredOn</b>: 2024-03-15 08:00:00+0200</p><p><b>locationReference</b>: <a href=\"Location-example-order-facility.html\">Location Harare City Health Clinic</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test routine}\">Routine</span></p><p><b>specimen</b>: <a href=\"Specimen-example-zw-specimen-plasma.html\">Specimen: identifier = http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id#ZW-SPEC-2024-00456; status = available; type = Blood Plasma</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests>
+       ] ;
+       fhir:code [ fhir:v "LTT0013" ] ;
+       fhir:display [ fhir:v "Viral Load Plasma" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2024-03-15T08:00:00+02:00"^^xsd:dateTime] ; # 
+  fhir:locationReference ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Location/example-order-facility> ;
+     fhir:reference [ fhir:v "Location/example-order-facility" ]
+  ] ) ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test>
+       ] ;
+       fhir:code [ fhir:v "routine" ] ;
+       fhir:display [ fhir:v "Routine" ]
+     ] )
+  ] ) ; # 
+  fhir:specimen ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> ;
+     fhir:reference [ fhir:v "Specimen/example-zw-specimen-plasma" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-rejection-reasons"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem zw-rejection-reasons</b></p><a name="zw-rejection-reasons"> </a><a name="hczw-rejection-reasons"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">no-identification<a name="zw-rejection-reasons-no-identification"> </a></td><td>Specimen Lacked Proper Identification</td><td>Sample container not labelled.</td></tr><tr><td style="white-space:nowrap">form-mismatch<a name="zw-rejection-reasons-form-mismatch"> </a></td><td>Mismatching Form and Specimen</td><td>Request form does not match the specimen.</td></tr><tr><td style="white-space:nowrap">insufficient-quantity<a name="zw-rejection-reasons-insufficient-quantity"> </a></td><td>Insufficient Specimen Quantity</td><td>Sample volume too small.</td></tr><tr><td style="white-space:nowrap">no-request-form<a name="zw-rejection-reasons-no-request-form"> </a></td><td>Request Form Not Submitted</td><td>No accompanying request form.</td></tr><tr><td style="white-space:nowrap">no-specimen<a name="zw-rejection-reasons-no-specimen"> </a></td><td>Specimen Not Submitted</td><td>Request form received without specimen.</td></tr><tr><td style="white-space:nowrap">contamination<a name="zw-rejection-reasons-contamination"> </a></td><td>Cross Contamination</td><td>Specimen contaminated.</td></tr><tr><td style="white-space:nowrap">humidity-indicator<a name="zw-rejection-reasons-humidity-indicator"> </a></td><td>Sample Collected on Humidity Indicator</td><td>DBS collected on humidity indicator card.</td></tr><tr><td style="white-space:nowrap">clotted<a name="zw-rejection-reasons-clotted"> </a></td><td>Clotted Blood</td><td>Blood specimen is clotted.</td></tr><tr><td style="white-space:nowrap">too-old<a name="zw-rejection-reasons-too-old"> </a></td><td>Specimen Too Old</td><td>Specimen transit time exceeded.</td></tr><tr><td style="white-space:nowrap">haemolysed<a name="zw-rejection-reasons-haemolysed"> </a></td><td>Haemolysed</td><td>Haemolysis detected.</td></tr><tr><td style="white-space:nowrap">other<a name="zw-rejection-reasons-other"> </a></td><td>Other</td><td>Other rejection reason.</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+  <version value="0.1.0"/>
+  <name value="CSZWRejectionReasons"/>
+  <title value="ZW Specimen Rejection Reasons"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-12T09:30:06+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="no-identification"/>
+    <display value="Specimen Lacked Proper Identification"/>
+    <definition value="Sample container not labelled."/>
+  </concept>
+  <concept>
+    <code value="form-mismatch"/>
+    <display value="Mismatching Form and Specimen"/>
+    <definition value="Request form does not match the specimen."/>
+  </concept>
+  <concept>
+    <code value="insufficient-quantity"/>
+    <display value="Insufficient Specimen Quantity"/>
+    <definition value="Sample volume too small."/>
+  </concept>
+  <concept>
+    <code value="no-request-form"/>
+    <display value="Request Form Not Submitted"/>
+    <definition value="No accompanying request form."/>
+  </concept>
+  <concept>
+    <code value="no-specimen"/>
+    <display value="Specimen Not Submitted"/>
+    <definition value="Request form received without specimen."/>
+  </concept>
+  <concept>
+    <code value="contamination"/>
+    <display value="Cross Contamination"/>
+    <definition value="Specimen contaminated."/>
+  </concept>
+  <concept>
+    <code value="humidity-indicator"/>
+    <display value="Sample Collected on Humidity Indicator"/>
+    <definition value="DBS collected on humidity indicator card."/>
+  </concept>
+  <concept>
+    <code value="clotted"/>
+    <display value="Clotted Blood"/>
+    <definition value="Blood specimen is clotted."/>
+  </concept>
+  <concept>
+    <code value="too-old"/>
+    <display value="Specimen Too Old"/>
+    <definition value="Specimen transit time exceeded."/>
+  </concept>
+  <concept>
+    <code value="haemolysed"/>
+    <display value="Haemolysed"/>
+    <definition value="Haemolysis detected."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Other rejection reason."/>
+  </concept>
+</CodeSystem>

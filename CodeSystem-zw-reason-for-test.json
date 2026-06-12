@@ -1,0 +1,139 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "zw-reason-for-test",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-reason-for-test</b></p><a name=\"zw-reason-for-test\"> </a><a name=\"hczw-reason-for-test\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">routine<a name=\"zw-reason-for-test-routine\"> </a></td><td>Routine</td><td>Routine monitoring.</td></tr><tr><td style=\"white-space:nowrap\">target-clinical-failure<a name=\"zw-reason-for-test-target-clinical-failure\"> </a></td><td>Target Clinical Failure</td><td>Suspected clinical treatment failure.</td></tr><tr><td style=\"white-space:nowrap\">targeted-immunological-failure<a name=\"zw-reason-for-test-targeted-immunological-failure\"> </a></td><td>Targeted Immunological Failure</td><td>Suspected immunological treatment failure.</td></tr><tr><td style=\"white-space:nowrap\">repeat-after-adherence<a name=\"zw-reason-for-test-repeat-after-adherence\"> </a></td><td>Repeat After Enhanced Adherence Counselling</td><td>Repeat test after adherence counselling.</td></tr><tr><td style=\"white-space:nowrap\">baseline-viral-load<a name=\"zw-reason-for-test-baseline-viral-load\"> </a></td><td>Baseline Viral Load</td><td>Baseline measurement at ART initiation.</td></tr><tr><td style=\"white-space:nowrap\">confirmation-of-treatment<a name=\"zw-reason-for-test-confirmation-of-treatment\"> </a></td><td>Confirmation of Treatment</td><td>Confirmation of treatment response.</td></tr><tr><td style=\"white-space:nowrap\">failure-repeat-vl-3m<a name=\"zw-reason-for-test-failure-repeat-vl-3m\"> </a></td><td>Failure — Repeat VL at 3 Months</td><td>Suspected failure; repeat at 3 months.</td></tr><tr><td style=\"white-space:nowrap\">single-drug-substitution<a name=\"zw-reason-for-test-single-drug-substitution\"> </a></td><td>Single Drug Substitution</td><td>Following a single drug substitution.</td></tr><tr><td style=\"white-space:nowrap\">pregnant-mother<a name=\"zw-reason-for-test-pregnant-mother\"> </a></td><td>Pregnant Mother</td><td>Pregnant woman monitoring.</td></tr><tr><td style=\"white-space:nowrap\">lactating-mother<a name=\"zw-reason-for-test-lactating-mother\"> </a></td><td>Lactating Mother</td><td>Lactating/breastfeeding mother monitoring.</td></tr><tr><td style=\"white-space:nowrap\">eid-initial-birth<a name=\"zw-reason-for-test-eid-initial-birth\"> </a></td><td>EID: Initial at Birth</td><td>Early infant diagnosis at birth.</td></tr><tr><td style=\"white-space:nowrap\">eid-initial-6-8wks<a name=\"zw-reason-for-test-eid-initial-6-8wks\"> </a></td><td>EID: Initial at 6–8 Weeks</td><td>Early infant diagnosis at 6–8 weeks.</td></tr><tr><td style=\"white-space:nowrap\">eid-initial-gt2m<a name=\"zw-reason-for-test-eid-initial-gt2m\"> </a></td><td>EID: Initial at &gt;2 Months</td><td>Early infant diagnosis at &gt;2 months.</td></tr><tr><td style=\"white-space:nowrap\">eid-repeat-6wks<a name=\"zw-reason-for-test-eid-repeat-6wks\"> </a></td><td>EID: Repeat at 6 Weeks</td><td>EID repeat test at 6 weeks.</td></tr><tr><td style=\"white-space:nowrap\">eid-repeat-9m<a name=\"zw-reason-for-test-eid-repeat-9m\"> </a></td><td>EID: Repeat at 9 Months</td><td>EID repeat test at 9 months.</td></tr><tr><td style=\"white-space:nowrap\">eid-positive-rdt-gt18m<a name=\"zw-reason-for-test-eid-positive-rdt-gt18m\"> </a></td><td>EID: Following Positive RDT at &gt;18 Months</td><td>EID after positive rapid test at &gt;18 months.</td></tr><tr><td style=\"white-space:nowrap\">eid-confirmatory<a name=\"zw-reason-for-test-eid-confirmatory\"> </a></td><td>EID: Confirmatory (After First EID Positive)</td><td>Confirmatory EID after first positive result.</td></tr><tr><td style=\"white-space:nowrap\">postnatal-routine-1st<a name=\"zw-reason-for-test-postnatal-routine-1st\"> </a></td><td>Routine 1st Post-natal Tests</td><td>First routine post-natal testing.</td></tr><tr><td style=\"white-space:nowrap\">symptomatic-child<a name=\"zw-reason-for-test-symptomatic-child\"> </a></td><td>Symptomatic Child</td><td>Testing of a symptomatic infant/child.</td></tr><tr><td style=\"white-space:nowrap\">post-weaning<a name=\"zw-reason-for-test-post-weaning\"> </a></td><td>Post Weaning Test</td><td>Test following cessation of breastfeeding.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"zw-reason-for-test-other\"> </a></td><td>Other</td><td>Other reason.</td></tr></table></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+  "version" : "0.1.0",
+  "name" : "CSZWReasonForTest",
+  "title" : "ZW Reason for Test",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-11T12:19:15+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 21,
+  "concept" : [{
+    "code" : "routine",
+    "display" : "Routine",
+    "definition" : "Routine monitoring."
+  },
+  {
+    "code" : "target-clinical-failure",
+    "display" : "Target Clinical Failure",
+    "definition" : "Suspected clinical treatment failure."
+  },
+  {
+    "code" : "targeted-immunological-failure",
+    "display" : "Targeted Immunological Failure",
+    "definition" : "Suspected immunological treatment failure."
+  },
+  {
+    "code" : "repeat-after-adherence",
+    "display" : "Repeat After Enhanced Adherence Counselling",
+    "definition" : "Repeat test after adherence counselling."
+  },
+  {
+    "code" : "baseline-viral-load",
+    "display" : "Baseline Viral Load",
+    "definition" : "Baseline measurement at ART initiation."
+  },
+  {
+    "code" : "confirmation-of-treatment",
+    "display" : "Confirmation of Treatment",
+    "definition" : "Confirmation of treatment response."
+  },
+  {
+    "code" : "failure-repeat-vl-3m",
+    "display" : "Failure — Repeat VL at 3 Months",
+    "definition" : "Suspected failure; repeat at 3 months."
+  },
+  {
+    "code" : "single-drug-substitution",
+    "display" : "Single Drug Substitution",
+    "definition" : "Following a single drug substitution."
+  },
+  {
+    "code" : "pregnant-mother",
+    "display" : "Pregnant Mother",
+    "definition" : "Pregnant woman monitoring."
+  },
+  {
+    "code" : "lactating-mother",
+    "display" : "Lactating Mother",
+    "definition" : "Lactating/breastfeeding mother monitoring."
+  },
+  {
+    "code" : "eid-initial-birth",
+    "display" : "EID: Initial at Birth",
+    "definition" : "Early infant diagnosis at birth."
+  },
+  {
+    "code" : "eid-initial-6-8wks",
+    "display" : "EID: Initial at 6–8 Weeks",
+    "definition" : "Early infant diagnosis at 6–8 weeks."
+  },
+  {
+    "code" : "eid-initial-gt2m",
+    "display" : "EID: Initial at >2 Months",
+    "definition" : "Early infant diagnosis at >2 months."
+  },
+  {
+    "code" : "eid-repeat-6wks",
+    "display" : "EID: Repeat at 6 Weeks",
+    "definition" : "EID repeat test at 6 weeks."
+  },
+  {
+    "code" : "eid-repeat-9m",
+    "display" : "EID: Repeat at 9 Months",
+    "definition" : "EID repeat test at 9 months."
+  },
+  {
+    "code" : "eid-positive-rdt-gt18m",
+    "display" : "EID: Following Positive RDT at >18 Months",
+    "definition" : "EID after positive rapid test at >18 months."
+  },
+  {
+    "code" : "eid-confirmatory",
+    "display" : "EID: Confirmatory (After First EID Positive)",
+    "definition" : "Confirmatory EID after first positive result."
+  },
+  {
+    "code" : "postnatal-routine-1st",
+    "display" : "Routine 1st Post-natal Tests",
+    "definition" : "First routine post-natal testing."
+  },
+  {
+    "code" : "symptomatic-child",
+    "display" : "Symptomatic Child",
+    "definition" : "Testing of a symptomatic infant/child."
+  },
+  {
+    "code" : "post-weaning",
+    "display" : "Post Weaning Test",
+    "definition" : "Test following cessation of breastfeeding."
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "Other reason."
+  }]
+}

@@ -1,0 +1,372 @@
+{
+  "package": "zw.fhir.ig.lab",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "716",
+  "extensions": [
+    {
+      "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/citizenship",
+      "title": "Patient Citizenship",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated",
+      "title": "Date of Birth Estimated",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state",
+      "title": "Report Review State",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-pregnancy-status",
+        "title": "ZW Pregnancy Status"
+      }
+    ],
+    "Location": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-facility",
+        "title": "ZW Health Facility (Location)"
+      }
+    ],
+    "DiagnosticReport": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-diagnostic-report",
+        "title": "ZW Lab Diagnostic Report"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-bundle",
+        "title": "ZW Lab Report Document Bundle"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-patient",
+        "title": "ZW Lab Patient"
+      }
+    ],
+    "Composition": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-composition",
+        "title": "ZW Lab Report Composition"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request",
+        "title": "ZW Lab Service Request"
+      }
+    ],
+    "Task": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-task",
+        "title": "ZW Lab Order Task"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-laboratory",
+        "title": "ZW Laboratory (Organization)"
+      }
+    ],
+    "Specimen": [
+      {
+        "url": "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen",
+        "title": "ZW Lab Specimen"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version": [
+      "Basic"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.3.0": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "http://mohcc.gov.zw/fhir/core/StructureDefinition/citizenship": [
+      "Patient"
+    ],
+    "http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated": [
+      "Bundle.entry.resource",
+      "Patient"
+    ],
+    "http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state": [
+      "Bundle.entry.resource",
+      "DiagnosticReport"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests,0.1.0,active,,CSZWLabTests,ZW Laboratory Tests,"National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17).",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories,0.1.0,active,,CSZWLaboratories,ZW National Laboratory List,"National identifiers for public-health laboratories in Zimbabwe.",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test,0.1.0,active,,CSZWReasonForTest,ZW Reason for Test,"Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons,0.1.0,active,,CSZWRejectionReasons,ZW Specimen Rejection Reasons,"Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88).",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state,0.1.0,active,,CSZWReportReviewState,ZW Report Review State,"LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73).",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types,0.1.0,active,,CSZWSampleTypes,ZW Specimen Types,"National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53).",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type,0.1.0,active,,CSZWTaskInputType,ZW Lab Task Input Type,"Type codes for Task.input slices on the ZWLabTask order profile.",
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-output-type,0.1.0,active,,CSZWTaskOutputType,ZW Lab Task Output Type,"Type codes for Task.output slices on the ZWLabTask order profile.",

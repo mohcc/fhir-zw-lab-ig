@@ -1,0 +1,713 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "916991ac-9313-4ff5-a03a-2bc6f8aa467f",
+  "meta" : {
+    "lastUpdated" : "2026-06-11T12:17:30.781+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-zw-lab-tests.html\">codesystem ZW Laboratory Tests v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 11 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT001\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT001\">LTT001</a></td><td>Bacteriology - Smear</td><td>Bacteriological smear microscopy.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT001&quot;, &quot;display&quot;: &quot;Bacteriology - Smear&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT001&quot;&gt;&lt;display value=&quot;Bacteriology - Smear&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT002\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT002\">LTT002</a></td><td>Microscopy</td><td>General microscopy examination.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT002&quot;, &quot;display&quot;: &quot;Microscopy&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT002&quot;&gt;&lt;display value=&quot;Microscopy&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT003\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT003\">LTT003</a></td><td>Biochemical Tests</td><td>Biochemistry / chemistry panel.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT003&quot;, &quot;display&quot;: &quot;Biochemical Tests&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT003&quot;&gt;&lt;display value=&quot;Biochemical Tests&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT004\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT004\">LTT004</a></td><td>COVID-19</td><td>SARS-CoV-2 detection test.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT004&quot;, &quot;display&quot;: &quot;COVID-19&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT004&quot;&gt;&lt;display value=&quot;COVID-19&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT005\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT005\">LTT005</a></td><td>Culture (Bacteriology)</td><td>Bacterial culture and sensitivity.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT005&quot;, &quot;display&quot;: &quot;Culture (Bacteriology)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT005&quot;&gt;&lt;display value=&quot;Culture (Bacteriology)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT006\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT006\">LTT006</a></td><td>GeneXpert</td><td>Xpert MTB/RIF or similar cartridge-based assay.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT006&quot;, &quot;display&quot;: &quot;GeneXpert&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT006&quot;&gt;&lt;display value=&quot;GeneXpert&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT007\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT007\">LTT007</a></td><td>LPA</td><td>Line Probe Assay for drug-resistance testing.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT007&quot;, &quot;display&quot;: &quot;LPA&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT007&quot;&gt;&lt;display value=&quot;LPA&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT008\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT008\">LTT008</a></td><td>Routine Histological Examination</td><td>Routine histopathology.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT008&quot;, &quot;display&quot;: &quot;Routine Histological Examination&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT008&quot;&gt;&lt;display value=&quot;Routine Histological Examination&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT009\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT009\">LTT009</a></td><td>TB Culture</td><td>Mycobacterial culture.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT009&quot;, &quot;display&quot;: &quot;TB Culture&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT009&quot;&gt;&lt;display value=&quot;TB Culture&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT0012\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT0012\">LTT0012</a></td><td>Viral Load DBS</td><td>HIV viral load from dried blood spot sample.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT0012&quot;, &quot;display&quot;: &quot;Viral Load DBS&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT0012&quot;&gt;&lt;display value=&quot;Viral Load DBS&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT0013\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT0013\">LTT0013</a></td><td>Viral Load Plasma</td><td>HIV viral load from plasma sample.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT0013&quot;, &quot;display&quot;: &quot;Viral Load Plasma&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT0013&quot;&gt;&lt;display value=&quot;Viral Load Plasma&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests",
+      "version" : "0.1.0",
+      "name" : "VSZWLabTests",
+      "title" : "ZW Laboratory Tests",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-11T12:17:30+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe (ZWE)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:904249aa-728e-4da6-a774-399a9c8ca252",
+        "timestamp" : "2026-06-11T12:18:57+00:00",
+        "total" : 11,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT001",
+          "display" : "Bacteriology - Smear"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT002",
+          "display" : "Microscopy"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT003",
+          "display" : "Biochemical Tests"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT004",
+          "display" : "COVID-19"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT005",
+          "display" : "Culture (Bacteriology)"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT006",
+          "display" : "GeneXpert"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT007",
+          "display" : "LPA"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT008",
+          "display" : "Routine Histological Examination"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT009",
+          "display" : "TB Culture"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT0012",
+          "display" : "Viral Load DBS"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+          "code" : "LTT0013",
+          "display" : "Viral Load Plasma"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-zw-laboratories.html\">codesystem ZW National Laboratory List v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 15 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWLHRE002\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZWLHRE002\">ZWLHRE002</a></td><td>National Microbiology Reference Laboratory (NMRL)</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWLHRE002&quot;, &quot;display&quot;: &quot;National Microbiology Reference Laboratory (NMRL)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWLHRE002&quot;&gt;&lt;display value=&quot;National Microbiology Reference Laboratory (NMRL)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW000A0C\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW000A0C\">ZW000A0C</a></td><td>BRIDH Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW000A0C&quot;, &quot;display&quot;: &quot;BRIDH Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW000A0C&quot;&gt;&lt;display value=&quot;BRIDH Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW04030A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW04030A\">ZW04030A</a></td><td>Kadoma Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW04030A&quot;, &quot;display&quot;: &quot;Kadoma Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW04030A&quot;&gt;&lt;display value=&quot;Kadoma Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW03050A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW03050A\">ZW03050A</a></td><td>Marondera Provincial Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW03050A&quot;, &quot;display&quot;: &quot;Marondera Provincial Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW03050A&quot;&gt;&lt;display value=&quot;Marondera Provincial Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW02010A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW02010A\">ZW02010A</a></td><td>Bindura Provincial Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW02010A&quot;, &quot;display&quot;: &quot;Bindura Provincial Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW02010A&quot;&gt;&lt;display value=&quot;Bindura Provincial Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWL000AOD\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZWL000AOD\">ZWL000AOD</a></td><td>AiBst Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWL000AOD&quot;, &quot;display&quot;: &quot;AiBst Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWL000AOD&quot;&gt;&lt;display value=&quot;AiBst Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWL000001\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZWL000001\">ZWL000001</a></td><td>BRTI Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWL000001&quot;, &quot;display&quot;: &quot;BRTI Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWL000001&quot;&gt;&lt;display value=&quot;BRTI Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWLPAR001\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZWLPAR001\">ZWLPAR001</a></td><td>National Virology Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWLPAR001&quot;, &quot;display&quot;: &quot;National Virology Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWLPAR001&quot;&gt;&lt;display value=&quot;National Virology Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW01050A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW01050A\">ZW01050A</a></td><td>Mutare Provincial Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW01050A&quot;, &quot;display&quot;: &quot;Mutare Provincial Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW01050A&quot;&gt;&lt;display value=&quot;Mutare Provincial Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW08050A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW08050A\">ZW08050A</a></td><td>Masvingo Provincial Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW08050A&quot;, &quot;display&quot;: &quot;Masvingo Provincial Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW08050A&quot;&gt;&lt;display value=&quot;Masvingo Provincial Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW07030A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW07030A\">ZW07030A</a></td><td>Gweru Provincial Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW07030A&quot;, &quot;display&quot;: &quot;Gweru Provincial Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW07030A&quot;&gt;&lt;display value=&quot;Gweru Provincial Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW06030A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW06030A\">ZW06030A</a></td><td>Gwanda Provincial Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW06030A&quot;, &quot;display&quot;: &quot;Gwanda Provincial Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW06030A&quot;&gt;&lt;display value=&quot;Gwanda Provincial Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW05040B\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW05040B\">ZW05040B</a></td><td>St Lukes Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW05040B&quot;, &quot;display&quot;: &quot;St Lukes Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW05040B&quot;&gt;&lt;display value=&quot;St Lukes Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW04050A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW04050A\">ZW04050A</a></td><td>Chinhoyi Provincial Hospital Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW04050A&quot;, &quot;display&quot;: &quot;Chinhoyi Provincial Hospital Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW04050A&quot;&gt;&lt;display value=&quot;Chinhoyi Provincial Hospital Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW05030A\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-laboratories.html#zw-laboratories-ZW05030A\">ZW05030A</a></td><td>Victoria Falls Laboratory</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW05030A&quot;, &quot;display&quot;: &quot;Victoria Falls Laboratory&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW05030A&quot;&gt;&lt;display value=&quot;Victoria Falls Laboratory&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories",
+      "version" : "0.1.0",
+      "name" : "VSZWLaboratories",
+      "title" : "ZW National Laboratory List",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-11T12:17:30+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe (ZWE)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:bb24d268-f27e-4491-98f5-20e8666bfd17",
+        "timestamp" : "2026-06-11T12:19:00+00:00",
+        "total" : 15,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZWLHRE002",
+          "display" : "National Microbiology Reference Laboratory (NMRL)"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW000A0C",
+          "display" : "BRIDH Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW04030A",
+          "display" : "Kadoma Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW03050A",
+          "display" : "Marondera Provincial Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW02010A",
+          "display" : "Bindura Provincial Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZWL000AOD",
+          "display" : "AiBst Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZWL000001",
+          "display" : "BRTI Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZWLPAR001",
+          "display" : "National Virology Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW01050A",
+          "display" : "Mutare Provincial Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW08050A",
+          "display" : "Masvingo Provincial Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW07030A",
+          "display" : "Gweru Provincial Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW06030A",
+          "display" : "Gwanda Provincial Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW05040B",
+          "display" : "St Lukes Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW04050A",
+          "display" : "Chinhoyi Provincial Hospital Laboratory"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+          "code" : "ZW05030A",
+          "display" : "Victoria Falls Laboratory"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-zw-reason-for-test.html\">codesystem ZW Reason for Test v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 21 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-routine\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-routine\">routine</a></td><td>Routine</td><td>Routine monitoring.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;routine&quot;, &quot;display&quot;: &quot;Routine&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;routine&quot;&gt;&lt;display value=&quot;Routine&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-target-clinical-failure\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-target-clinical-failure\">target-clinical-failure</a></td><td>Target Clinical Failure</td><td>Suspected clinical treatment failure.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;target-clinical-failure&quot;, &quot;display&quot;: &quot;Target Clinical Failure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;target-clinical-failure&quot;&gt;&lt;display value=&quot;Target Clinical Failure&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-targeted-immunological-failure\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-targeted-immunological-failure\">targeted-immunological-failure</a></td><td>Targeted Immunological Failure</td><td>Suspected immunological treatment failure.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;targeted-immunological-failure&quot;, &quot;display&quot;: &quot;Targeted Immunological Failure&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;targeted-immunological-failure&quot;&gt;&lt;display value=&quot;Targeted Immunological Failure&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-repeat-after-adherence\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-repeat-after-adherence\">repeat-after-adherence</a></td><td>Repeat After Enhanced Adherence Counselling</td><td>Repeat test after adherence counselling.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;repeat-after-adherence&quot;, &quot;display&quot;: &quot;Repeat After Enhanced Adherence Counselling&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;repeat-after-adherence&quot;&gt;&lt;display value=&quot;Repeat After Enhanced Adherence Counselling&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-baseline-viral-load\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-baseline-viral-load\">baseline-viral-load</a></td><td>Baseline Viral Load</td><td>Baseline measurement at ART initiation.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;baseline-viral-load&quot;, &quot;display&quot;: &quot;Baseline Viral Load&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;baseline-viral-load&quot;&gt;&lt;display value=&quot;Baseline Viral Load&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-confirmation-of-treatment\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-confirmation-of-treatment\">confirmation-of-treatment</a></td><td>Confirmation of Treatment</td><td>Confirmation of treatment response.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;confirmation-of-treatment&quot;, &quot;display&quot;: &quot;Confirmation of Treatment&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;confirmation-of-treatment&quot;&gt;&lt;display value=&quot;Confirmation of Treatment&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-failure-repeat-vl-3m\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-failure-repeat-vl-3m\">failure-repeat-vl-3m</a></td><td>Failure — Repeat VL at 3 Months</td><td>Suspected failure; repeat at 3 months.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;failure-repeat-vl-3m&quot;, &quot;display&quot;: &quot;Failure — Repeat VL at 3 Months&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;failure-repeat-vl-3m&quot;&gt;&lt;display value=&quot;Failure — Repeat VL at 3 Months&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-single-drug-substitution\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-single-drug-substitution\">single-drug-substitution</a></td><td>Single Drug Substitution</td><td>Following a single drug substitution.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;single-drug-substitution&quot;, &quot;display&quot;: &quot;Single Drug Substitution&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;single-drug-substitution&quot;&gt;&lt;display value=&quot;Single Drug Substitution&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-pregnant-mother\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-pregnant-mother\">pregnant-mother</a></td><td>Pregnant Mother</td><td>Pregnant woman monitoring.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pregnant-mother&quot;, &quot;display&quot;: &quot;Pregnant Mother&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pregnant-mother&quot;&gt;&lt;display value=&quot;Pregnant Mother&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-lactating-mother\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-lactating-mother\">lactating-mother</a></td><td>Lactating Mother</td><td>Lactating/breastfeeding mother monitoring.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lactating-mother&quot;, &quot;display&quot;: &quot;Lactating Mother&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;lactating-mother&quot;&gt;&lt;display value=&quot;Lactating Mother&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-initial-birth\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-initial-birth\">eid-initial-birth</a></td><td>EID: Initial at Birth</td><td>Early infant diagnosis at birth.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-initial-birth&quot;, &quot;display&quot;: &quot;EID: Initial at Birth&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-initial-birth&quot;&gt;&lt;display value=&quot;EID: Initial at Birth&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-initial-6-8wks\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-initial-6-8wks\">eid-initial-6-8wks</a></td><td>EID: Initial at 6–8 Weeks</td><td>Early infant diagnosis at 6–8 weeks.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-initial-6-8wks&quot;, &quot;display&quot;: &quot;EID: Initial at 6–8 Weeks&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-initial-6-8wks&quot;&gt;&lt;display value=&quot;EID: Initial at 6–8 Weeks&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-initial-gt2m\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-initial-gt2m\">eid-initial-gt2m</a></td><td>EID: Initial at &gt;2 Months</td><td>Early infant diagnosis at &gt;2 months.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-initial-gt2m&quot;, &quot;display&quot;: &quot;EID: Initial at &gt;2 Months&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-initial-gt2m&quot;&gt;&lt;display value=&quot;EID: Initial at &amp;gt;2 Months&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-repeat-6wks\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-repeat-6wks\">eid-repeat-6wks</a></td><td>EID: Repeat at 6 Weeks</td><td>EID repeat test at 6 weeks.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-repeat-6wks&quot;, &quot;display&quot;: &quot;EID: Repeat at 6 Weeks&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-repeat-6wks&quot;&gt;&lt;display value=&quot;EID: Repeat at 6 Weeks&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-repeat-9m\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-repeat-9m\">eid-repeat-9m</a></td><td>EID: Repeat at 9 Months</td><td>EID repeat test at 9 months.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-repeat-9m&quot;, &quot;display&quot;: &quot;EID: Repeat at 9 Months&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-repeat-9m&quot;&gt;&lt;display value=&quot;EID: Repeat at 9 Months&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-positive-rdt-gt18m\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-positive-rdt-gt18m\">eid-positive-rdt-gt18m</a></td><td>EID: Following Positive RDT at &gt;18 Months</td><td>EID after positive rapid test at &gt;18 months.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-positive-rdt-gt18m&quot;, &quot;display&quot;: &quot;EID: Following Positive RDT at &gt;18 Months&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-positive-rdt-gt18m&quot;&gt;&lt;display value=&quot;EID: Following Positive RDT at &amp;gt;18 Months&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-confirmatory\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-confirmatory\">eid-confirmatory</a></td><td>EID: Confirmatory (After First EID Positive)</td><td>Confirmatory EID after first positive result.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-confirmatory&quot;, &quot;display&quot;: &quot;EID: Confirmatory (After First EID Positive)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-confirmatory&quot;&gt;&lt;display value=&quot;EID: Confirmatory (After First EID Positive)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-postnatal-routine-1st\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-postnatal-routine-1st\">postnatal-routine-1st</a></td><td>Routine 1st Post-natal Tests</td><td>First routine post-natal testing.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;postnatal-routine-1st&quot;, &quot;display&quot;: &quot;Routine 1st Post-natal Tests&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;postnatal-routine-1st&quot;&gt;&lt;display value=&quot;Routine 1st Post-natal Tests&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-symptomatic-child\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-symptomatic-child\">symptomatic-child</a></td><td>Symptomatic Child</td><td>Testing of a symptomatic infant/child.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;symptomatic-child&quot;, &quot;display&quot;: &quot;Symptomatic Child&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;symptomatic-child&quot;&gt;&lt;display value=&quot;Symptomatic Child&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-post-weaning\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-post-weaning\">post-weaning</a></td><td>Post Weaning Test</td><td>Test following cessation of breastfeeding.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;post-weaning&quot;, &quot;display&quot;: &quot;Post Weaning Test&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;post-weaning&quot;&gt;&lt;display value=&quot;Post Weaning Test&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-other\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-reason-for-test.html#zw-reason-for-test-other\">other</a></td><td>Other</td><td>Other reason.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test",
+      "version" : "0.1.0",
+      "name" : "VSZWReasonForTest",
+      "title" : "ZW Reason for Test",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-11T12:17:30+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe (ZWE)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:21c14ea5-d386-46cd-8970-fac7bc79deed",
+        "timestamp" : "2026-06-11T12:19:00+00:00",
+        "total" : 21,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "routine",
+          "display" : "Routine"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "target-clinical-failure",
+          "display" : "Target Clinical Failure"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "targeted-immunological-failure",
+          "display" : "Targeted Immunological Failure"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "repeat-after-adherence",
+          "display" : "Repeat After Enhanced Adherence Counselling"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "baseline-viral-load",
+          "display" : "Baseline Viral Load"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "confirmation-of-treatment",
+          "display" : "Confirmation of Treatment"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "failure-repeat-vl-3m",
+          "display" : "Failure — Repeat VL at 3 Months"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "single-drug-substitution",
+          "display" : "Single Drug Substitution"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "pregnant-mother",
+          "display" : "Pregnant Mother"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "lactating-mother",
+          "display" : "Lactating Mother"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-initial-birth",
+          "display" : "EID: Initial at Birth"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-initial-6-8wks",
+          "display" : "EID: Initial at 6–8 Weeks"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-initial-gt2m",
+          "display" : "EID: Initial at >2 Months"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-repeat-6wks",
+          "display" : "EID: Repeat at 6 Weeks"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-repeat-9m",
+          "display" : "EID: Repeat at 9 Months"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-positive-rdt-gt18m",
+          "display" : "EID: Following Positive RDT at >18 Months"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "eid-confirmatory",
+          "display" : "EID: Confirmatory (After First EID Positive)"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "postnatal-routine-1st",
+          "display" : "Routine 1st Post-natal Tests"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "symptomatic-child",
+          "display" : "Symptomatic Child"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "post-weaning",
+          "display" : "Post Weaning Test"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+          "code" : "other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-zw-rejection-reasons.html\">codesystem ZW Specimen Rejection Reasons v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 11 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-no-identification\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-no-identification\">no-identification</a></td><td>Specimen Lacked Proper Identification</td><td>Sample container not labelled.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-identification&quot;, &quot;display&quot;: &quot;Specimen Lacked Proper Identification&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-identification&quot;&gt;&lt;display value=&quot;Specimen Lacked Proper Identification&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-form-mismatch\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-form-mismatch\">form-mismatch</a></td><td>Mismatching Form and Specimen</td><td>Request form does not match the specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;form-mismatch&quot;, &quot;display&quot;: &quot;Mismatching Form and Specimen&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;form-mismatch&quot;&gt;&lt;display value=&quot;Mismatching Form and Specimen&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-insufficient-quantity\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-insufficient-quantity\">insufficient-quantity</a></td><td>Insufficient Specimen Quantity</td><td>Sample volume too small.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;insufficient-quantity&quot;, &quot;display&quot;: &quot;Insufficient Specimen Quantity&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;insufficient-quantity&quot;&gt;&lt;display value=&quot;Insufficient Specimen Quantity&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-no-request-form\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-no-request-form\">no-request-form</a></td><td>Request Form Not Submitted</td><td>No accompanying request form.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-request-form&quot;, &quot;display&quot;: &quot;Request Form Not Submitted&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-request-form&quot;&gt;&lt;display value=&quot;Request Form Not Submitted&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-no-specimen\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-no-specimen\">no-specimen</a></td><td>Specimen Not Submitted</td><td>Request form received without specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-specimen&quot;, &quot;display&quot;: &quot;Specimen Not Submitted&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-specimen&quot;&gt;&lt;display value=&quot;Specimen Not Submitted&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-contamination\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-contamination\">contamination</a></td><td>Cross Contamination</td><td>Specimen contaminated.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;contamination&quot;, &quot;display&quot;: &quot;Cross Contamination&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;contamination&quot;&gt;&lt;display value=&quot;Cross Contamination&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-humidity-indicator\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-humidity-indicator\">humidity-indicator</a></td><td>Sample Collected on Humidity Indicator</td><td>DBS collected on humidity indicator card.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;humidity-indicator&quot;, &quot;display&quot;: &quot;Sample Collected on Humidity Indicator&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;humidity-indicator&quot;&gt;&lt;display value=&quot;Sample Collected on Humidity Indicator&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-clotted\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-clotted\">clotted</a></td><td>Clotted Blood</td><td>Blood specimen is clotted.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;clotted&quot;, &quot;display&quot;: &quot;Clotted Blood&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;clotted&quot;&gt;&lt;display value=&quot;Clotted Blood&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-too-old\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-too-old\">too-old</a></td><td>Specimen Too Old</td><td>Specimen transit time exceeded.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;too-old&quot;, &quot;display&quot;: &quot;Specimen Too Old&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;too-old&quot;&gt;&lt;display value=&quot;Specimen Too Old&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-haemolysed\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-haemolysed\">haemolysed</a></td><td>Haemolysed</td><td>Haemolysis detected.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;haemolysed&quot;, &quot;display&quot;: &quot;Haemolysed&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;haemolysed&quot;&gt;&lt;display value=&quot;Haemolysed&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-other\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-other\">other</a></td><td>Other</td><td>Other rejection reason.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons",
+      "version" : "0.1.0",
+      "name" : "VSZWRejectionReasons",
+      "title" : "ZW Specimen Rejection Reasons",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-11T12:17:30+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe (ZWE)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:b740e620-6e6f-4f29-bcc9-3627bc49b521",
+        "timestamp" : "2026-06-11T12:19:00+00:00",
+        "total" : 11,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "no-identification",
+          "display" : "Specimen Lacked Proper Identification"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "form-mismatch",
+          "display" : "Mismatching Form and Specimen"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "insufficient-quantity",
+          "display" : "Insufficient Specimen Quantity"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "no-request-form",
+          "display" : "Request Form Not Submitted"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "no-specimen",
+          "display" : "Specimen Not Submitted"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "contamination",
+          "display" : "Cross Contamination"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "humidity-indicator",
+          "display" : "Sample Collected on Humidity Indicator"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "clotted",
+          "display" : "Clotted Blood"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "too-old",
+          "display" : "Specimen Too Old"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "haemolysed",
+          "display" : "Haemolysed"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+          "code" : "other",
+          "display" : "Other"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-zw-report-review-state.html\">codesystem ZW Report Review State v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-pending\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-report-review-state.html#zw-report-review-state-pending\">pending</a></td><td>Pending</td><td>Result entry in progress; not yet submitted.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pending&quot;, &quot;display&quot;: &quot;Pending&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pending&quot;&gt;&lt;display value=&quot;Pending&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-received\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-report-review-state.html#zw-report-review-state-received\">received</a></td><td>Received</td><td>Specimen received by the laboratory.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;received&quot;, &quot;display&quot;: &quot;Received&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;received&quot;&gt;&lt;display value=&quot;Received&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-to-be-verified\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-report-review-state.html#zw-report-review-state-to-be-verified\">to-be-verified</a></td><td>To Be Verified</td><td>Result awaiting verification.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;to-be-verified&quot;, &quot;display&quot;: &quot;To Be Verified&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;to-be-verified&quot;&gt;&lt;display value=&quot;To Be Verified&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-verified\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-report-review-state.html#zw-report-review-state-verified\">verified</a></td><td>Verified</td><td>Result verified by authorised person.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;verified&quot;, &quot;display&quot;: &quot;Verified&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;verified&quot;&gt;&lt;display value=&quot;Verified&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-published\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-report-review-state.html#zw-report-review-state-published\">published</a></td><td>Published</td><td>Report published and available to the requester.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;published&quot;, &quot;display&quot;: &quot;Published&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;published&quot;&gt;&lt;display value=&quot;Published&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state",
+      "version" : "0.1.0",
+      "name" : "VSZWReportReviewState",
+      "title" : "ZW Report Review State",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-11T12:17:30+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe (ZWE)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:a854805f-29de-47cf-a44e-fe8668b9c1d5",
+        "timestamp" : "2026-06-11T12:19:00+00:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+          "code" : "pending",
+          "display" : "Pending"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+          "code" : "received",
+          "display" : "Received"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+          "code" : "to-be-verified",
+          "display" : "To Be Verified"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+          "code" : "verified",
+          "display" : "Verified"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+          "code" : "published",
+          "display" : "Published"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-zw-sample-types.html\">codesystem ZW Specimen Types v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 18 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST001\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST001\">LST001</a></td><td>Fluid</td><td>Body fluid (unspecified).</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST001&quot;, &quot;display&quot;: &quot;Fluid&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST001&quot;&gt;&lt;display value=&quot;Fluid&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST002\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST002\">LST002</a></td><td>Aspirate</td><td>Aspirated specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST002&quot;, &quot;display&quot;: &quot;Aspirate&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST002&quot;&gt;&lt;display value=&quot;Aspirate&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST003\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST003\">LST003</a></td><td>Oropharyngeal Swab</td><td>Swab from the oropharynx.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST003&quot;, &quot;display&quot;: &quot;Oropharyngeal Swab&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST003&quot;&gt;&lt;display value=&quot;Oropharyngeal Swab&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST004\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST004\">LST004</a></td><td>Buffy Coat</td><td>Buffy coat fraction of blood.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST004&quot;, &quot;display&quot;: &quot;Buffy Coat&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST004&quot;&gt;&lt;display value=&quot;Buffy Coat&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST005\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST005\">LST005</a></td><td>Buccal Swab</td><td>Swab from the buccal mucosa.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST005&quot;, &quot;display&quot;: &quot;Buccal Swab&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST005&quot;&gt;&lt;display value=&quot;Buccal Swab&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST006\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST006\">LST006</a></td><td>Blood Plasma</td><td>Plasma fraction of blood.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST006&quot;, &quot;display&quot;: &quot;Blood Plasma&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST006&quot;&gt;&lt;display value=&quot;Blood Plasma&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST007\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST007\">LST007</a></td><td>Dried Blood Spot</td><td>Dried blood spot (DBS) card.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST007&quot;, &quot;display&quot;: &quot;Dried Blood Spot&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST007&quot;&gt;&lt;display value=&quot;Dried Blood Spot&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST008\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST008\">LST008</a></td><td>Semen</td><td>Seminal fluid.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST008&quot;, &quot;display&quot;: &quot;Semen&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST008&quot;&gt;&lt;display value=&quot;Semen&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST009\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST009\">LST009</a></td><td>Throat Swab</td><td>Swab from the throat.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST009&quot;, &quot;display&quot;: &quot;Throat Swab&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST009&quot;&gt;&lt;display value=&quot;Throat Swab&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0010\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0010\">LST0010</a></td><td>Saliva</td><td>Saliva specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0010&quot;, &quot;display&quot;: &quot;Saliva&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0010&quot;&gt;&lt;display value=&quot;Saliva&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0011\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0011\">LST0011</a></td><td>Nasopharyngeal Swab</td><td>Nasopharyngeal swab.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0011&quot;, &quot;display&quot;: &quot;Nasopharyngeal Swab&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0011&quot;&gt;&lt;display value=&quot;Nasopharyngeal Swab&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0012\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0012\">LST0012</a></td><td>Biopsy</td><td>Tissue biopsy specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0012&quot;, &quot;display&quot;: &quot;Biopsy&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0012&quot;&gt;&lt;display value=&quot;Biopsy&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0013\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0013\">LST0013</a></td><td>Nasopharyngeal/Oropharyngeal Swab</td><td>Combined NP/OP swab.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0013&quot;, &quot;display&quot;: &quot;Nasopharyngeal/Oropharyngeal Swab&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0013&quot;&gt;&lt;display value=&quot;Nasopharyngeal/Oropharyngeal Swab&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0014\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0014\">LST0014</a></td><td>Blood Serum</td><td>Serum fraction of blood.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0014&quot;, &quot;display&quot;: &quot;Blood Serum&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0014&quot;&gt;&lt;display value=&quot;Blood Serum&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0015\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0015\">LST0015</a></td><td>Urine</td><td>Urine specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0015&quot;, &quot;display&quot;: &quot;Urine&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0015&quot;&gt;&lt;display value=&quot;Urine&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0016\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0016\">LST0016</a></td><td>Whole Blood</td><td>Whole blood specimen.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0016&quot;, &quot;display&quot;: &quot;Whole Blood&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0016&quot;&gt;&lt;display value=&quot;Whole Blood&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0017\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0017\">LST0017</a></td><td>Sputum</td><td>Expectorated sputum.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0017&quot;, &quot;display&quot;: &quot;Sputum&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0017&quot;&gt;&lt;display value=&quot;Sputum&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0018\"> </a><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-zw-sample-types.html#zw-sample-types-LST0018\">LST0018</a></td><td>Red Blood Cells</td><td>Packed red blood cells.</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0018&quot;, &quot;display&quot;: &quot;Red Blood Cells&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0018&quot;&gt;&lt;display value=&quot;Red Blood Cells&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types",
+      "version" : "0.1.0",
+      "name" : "VSZWSampleTypes",
+      "title" : "ZW Specimen Types",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-06-11T12:17:30+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "716",
+          "display" : "Zimbabwe (ZWE)"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4e90f5ef-8430-4ea4-a575-2e13739d3d73",
+        "timestamp" : "2026-06-11T12:19:00+00:00",
+        "total" : 18,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST001",
+          "display" : "Fluid"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST002",
+          "display" : "Aspirate"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST003",
+          "display" : "Oropharyngeal Swab"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST004",
+          "display" : "Buffy Coat"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST005",
+          "display" : "Buccal Swab"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST006",
+          "display" : "Blood Plasma"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST007",
+          "display" : "Dried Blood Spot"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST008",
+          "display" : "Semen"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST009",
+          "display" : "Throat Swab"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0010",
+          "display" : "Saliva"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0011",
+          "display" : "Nasopharyngeal Swab"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0012",
+          "display" : "Biopsy"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0013",
+          "display" : "Nasopharyngeal/Oropharyngeal Swab"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0014",
+          "display" : "Blood Serum"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0015",
+          "display" : "Urine"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0016",
+          "display" : "Whole Blood"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0017",
+          "display" : "Sputum"
+        },
+        {
+          "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+          "code" : "LST0018",
+          "display" : "Red Blood Cells"
+        }]
+      }
+    }
+  }]
+}

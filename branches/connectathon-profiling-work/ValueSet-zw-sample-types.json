@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "zw-sample-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet zw-sample-types</b></p><a name=\"zw-sample-types\"> </a><a name=\"hczw-sample-types\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-zw-sample-types.html\"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types",
+  "version" : "0.1.0",
+  "name" : "VSZWSampleTypes",
+  "title" : "ZW Specimen Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-11T12:17:30+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Value set of specimen/sample types used in Zimbabwe (ZW.LAB.A.DE53).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"
+    }]
+  }
+}

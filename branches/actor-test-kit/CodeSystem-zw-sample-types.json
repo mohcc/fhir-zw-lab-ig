@@ -1,0 +1,124 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "zw-sample-types",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-sample-types</b></p><a name=\"zw-sample-types\"> </a><a name=\"hczw-sample-types\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">LST001<a name=\"zw-sample-types-LST001\"> </a></td><td>Fluid</td><td>Body fluid (unspecified).</td></tr><tr><td style=\"white-space:nowrap\">LST002<a name=\"zw-sample-types-LST002\"> </a></td><td>Aspirate</td><td>Aspirated specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST003<a name=\"zw-sample-types-LST003\"> </a></td><td>Oropharyngeal Swab</td><td>Swab from the oropharynx.</td></tr><tr><td style=\"white-space:nowrap\">LST004<a name=\"zw-sample-types-LST004\"> </a></td><td>Buffy Coat</td><td>Buffy coat fraction of blood.</td></tr><tr><td style=\"white-space:nowrap\">LST005<a name=\"zw-sample-types-LST005\"> </a></td><td>Buccal Swab</td><td>Swab from the buccal mucosa.</td></tr><tr><td style=\"white-space:nowrap\">LST006<a name=\"zw-sample-types-LST006\"> </a></td><td>Blood Plasma</td><td>Plasma fraction of blood.</td></tr><tr><td style=\"white-space:nowrap\">LST007<a name=\"zw-sample-types-LST007\"> </a></td><td>Dried Blood Spot</td><td>Dried blood spot (DBS) card.</td></tr><tr><td style=\"white-space:nowrap\">LST008<a name=\"zw-sample-types-LST008\"> </a></td><td>Semen</td><td>Seminal fluid.</td></tr><tr><td style=\"white-space:nowrap\">LST009<a name=\"zw-sample-types-LST009\"> </a></td><td>Throat Swab</td><td>Swab from the throat.</td></tr><tr><td style=\"white-space:nowrap\">LST0010<a name=\"zw-sample-types-LST0010\"> </a></td><td>Saliva</td><td>Saliva specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0011<a name=\"zw-sample-types-LST0011\"> </a></td><td>Nasopharyngeal Swab</td><td>Nasopharyngeal swab.</td></tr><tr><td style=\"white-space:nowrap\">LST0012<a name=\"zw-sample-types-LST0012\"> </a></td><td>Biopsy</td><td>Tissue biopsy specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0013<a name=\"zw-sample-types-LST0013\"> </a></td><td>Nasopharyngeal/Oropharyngeal Swab</td><td>Combined NP/OP swab.</td></tr><tr><td style=\"white-space:nowrap\">LST0014<a name=\"zw-sample-types-LST0014\"> </a></td><td>Blood Serum</td><td>Serum fraction of blood.</td></tr><tr><td style=\"white-space:nowrap\">LST0015<a name=\"zw-sample-types-LST0015\"> </a></td><td>Urine</td><td>Urine specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0016<a name=\"zw-sample-types-LST0016\"> </a></td><td>Whole Blood</td><td>Whole blood specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0017<a name=\"zw-sample-types-LST0017\"> </a></td><td>Sputum</td><td>Expectorated sputum.</td></tr><tr><td style=\"white-space:nowrap\">LST0018<a name=\"zw-sample-types-LST0018\"> </a></td><td>Red Blood Cells</td><td>Packed red blood cells.</td></tr></table></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+  "version" : "0.1.0",
+  "name" : "CSZWSampleTypes",
+  "title" : "ZW Specimen Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-12T09:30:06+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 18,
+  "concept" : [{
+    "code" : "LST001",
+    "display" : "Fluid",
+    "definition" : "Body fluid (unspecified)."
+  },
+  {
+    "code" : "LST002",
+    "display" : "Aspirate",
+    "definition" : "Aspirated specimen."
+  },
+  {
+    "code" : "LST003",
+    "display" : "Oropharyngeal Swab",
+    "definition" : "Swab from the oropharynx."
+  },
+  {
+    "code" : "LST004",
+    "display" : "Buffy Coat",
+    "definition" : "Buffy coat fraction of blood."
+  },
+  {
+    "code" : "LST005",
+    "display" : "Buccal Swab",
+    "definition" : "Swab from the buccal mucosa."
+  },
+  {
+    "code" : "LST006",
+    "display" : "Blood Plasma",
+    "definition" : "Plasma fraction of blood."
+  },
+  {
+    "code" : "LST007",
+    "display" : "Dried Blood Spot",
+    "definition" : "Dried blood spot (DBS) card."
+  },
+  {
+    "code" : "LST008",
+    "display" : "Semen",
+    "definition" : "Seminal fluid."
+  },
+  {
+    "code" : "LST009",
+    "display" : "Throat Swab",
+    "definition" : "Swab from the throat."
+  },
+  {
+    "code" : "LST0010",
+    "display" : "Saliva",
+    "definition" : "Saliva specimen."
+  },
+  {
+    "code" : "LST0011",
+    "display" : "Nasopharyngeal Swab",
+    "definition" : "Nasopharyngeal swab."
+  },
+  {
+    "code" : "LST0012",
+    "display" : "Biopsy",
+    "definition" : "Tissue biopsy specimen."
+  },
+  {
+    "code" : "LST0013",
+    "display" : "Nasopharyngeal/Oropharyngeal Swab",
+    "definition" : "Combined NP/OP swab."
+  },
+  {
+    "code" : "LST0014",
+    "display" : "Blood Serum",
+    "definition" : "Serum fraction of blood."
+  },
+  {
+    "code" : "LST0015",
+    "display" : "Urine",
+    "definition" : "Urine specimen."
+  },
+  {
+    "code" : "LST0016",
+    "display" : "Whole Blood",
+    "definition" : "Whole blood specimen."
+  },
+  {
+    "code" : "LST0017",
+    "display" : "Sputum",
+    "definition" : "Expectorated sputum."
+  },
+  {
+    "code" : "LST0018",
+    "display" : "Red Blood Cells",
+    "definition" : "Packed red blood cells."
+  }]
+}

@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "zw-laboratories",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet zw-laboratories</b></p><a name=\"zw-laboratories\"> </a><a name=\"hczw-laboratories\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-zw-laboratories.html\"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories",
+  "version" : "0.1.0",
+  "name" : "VSZWLaboratories",
+  "title" : "ZW National Laboratory List",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-11T12:17:30+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Value set of national laboratory identifiers in Zimbabwe.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"
+    }]
+  }
+}

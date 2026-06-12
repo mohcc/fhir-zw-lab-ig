@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="zw-lab-order-push"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Requirements zw-lab-order-push</b></p><a name="zw-lab-order-push"> </a><a name="hczw-lab-order-push"> </a><p>These requirements apply to the following actors: </p><ul><li><a href="ActorDefinition-lab-order-placer.html">Lab Order Placer</a></li><li><a href="ActorDefinition-lab-order-repository.html">Lab Order Repository</a></li></ul><table class="grid"><tr><td><b><a name="order-push-01"> </a></b>Order bundle conformance</td><td>SHALL</td><td><div><p>The Lab Order Placer SHALL submit orders as a transaction Bundle conforming to the <a href="StructureDefinition-zw-lab-order-bundle.html">ZWLabOrderBundle</a> profile, carrying a ZWLabTask, ZWLabServiceRequest, ZWLabPatient and any ZWSpecimen resources.</p>
+</div></td></tr><tr><td><b><a name="order-push-02"> </a></b>Transaction processing</td><td>SHALL</td><td><div><p>The Lab Order Repository SHALL process the submission as a FHIR transaction (<code>POST [base]</code>) and return a <code>transaction-response</code> Bundle with success status for every entry.</p>
+</div></td></tr><tr><td><b><a name="order-push-03"> </a></b>Validation of submissions</td><td>SHALL</td><td><div><p>The Lab Order Repository SHALL reject submissions that do not conform to the ZWLabOrderBundle profile with an HTTP 4xx response carrying an OperationOutcome.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url">
+    <valueUri value="http://mohcc.gov.zw/fhir/lab/Requirements/zw-lab-order-push"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name">
+    <valueString value="ZWLabOrderPushRequirements"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title">
+    <valueString value="Order Push Requirements"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date">
+    <valueDateTime value="2026-06-12T09:30:06+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher">
+    <valueString value="MOH Zimbabwe"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact">
+    <valueContactDetail>
+      <name value="MOH Zimbabwe"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://mohcc.org.zw"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description">
+    <valueMarkdown value="The Lab Order Placer submits a new laboratory order to the Lab Order Repository as a FHIR transaction."/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+        <code value="716"/>
+        <display value="Zimbabwe (ZWE)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor">
+    <valueCanonical value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-placer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor">
+    <valueCanonical value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-repository"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="order-push-01"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Order bundle conformance"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Order Placer SHALL submit orders as a transaction Bundle conforming to the [ZWLabOrderBundle](StructureDefinition-zw-lab-order-bundle.html) profile, carrying a ZWLabTask, ZWLabServiceRequest, ZWLabPatient and any ZWSpecimen resources."/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="order-push-02"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Transaction processing"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Order Repository SHALL process the submission as a FHIR transaction (`POST [base]`) and return a `transaction-response` Bundle with success status for every entry."/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="order-push-03"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Validation of submissions"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Order Repository SHALL reject submissions that do not conform to the ZWLabOrderBundle profile with an HTTP 4xx response carrying an OperationOutcome."/>
+    </extension>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="Requirements"/>
+    </coding>
+  </code>
+</Basic>

@@ -1,0 +1,196 @@
+[{
+  "id" : "zw-lab-tests",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+  "version" : "0.1.0",
+  "name" : "CSZWLabTests"
+},
+{
+  "id" : "zw-laboratories",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+  "version" : "0.1.0",
+  "name" : "CSZWLaboratories"
+},
+{
+  "id" : "zw-reason-for-test",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+  "version" : "0.1.0",
+  "name" : "CSZWReasonForTest"
+},
+{
+  "id" : "zw-rejection-reasons",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+  "version" : "0.1.0",
+  "name" : "CSZWRejectionReasons"
+},
+{
+  "id" : "zw-report-review-state",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+  "version" : "0.1.0",
+  "name" : "CSZWReportReviewState"
+},
+{
+  "id" : "zw-sample-types",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+  "version" : "0.1.0",
+  "name" : "CSZWSampleTypes"
+},
+{
+  "id" : "zw-task-input-type",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type",
+  "version" : "0.1.0",
+  "name" : "CSZWTaskInputType"
+},
+{
+  "id" : "zw-task-output-type",
+  "type" : "CodeSystem",
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-output-type",
+  "version" : "0.1.0",
+  "name" : "CSZWTaskOutputType"
+},
+{
+  "id" : "zw.fhir.ig.lab",
+  "type" : "ImplementationGuide",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ImplementationGuide/zw.fhir.ig.lab",
+  "version" : "0.1.0",
+  "name" : "ZWCore"
+},
+{
+  "id" : "citizenship",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/citizenship",
+  "version" : "0.1.0",
+  "name" : "Citizenship"
+},
+{
+  "id" : "date-of-birth-estimated",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated",
+  "version" : "0.1.0",
+  "name" : "DateOfBirthEstimated"
+},
+{
+  "id" : "report-review-state",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state",
+  "version" : "0.1.0",
+  "name" : "ReportReviewState"
+},
+{
+  "id" : "zw-facility",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-facility",
+  "version" : "0.1.0",
+  "name" : "ZWFacility"
+},
+{
+  "id" : "zw-lab-diagnostic-report",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-diagnostic-report",
+  "version" : "0.1.0",
+  "name" : "ZWLabDiagnosticReport"
+},
+{
+  "id" : "zw-lab-order",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-order",
+  "version" : "0.1.0",
+  "name" : "ZWLabOrder"
+},
+{
+  "id" : "zw-lab-patient",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-patient",
+  "version" : "0.1.0",
+  "name" : "ZWLabPatient"
+},
+{
+  "id" : "zw-lab-result-observation",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-result-observation",
+  "version" : "0.1.0",
+  "name" : "ZWLabResultObservation"
+},
+{
+  "id" : "zw-lab-result-report",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-result-report",
+  "version" : "0.1.0",
+  "name" : "ZWLabResultReport"
+},
+{
+  "id" : "zw-lab-service-request",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request",
+  "version" : "0.1.0",
+  "name" : "ZWLabServiceRequest"
+},
+{
+  "id" : "zw-lab-task",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-task",
+  "version" : "0.1.0",
+  "name" : "ZWLabTask"
+},
+{
+  "id" : "zw-laboratory",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-laboratory",
+  "version" : "0.1.0",
+  "name" : "ZWLaboratory"
+},
+{
+  "id" : "zw-specimen",
+  "type" : "StructureDefinition",
+  "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen",
+  "version" : "0.1.0",
+  "name" : "ZWSpecimen"
+},
+{
+  "id" : "zw-lab-tests",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests",
+  "version" : "0.1.0",
+  "name" : "VSZWLabTests"
+},
+{
+  "id" : "zw-laboratories",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories",
+  "version" : "0.1.0",
+  "name" : "VSZWLaboratories"
+},
+{
+  "id" : "zw-reason-for-test",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test",
+  "version" : "0.1.0",
+  "name" : "VSZWReasonForTest"
+},
+{
+  "id" : "zw-rejection-reasons",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons",
+  "version" : "0.1.0",
+  "name" : "VSZWRejectionReasons"
+},
+{
+  "id" : "zw-report-review-state",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state",
+  "version" : "0.1.0",
+  "name" : "VSZWReportReviewState"
+},
+{
+  "id" : "zw-sample-types",
+  "type" : "ValueSet",
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types",
+  "version" : "0.1.0",
+  "name" : "VSZWSampleTypes"
+}]

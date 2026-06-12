@@ -1,0 +1,7 @@
+{
+  "version" : "0.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20260611121730",
+  "name" : "zw.fhir.ig.lab",
+  "jurisdiction" : "http://unstats.un.org/unsd/methods/m49/m49.htm#716"
+}

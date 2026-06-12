@@ -1,0 +1,135 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-reason-for-test"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-reason-for-test</b></p><a name=\"zw-reason-for-test\"> </a><a name=\"hczw-reason-for-test\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">routine<a name=\"zw-reason-for-test-routine\"> </a></td><td>Routine</td><td>Routine monitoring.</td></tr><tr><td style=\"white-space:nowrap\">target-clinical-failure<a name=\"zw-reason-for-test-target-clinical-failure\"> </a></td><td>Target Clinical Failure</td><td>Suspected clinical treatment failure.</td></tr><tr><td style=\"white-space:nowrap\">targeted-immunological-failure<a name=\"zw-reason-for-test-targeted-immunological-failure\"> </a></td><td>Targeted Immunological Failure</td><td>Suspected immunological treatment failure.</td></tr><tr><td style=\"white-space:nowrap\">repeat-after-adherence<a name=\"zw-reason-for-test-repeat-after-adherence\"> </a></td><td>Repeat After Enhanced Adherence Counselling</td><td>Repeat test after adherence counselling.</td></tr><tr><td style=\"white-space:nowrap\">baseline-viral-load<a name=\"zw-reason-for-test-baseline-viral-load\"> </a></td><td>Baseline Viral Load</td><td>Baseline measurement at ART initiation.</td></tr><tr><td style=\"white-space:nowrap\">confirmation-of-treatment<a name=\"zw-reason-for-test-confirmation-of-treatment\"> </a></td><td>Confirmation of Treatment</td><td>Confirmation of treatment response.</td></tr><tr><td style=\"white-space:nowrap\">failure-repeat-vl-3m<a name=\"zw-reason-for-test-failure-repeat-vl-3m\"> </a></td><td>Failure — Repeat VL at 3 Months</td><td>Suspected failure; repeat at 3 months.</td></tr><tr><td style=\"white-space:nowrap\">single-drug-substitution<a name=\"zw-reason-for-test-single-drug-substitution\"> </a></td><td>Single Drug Substitution</td><td>Following a single drug substitution.</td></tr><tr><td style=\"white-space:nowrap\">pregnant-mother<a name=\"zw-reason-for-test-pregnant-mother\"> </a></td><td>Pregnant Mother</td><td>Pregnant woman monitoring.</td></tr><tr><td style=\"white-space:nowrap\">lactating-mother<a name=\"zw-reason-for-test-lactating-mother\"> </a></td><td>Lactating Mother</td><td>Lactating/breastfeeding mother monitoring.</td></tr><tr><td style=\"white-space:nowrap\">eid-initial-birth<a name=\"zw-reason-for-test-eid-initial-birth\"> </a></td><td>EID: Initial at Birth</td><td>Early infant diagnosis at birth.</td></tr><tr><td style=\"white-space:nowrap\">eid-initial-6-8wks<a name=\"zw-reason-for-test-eid-initial-6-8wks\"> </a></td><td>EID: Initial at 6–8 Weeks</td><td>Early infant diagnosis at 6–8 weeks.</td></tr><tr><td style=\"white-space:nowrap\">eid-initial-gt2m<a name=\"zw-reason-for-test-eid-initial-gt2m\"> </a></td><td>EID: Initial at &gt;2 Months</td><td>Early infant diagnosis at &gt;2 months.</td></tr><tr><td style=\"white-space:nowrap\">eid-repeat-6wks<a name=\"zw-reason-for-test-eid-repeat-6wks\"> </a></td><td>EID: Repeat at 6 Weeks</td><td>EID repeat test at 6 weeks.</td></tr><tr><td style=\"white-space:nowrap\">eid-repeat-9m<a name=\"zw-reason-for-test-eid-repeat-9m\"> </a></td><td>EID: Repeat at 9 Months</td><td>EID repeat test at 9 months.</td></tr><tr><td style=\"white-space:nowrap\">eid-positive-rdt-gt18m<a name=\"zw-reason-for-test-eid-positive-rdt-gt18m\"> </a></td><td>EID: Following Positive RDT at &gt;18 Months</td><td>EID after positive rapid test at &gt;18 months.</td></tr><tr><td style=\"white-space:nowrap\">eid-confirmatory<a name=\"zw-reason-for-test-eid-confirmatory\"> </a></td><td>EID: Confirmatory (After First EID Positive)</td><td>Confirmatory EID after first positive result.</td></tr><tr><td style=\"white-space:nowrap\">postnatal-routine-1st<a name=\"zw-reason-for-test-postnatal-routine-1st\"> </a></td><td>Routine 1st Post-natal Tests</td><td>First routine post-natal testing.</td></tr><tr><td style=\"white-space:nowrap\">symptomatic-child<a name=\"zw-reason-for-test-symptomatic-child\"> </a></td><td>Symptomatic Child</td><td>Testing of a symptomatic infant/child.</td></tr><tr><td style=\"white-space:nowrap\">post-weaning<a name=\"zw-reason-for-test-post-weaning\"> </a></td><td>Post Weaning Test</td><td>Test following cessation of breastfeeding.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"zw-reason-for-test-other\"> </a></td><td>Other</td><td>Other reason.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSZWReasonForTest"] ; # 
+  fhir:title [ fhir:v "ZW Reason for Test"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:17:30+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "21"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "routine" ] ;
+     fhir:display [ fhir:v "Routine" ] ;
+     fhir:definition [ fhir:v "Routine monitoring." ]
+  ] [
+     fhir:code [ fhir:v "target-clinical-failure" ] ;
+     fhir:display [ fhir:v "Target Clinical Failure" ] ;
+     fhir:definition [ fhir:v "Suspected clinical treatment failure." ]
+  ] [
+     fhir:code [ fhir:v "targeted-immunological-failure" ] ;
+     fhir:display [ fhir:v "Targeted Immunological Failure" ] ;
+     fhir:definition [ fhir:v "Suspected immunological treatment failure." ]
+  ] [
+     fhir:code [ fhir:v "repeat-after-adherence" ] ;
+     fhir:display [ fhir:v "Repeat After Enhanced Adherence Counselling" ] ;
+     fhir:definition [ fhir:v "Repeat test after adherence counselling." ]
+  ] [
+     fhir:code [ fhir:v "baseline-viral-load" ] ;
+     fhir:display [ fhir:v "Baseline Viral Load" ] ;
+     fhir:definition [ fhir:v "Baseline measurement at ART initiation." ]
+  ] [
+     fhir:code [ fhir:v "confirmation-of-treatment" ] ;
+     fhir:display [ fhir:v "Confirmation of Treatment" ] ;
+     fhir:definition [ fhir:v "Confirmation of treatment response." ]
+  ] [
+     fhir:code [ fhir:v "failure-repeat-vl-3m" ] ;
+     fhir:display [ fhir:v "Failure — Repeat VL at 3 Months" ] ;
+     fhir:definition [ fhir:v "Suspected failure; repeat at 3 months." ]
+  ] [
+     fhir:code [ fhir:v "single-drug-substitution" ] ;
+     fhir:display [ fhir:v "Single Drug Substitution" ] ;
+     fhir:definition [ fhir:v "Following a single drug substitution." ]
+  ] [
+     fhir:code [ fhir:v "pregnant-mother" ] ;
+     fhir:display [ fhir:v "Pregnant Mother" ] ;
+     fhir:definition [ fhir:v "Pregnant woman monitoring." ]
+  ] [
+     fhir:code [ fhir:v "lactating-mother" ] ;
+     fhir:display [ fhir:v "Lactating Mother" ] ;
+     fhir:definition [ fhir:v "Lactating/breastfeeding mother monitoring." ]
+  ] [
+     fhir:code [ fhir:v "eid-initial-birth" ] ;
+     fhir:display [ fhir:v "EID: Initial at Birth" ] ;
+     fhir:definition [ fhir:v "Early infant diagnosis at birth." ]
+  ] [
+     fhir:code [ fhir:v "eid-initial-6-8wks" ] ;
+     fhir:display [ fhir:v "EID: Initial at 6–8 Weeks" ] ;
+     fhir:definition [ fhir:v "Early infant diagnosis at 6–8 weeks." ]
+  ] [
+     fhir:code [ fhir:v "eid-initial-gt2m" ] ;
+     fhir:display [ fhir:v "EID: Initial at >2 Months" ] ;
+     fhir:definition [ fhir:v "Early infant diagnosis at >2 months." ]
+  ] [
+     fhir:code [ fhir:v "eid-repeat-6wks" ] ;
+     fhir:display [ fhir:v "EID: Repeat at 6 Weeks" ] ;
+     fhir:definition [ fhir:v "EID repeat test at 6 weeks." ]
+  ] [
+     fhir:code [ fhir:v "eid-repeat-9m" ] ;
+     fhir:display [ fhir:v "EID: Repeat at 9 Months" ] ;
+     fhir:definition [ fhir:v "EID repeat test at 9 months." ]
+  ] [
+     fhir:code [ fhir:v "eid-positive-rdt-gt18m" ] ;
+     fhir:display [ fhir:v "EID: Following Positive RDT at >18 Months" ] ;
+     fhir:definition [ fhir:v "EID after positive rapid test at >18 months." ]
+  ] [
+     fhir:code [ fhir:v "eid-confirmatory" ] ;
+     fhir:display [ fhir:v "EID: Confirmatory (After First EID Positive)" ] ;
+     fhir:definition [ fhir:v "Confirmatory EID after first positive result." ]
+  ] [
+     fhir:code [ fhir:v "postnatal-routine-1st" ] ;
+     fhir:display [ fhir:v "Routine 1st Post-natal Tests" ] ;
+     fhir:definition [ fhir:v "First routine post-natal testing." ]
+  ] [
+     fhir:code [ fhir:v "symptomatic-child" ] ;
+     fhir:display [ fhir:v "Symptomatic Child" ] ;
+     fhir:definition [ fhir:v "Testing of a symptomatic infant/child." ]
+  ] [
+     fhir:code [ fhir:v "post-weaning" ] ;
+     fhir:display [ fhir:v "Post Weaning Test" ] ;
+     fhir:definition [ fhir:v "Test following cessation of breastfeeding." ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other reason." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

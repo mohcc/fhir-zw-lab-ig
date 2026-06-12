@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "zw-rejection-reasons",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet zw-rejection-reasons</b></p><a name=\"zw-rejection-reasons\"> </a><a name=\"hczw-rejection-reasons\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-zw-rejection-reasons.html\"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons",
+  "version" : "0.1.0",
+  "name" : "VSZWRejectionReasons",
+  "title" : "ZW Specimen Rejection Reasons",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-12T09:30:06+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Value set of specimen rejection reasons (ZW.LAB.A.DE88).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"
+    }]
+  }
+}

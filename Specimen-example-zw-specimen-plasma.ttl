@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> a fhir:Specimen ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-zw-specimen-plasma"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen example-zw-specimen-plasma</b></p><a name=\"example-zw-specimen-plasma\"> </a><a name=\"hcexample-zw-specimen-plasma\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-specimen.html\">ZW Lab Specimen</a></p></div><p><b>identifier</b>: <code>http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id</code>/ZW-SPEC-2024-00456</p><p><b>status</b>: Available</p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types LST006}\">Blood Plasma</span></p><p><b>subject</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collected[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>2024-03-15 08:30:00+0200</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id>
+     ] ;
+     fhir:value [ fhir:v "ZW-SPEC-2024-00456" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "available"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types>
+       ] ;
+       fhir:code [ fhir:v "LST006" ] ;
+       fhir:display [ fhir:v "Blood Plasma" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:collection [
+     fhir:collected [
+       a fhir:DateTime ;
+       fhir:v "2024-03-15T08:30:00+02:00"^^xsd:dateTime
+     ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

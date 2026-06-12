@@ -1,0 +1,148 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/Basic/lab-order-placer> a fhir:Basic ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lab-order-placer"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActorDefinition lab-order-placer</b></p><a name=\"lab-order-placer\"> </a><a name=\"hclab-order-placer\"> </a><table class=\"grid\"><tr><td><b>Actor: LabOrderPlacer </b></td><td>Lab Order Placer</td><td>Type: system </td></tr><tr><td colspan=\"3\"><div><p>Obligations: SHALL submit orders conforming to the ZWLabOrderBundle profile; SHALL populate the order Task with status <code>requested</code> and the receiving laboratory as <code>restriction.recipient</code>.</p>\n</div></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url>
+     ] ;
+     fhir:value [
+       a fhir:Uri ;
+       fhir:v "http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-placer"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-placer>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "0.1.0"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "LabOrderPlacer"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "Lab Order Placer"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "draft"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date>
+     ] ;
+     fhir:value [
+       a fhir:DateTime ;
+       fhir:v "2026-06-12T09:30:06+00:00"^^xsd:dateTime
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "MOH Zimbabwe"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact>
+     ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+       fhir:telecom ( [
+         fhir:system [ fhir:v "url" ] ;
+         fhir:value [ fhir:v "http://mohcc.org.zw" ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description>
+     ] ;
+     fhir:value [
+       a fhir:Markdown ;
+       fhir:v "System that captures a laboratory test order for a patient and pushes it to the Lab Order Repository as a ZWLabOrderBundle transaction (FHIR `POST` of a transaction Bundle carrying ZWLabTask, ZWLabServiceRequest, ZWLabPatient and ZWSpecimen). In the Zimbabwe national architecture this role is played by the Impilo EHR (transaction ① — order push)."
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction>
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+           fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         ] ;
+         fhir:code [ fhir:v "716" ] ;
+         fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "system"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation>
+     ] ;
+     fhir:value [
+       a fhir:Markdown ;
+       fhir:v "Obligations: SHALL submit orders conforming to the ZWLabOrderBundle profile; SHALL populate the order Task with status `requested` and the receiving laboratory as `restriction.recipient`."
+     ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:code [ fhir:v "ActorDefinition" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

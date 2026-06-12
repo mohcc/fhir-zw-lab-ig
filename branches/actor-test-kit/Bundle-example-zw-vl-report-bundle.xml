@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="example-zw-vl-report-bundle"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-bundle"/>
+  </meta>
+  <identifier>
+    <system value="http://mohcc.gov.zw/fhir/lab/identifier/report-document"/>
+    <value value="ZW-LABDOC-2024-00456"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2024-03-18T16:35:00+02:00"/>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/Composition/example-zw-vl-composition"/>
+    <resource>
+      <Composition>
+        <id value="example-zw-vl-composition"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-composition"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Composition_example-zw-vl-composition"> </a><p class="res-header-id"><b>Generated Narrative: Composition example-zw-vl-composition</b></p><a name="example-zw-vl-composition"> </a><a name="hcexample-zw-vl-composition"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-lab-report-composition.html">ZW Lab Report Composition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 11502-2}">Laboratory report</span></p><p><b>date</b>: 2024-03-18 16:30:00+0200</p><p><b>author</b>: <a href="Organization-example-national-virology-lab.html">Organization National Virology Laboratory</a></p><p><b>title</b>: Laboratory Result Report — Viral Load Plasma</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style="display: none">*</td><td>Legal</td><td>2024-03-18 16:30:00+0200</td><td><a href="Organization-example-national-virology-lab.html">Organization National Virology Laboratory</a></td></tr></table><p><b>custodian</b>: <a href="Organization-example-national-virology-lab.html">Organization National Virology Laboratory</a></p></div>
+        </text>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="11502-2"/>
+            <display value="Laboratory report"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/example-zw-lab-patient"/>
+        </subject>
+        <date value="2024-03-18T16:30:00+02:00"/>
+        <author>
+          <reference value="Organization/example-national-virology-lab"/>
+        </author>
+        <title value="Laboratory Result Report — Viral Load Plasma"/>
+        <attester>
+          <mode value="legal"/>
+          <time value="2024-03-18T16:30:00+02:00"/>
+          <party>
+            <reference value="Organization/example-national-virology-lab"/>
+          </party>
+        </attester>
+        <custodian>
+          <reference value="Organization/example-national-virology-lab"/>
+        </custodian>
+        <section>
+          <title value="Laboratory Results"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="30954-2"/>
+              <display value="Relevant diagnostic tests/laboratory data note"/>
+            </coding>
+          </code>
+          <entry>
+            <reference value="DiagnosticReport/example-zw-vl-diagnostic-report"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/DiagnosticReport/example-zw-vl-diagnostic-report"/>
+    <resource>
+      <DiagnosticReport>
+        <id value="example-zw-vl-diagnostic-report"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-diagnostic-report"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="DiagnosticReport_example-zw-vl-diagnostic-report"> </a><p class="res-header-id"><b>Generated Narrative: DiagnosticReport example-zw-vl-diagnostic-report</b></p><a name="example-zw-vl-diagnostic-report"> </a><a name="hcexample-zw-vl-diagnostic-report"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-lab-diagnostic-report.html">ZW Lab Diagnostic Report</a></p></div><h2><span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}">Viral Load Plasma</span> (<span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}">Microbiology</span>) </h2><table class="grid"><tr><td>Subject</td><td>Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</td></tr><tr><td>When For</td><td>2024-03-18 14:00:00+0200</td></tr><tr><td>Reported</td><td>2024-03-18 16:30:00+0200</td></tr><tr><td>Performer</td><td> <a href="Organization-example-national-virology-lab.html">Organization National Virology Laboratory</a></td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href="Observation-example-zw-vl-observation.html"><span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}, {http://loinc.org 20447-9}">Viral Load Plasma</span></a></td><td>48 copies/mL<span style="background: LightGoldenRodYellow"> (Details: UCUM  code/mL = '/mL')</span></td><td>Final</td></tr></table></div>
+        </text>
+        <extension url="http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state">
+          <valueCodeableConcept>
+            <coding>
+              <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+              <code value="verified"/>
+              <display value="Verified"/>
+            </coding>
+          </valueCodeableConcept>
+        </extension>
+        <basedOn>
+          <reference value="ServiceRequest/example-zw-service-request-vl"/>
+        </basedOn>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+            <code value="MB"/>
+            <display value="Microbiology"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT0013"/>
+            <display value="Viral Load Plasma"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/example-zw-lab-patient"/>
+        </subject>
+        <effectiveDateTime value="2024-03-18T14:00:00+02:00"/>
+        <issued value="2024-03-18T16:30:00+02:00"/>
+        <performer>
+          <reference value="Organization/example-national-virology-lab"/>
+        </performer>
+        <resultsInterpreter>
+          <reference value="Organization/example-national-virology-lab"/>
+        </resultsInterpreter>
+        <specimen>
+          <reference value="Specimen/example-zw-specimen-plasma"/>
+        </specimen>
+        <result>
+          <reference value="Observation/example-zw-vl-observation"/>
+        </result>
+      </DiagnosticReport>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient"/>
+    <resource>
+      <Patient>
+        <id value="example-zw-lab-patient"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-patient"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_example-zw-lab-patient"> </a><p class="res-header-id"><b>Generated Narrative: Patient example-zw-lab-patient</b></p><a name="example-zw-lab-patient"> </a><a name="hcexample-zw-lab-patient"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-lab-patient.html">ZW Lab Patient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></td></tr><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3"><code>http://mohcc.gov.zw/fhir/lab/identifier/art-number</code>/HRE/2019/005678</td></tr><tr><td style="background-color: #f3f5da" title="Indicates that the client's date of birth is an estimate rather than the precise birth date. Corresponds to the Impilo→Senaite contract field `dateOfBirthEstimated`."><a href="StructureDefinition-date-of-birth-estimated.html">Date of Birth Estimated</a></td><td colspan="3">false</td></tr></table></div>
+        </text>
+        <extension url="http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated">
+          <valueBoolean value="false"/>
+        </extension>
+        <identifier>
+          <system value="http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id"/>
+          <value value="EHR-ZW-00123"/>
+        </identifier>
+        <identifier>
+          <system value="http://mohcc.gov.zw/fhir/lab/identifier/art-number"/>
+          <value value="HRE/2019/005678"/>
+        </identifier>
+        <name>
+          <family value="Moyo"/>
+          <given value="Rutendo"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1988-04-15"/>
+        <maritalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </coding>
+        </maritalStatus>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/Observation/example-zw-vl-observation"/>
+    <resource>
+      <Observation>
+        <id value="example-zw-vl-observation"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-result-observation"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Observation_example-zw-vl-observation"> </a><p class="res-header-id"><b>Generated Narrative: Observation example-zw-vl-observation</b></p><a name="example-zw-vl-observation"> </a><a name="hcexample-zw-vl-observation"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-lab-result-observation.html">ZW Lab Result Observation</a></p></div><p><b>basedOn</b>: <a href="ServiceRequest-example-zw-service-request-vl.html">ServiceRequest Viral Load Plasma</a></p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}">Laboratory</span></p><p><b>code</b>: <span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}, {http://loinc.org 20447-9}">Viral Load Plasma</span></p><p><b>subject</b>: <a href="Patient-example-zw-lab-patient.html">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>effective</b>: 2024-03-18 14:00:00+0200</p><p><b>value</b>: 48 copies/mL<span style="background: LightGoldenRodYellow"> (Details: UCUM  code/mL = '/mL')</span></p><p><b>method</b>: <span title="Codes:">RT-PCR</span></p><p><b>specimen</b>: <a href="Specimen-example-zw-specimen-plasma.html">Specimen: identifier = http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id#ZW-SPEC-2024-00456; status = available; type = Blood Plasma</a></p></div>
+        </text>
+        <basedOn>
+          <reference value="ServiceRequest/example-zw-service-request-vl"/>
+        </basedOn>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT0013"/>
+            <display value="Viral Load Plasma"/>
+          </coding>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="20447-9"/>
+            <display value="HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/example-zw-lab-patient"/>
+        </subject>
+        <effectiveDateTime value="2024-03-18T14:00:00+02:00"/>
+        <valueQuantity>
+          <value value="48"/>
+          <unit value="copies/mL"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="/mL"/>
+        </valueQuantity>
+        <method>
+          <text value="RT-PCR"/>
+        </method>
+        <specimen>
+          <reference value="Specimen/example-zw-specimen-plasma"/>
+        </specimen>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma"/>
+    <resource>
+      <Specimen>
+        <id value="example-zw-specimen-plasma"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Specimen_example-zw-specimen-plasma"> </a><p class="res-header-id"><b>Generated Narrative: Specimen example-zw-specimen-plasma</b></p><a name="example-zw-specimen-plasma"> </a><a name="hcexample-zw-specimen-plasma"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-specimen.html">ZW Lab Specimen</a></p></div><p><b>identifier</b>: <code>http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id</code>/ZW-SPEC-2024-00456</p><p><b>status</b>: Available</p><p><b>type</b>: <span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types LST006}">Blood Plasma</span></p><p><b>subject</b>: <a href="Patient-example-zw-lab-patient.html">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><h3>Collections</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Collected[x]</b></td></tr><tr><td style="display: none">*</td><td>2024-03-15 08:30:00+0200</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id"/>
+          <value value="ZW-SPEC-2024-00456"/>
+        </identifier>
+        <status value="available"/>
+        <type>
+          <coding>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST006"/>
+            <display value="Blood Plasma"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/example-zw-lab-patient"/>
+        </subject>
+        <collection>
+          <collectedDateTime value="2024-03-15T08:30:00+02:00"/>
+        </collection>
+      </Specimen>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl"/>
+    <resource>
+      <ServiceRequest>
+        <id value="example-zw-service-request-vl"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="ServiceRequest_example-zw-service-request-vl"> </a><p class="res-header-id"><b>Generated Narrative: ServiceRequest example-zw-service-request-vl</b></p><a name="example-zw-service-request-vl"> </a><a name="hcexample-zw-service-request-vl"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-lab-service-request.html">ZW Lab Service Request</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}">Viral Load Plasma</span></p><p><b>subject</b>: <a href="Patient-example-zw-lab-patient.html">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>authoredOn</b>: 2024-03-15 08:00:00+0200</p><p><b>locationReference</b>: <a href="Location-example-order-facility.html">Location Harare City Health Clinic</a></p><p><b>reasonCode</b>: <span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test routine}">Routine</span></p><p><b>specimen</b>: <a href="Specimen-example-zw-specimen-plasma.html">Specimen: identifier = http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id#ZW-SPEC-2024-00456; status = available; type = Blood Plasma</a></p></div>
+        </text>
+        <status value="active"/>
+        <intent value="order"/>
+        <code>
+          <coding>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT0013"/>
+            <display value="Viral Load Plasma"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="Patient/example-zw-lab-patient"/>
+        </subject>
+        <authoredOn value="2024-03-15T08:00:00+02:00"/>
+        <locationReference>
+          <reference value="Location/example-order-facility"/>
+        </locationReference>
+        <reasonCode>
+          <coding>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="routine"/>
+            <display value="Routine"/>
+          </coding>
+        </reasonCode>
+        <specimen>
+          <reference value="Specimen/example-zw-specimen-plasma"/>
+        </specimen>
+      </ServiceRequest>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab"/>
+    <resource>
+      <Organization>
+        <id value="example-national-virology-lab"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-laboratory"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_example-national-virology-lab"> </a><p class="res-header-id"><b>Generated Narrative: Organization example-national-virology-lab</b></p><a name="example-national-virology-lab"> </a><a name="hcexample-national-virology-lab"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-laboratory.html">ZW Laboratory (Organization)</a></p></div><p><b>identifier</b>: <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>/ZWLPAR001</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/organization-type other}">Laboratory</span></p><p><b>name</b>: National Virology Laboratory</p></div>
+        </text>
+        <identifier>
+          <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+          <value value="ZWLPAR001"/>
+        </identifier>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </coding>
+          <text value="Laboratory"/>
+        </type>
+        <name value="National Virology Laboratory"/>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/Location/example-order-facility"/>
+    <resource>
+      <Location>
+        <id value="example-order-facility"/>
+        <meta>
+          <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-facility"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Location_example-order-facility"> </a><p class="res-header-id"><b>Generated Narrative: Location example-order-facility</b></p><a name="example-order-facility"> </a><a name="hcexample-order-facility"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-facility.html">ZW Health Facility (Location)</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Harare City Health Clinic</p></div>
+        </text>
+        <status value="active"/>
+        <name value="Harare City Health Clinic"/>
+      </Location>
+    </resource>
+  </entry>
+</Bundle>

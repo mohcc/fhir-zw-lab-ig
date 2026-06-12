@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="zw-lab-order-pull"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Requirements zw-lab-order-pull</b></p><a name="zw-lab-order-pull"> </a><a name="hczw-lab-order-pull"> </a><p>These requirements apply to the following actors: </p><ul><li><a href="ActorDefinition-lab-order-fulfiller.html">Lab Order Fulfiller</a></li><li><a href="ActorDefinition-lab-order-repository.html">Lab Order Repository</a></li></ul><table class="grid"><tr><td><b><a name="order-pull-01"> </a></b>Order search</td><td>SHALL</td><td><div><p>The Lab Order Repository SHALL support searching Task by <code>status</code> and ServiceRequest by <code>subject</code>, returning <code>searchset</code> Bundles whose entries conform to <a href="StructureDefinition-zw-lab-task.html">ZWLabTask</a> and <a href="StructureDefinition-zw-lab-service-request.html">ZWLabServiceRequest</a>.</p>
+</div></td></tr><tr><td><b><a name="order-pull-02"> </a></b>Order claiming</td><td>SHALL</td><td><div><p>The Lab Order Fulfiller SHALL claim an order by updating the Task status following the FHIR workflow state machine (<code>requested</code> → <code>accepted</code>/<code>rejected</code> → <code>in-progress</code> → <code>completed</code>), and the Lab Order Repository SHALL support Task update.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url">
+    <valueUri value="http://mohcc.gov.zw/fhir/lab/Requirements/zw-lab-order-pull"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name">
+    <valueString value="ZWLabOrderPullRequirements"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title">
+    <valueString value="Order Pull Requirements"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date">
+    <valueDateTime value="2026-06-12T09:30:06+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher">
+    <valueString value="MOH Zimbabwe"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact">
+    <valueContactDetail>
+      <name value="MOH Zimbabwe"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://mohcc.org.zw"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description">
+    <valueMarkdown value="The Lab Order Fulfiller retrieves orders directed to its laboratory from the Lab Order Repository and claims them."/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+        <code value="716"/>
+        <display value="Zimbabwe (ZWE)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor">
+    <valueCanonical value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-fulfiller"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor">
+    <valueCanonical value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-repository"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="order-pull-01"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Order search"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Order Repository SHALL support searching Task by `status` and ServiceRequest by `subject`, returning `searchset` Bundles whose entries conform to [ZWLabTask](StructureDefinition-zw-lab-task.html) and [ZWLabServiceRequest](StructureDefinition-zw-lab-service-request.html)."/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="order-pull-02"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Order claiming"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Order Fulfiller SHALL claim an order by updating the Task status following the FHIR workflow state machine (`requested` → `accepted`/`rejected` → `in-progress` → `completed`), and the Lab Order Repository SHALL support Task update."/>
+    </extension>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="Requirements"/>
+    </coding>
+  </code>
+</Basic>

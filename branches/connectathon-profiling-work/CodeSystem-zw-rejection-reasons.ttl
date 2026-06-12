@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-rejection-reasons"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-rejection-reasons</b></p><a name=\"zw-rejection-reasons\"> </a><a name=\"hczw-rejection-reasons\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">no-identification<a name=\"zw-rejection-reasons-no-identification\"> </a></td><td>Specimen Lacked Proper Identification</td><td>Sample container not labelled.</td></tr><tr><td style=\"white-space:nowrap\">form-mismatch<a name=\"zw-rejection-reasons-form-mismatch\"> </a></td><td>Mismatching Form and Specimen</td><td>Request form does not match the specimen.</td></tr><tr><td style=\"white-space:nowrap\">insufficient-quantity<a name=\"zw-rejection-reasons-insufficient-quantity\"> </a></td><td>Insufficient Specimen Quantity</td><td>Sample volume too small.</td></tr><tr><td style=\"white-space:nowrap\">no-request-form<a name=\"zw-rejection-reasons-no-request-form\"> </a></td><td>Request Form Not Submitted</td><td>No accompanying request form.</td></tr><tr><td style=\"white-space:nowrap\">no-specimen<a name=\"zw-rejection-reasons-no-specimen\"> </a></td><td>Specimen Not Submitted</td><td>Request form received without specimen.</td></tr><tr><td style=\"white-space:nowrap\">contamination<a name=\"zw-rejection-reasons-contamination\"> </a></td><td>Cross Contamination</td><td>Specimen contaminated.</td></tr><tr><td style=\"white-space:nowrap\">humidity-indicator<a name=\"zw-rejection-reasons-humidity-indicator\"> </a></td><td>Sample Collected on Humidity Indicator</td><td>DBS collected on humidity indicator card.</td></tr><tr><td style=\"white-space:nowrap\">clotted<a name=\"zw-rejection-reasons-clotted\"> </a></td><td>Clotted Blood</td><td>Blood specimen is clotted.</td></tr><tr><td style=\"white-space:nowrap\">too-old<a name=\"zw-rejection-reasons-too-old\"> </a></td><td>Specimen Too Old</td><td>Specimen transit time exceeded.</td></tr><tr><td style=\"white-space:nowrap\">haemolysed<a name=\"zw-rejection-reasons-haemolysed\"> </a></td><td>Haemolysed</td><td>Haemolysis detected.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"zw-rejection-reasons-other\"> </a></td><td>Other</td><td>Other rejection reason.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSZWRejectionReasons"] ; # 
+  fhir:title [ fhir:v "ZW Specimen Rejection Reasons"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:17:30+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "no-identification" ] ;
+     fhir:display [ fhir:v "Specimen Lacked Proper Identification" ] ;
+     fhir:definition [ fhir:v "Sample container not labelled." ]
+  ] [
+     fhir:code [ fhir:v "form-mismatch" ] ;
+     fhir:display [ fhir:v "Mismatching Form and Specimen" ] ;
+     fhir:definition [ fhir:v "Request form does not match the specimen." ]
+  ] [
+     fhir:code [ fhir:v "insufficient-quantity" ] ;
+     fhir:display [ fhir:v "Insufficient Specimen Quantity" ] ;
+     fhir:definition [ fhir:v "Sample volume too small." ]
+  ] [
+     fhir:code [ fhir:v "no-request-form" ] ;
+     fhir:display [ fhir:v "Request Form Not Submitted" ] ;
+     fhir:definition [ fhir:v "No accompanying request form." ]
+  ] [
+     fhir:code [ fhir:v "no-specimen" ] ;
+     fhir:display [ fhir:v "Specimen Not Submitted" ] ;
+     fhir:definition [ fhir:v "Request form received without specimen." ]
+  ] [
+     fhir:code [ fhir:v "contamination" ] ;
+     fhir:display [ fhir:v "Cross Contamination" ] ;
+     fhir:definition [ fhir:v "Specimen contaminated." ]
+  ] [
+     fhir:code [ fhir:v "humidity-indicator" ] ;
+     fhir:display [ fhir:v "Sample Collected on Humidity Indicator" ] ;
+     fhir:definition [ fhir:v "DBS collected on humidity indicator card." ]
+  ] [
+     fhir:code [ fhir:v "clotted" ] ;
+     fhir:display [ fhir:v "Clotted Blood" ] ;
+     fhir:definition [ fhir:v "Blood specimen is clotted." ]
+  ] [
+     fhir:code [ fhir:v "too-old" ] ;
+     fhir:display [ fhir:v "Specimen Too Old" ] ;
+     fhir:definition [ fhir:v "Specimen transit time exceeded." ]
+  ] [
+     fhir:code [ fhir:v "haemolysed" ] ;
+     fhir:display [ fhir:v "Haemolysed" ] ;
+     fhir:definition [ fhir:v "Haemolysis detected." ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other rejection reason." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

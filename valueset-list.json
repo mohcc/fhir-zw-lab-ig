@@ -1,0 +1,56 @@
+{
+  "codeSystems" : [{
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWLabTests",
+    "title" : "ZW Laboratory Tests",
+    "description" : "Value set of laboratory tests requestable in Zimbabwe (ZW.LAB.A.DE17).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWLaboratories",
+    "title" : "ZW National Laboratory List",
+    "description" : "Value set of national laboratory identifiers in Zimbabwe.",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWReasonForTest",
+    "title" : "ZW Reason for Test",
+    "description" : "Value set of reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWRejectionReasons",
+    "title" : "ZW Specimen Rejection Reasons",
+    "description" : "Value set of specimen rejection reasons (ZW.LAB.A.DE88).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWReportReviewState",
+    "title" : "ZW Report Review State",
+    "description" : "Value set of LIMS workflow states for a laboratory report (ZW.LAB.A.DE73).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"]
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWSampleTypes",
+    "title" : "ZW Specimen Types",
+    "description" : "Value set of specimen/sample types used in Zimbabwe (ZW.LAB.A.DE53).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"]
+  }]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-task-output-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem zw-task-output-type</b></p><a name="zw-task-output-type"> </a><a name="hczw-task-output-type"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-output-type</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">diagnostic-report<a name="zw-task-output-type-diagnostic-report"> </a></td><td>Diagnostic Report</td><td>Reference to the DiagnosticReport produced by the LIMS.</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-output-type"/>
+  <version value="0.1.0"/>
+  <name value="CSZWTaskOutputType"/>
+  <title value="ZW Lab Task Output Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:19:15+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Type codes for Task.output slices on the ZWLabTask order profile."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="diagnostic-report"/>
+    <display value="Diagnostic Report"/>
+    <definition value="Reference to the DiagnosticReport produced by the LIMS."/>
+  </concept>
+</CodeSystem>

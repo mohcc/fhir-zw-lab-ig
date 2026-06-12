@@ -1,0 +1,36 @@
+{
+  "resourceType" : "Patient",
+  "id" : "example-zw-lab-patient",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient example-zw-lab-patient</b></p><a name=\"example-zw-lab-patient\"> </a><a name=\"hcexample-zw-lab-patient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-patient.html\">ZW Lab Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://mohcc.gov.zw/fhir/lab/identifier/art-number</code>/HRE/2019/005678</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Indicates that the client's date of birth is an estimate rather than the precise birth date. Corresponds to the Impilo→Senaite contract field `dateOfBirthEstimated`.\"><a href=\"StructureDefinition-date-of-birth-estimated.html\">Date of Birth Estimated</a></td><td colspan=\"3\">false</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated",
+    "valueBoolean" : false
+  }],
+  "identifier" : [{
+    "system" : "http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id",
+    "value" : "EHR-ZW-00123"
+  },
+  {
+    "system" : "http://mohcc.gov.zw/fhir/lab/identifier/art-number",
+    "value" : "HRE/2019/005678"
+  }],
+  "name" : [{
+    "family" : "Moyo",
+    "given" : ["Rutendo"]
+  }],
+  "gender" : "female",
+  "birthDate" : "1988-04-15",
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code" : "M",
+      "display" : "Married"
+    }]
+  }
+}

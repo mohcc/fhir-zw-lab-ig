@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="zw-lab-result-push"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Requirements zw-lab-result-push</b></p><a name="zw-lab-result-push"> </a><a name="hczw-lab-result-push"> </a><p>These requirements apply to the following actors: </p><ul><li><a href="ActorDefinition-lab-result-provider.html">Lab Result Provider</a></li><li><a href="ActorDefinition-lab-result-repository.html">Lab Result Repository</a></li></ul><table class="grid"><tr><td><b><a name="result-push-01"> </a></b>Report document conformance</td><td>SHALL</td><td><div><p>The Lab Result Provider SHALL submit results as a document Bundle conforming to the <a href="StructureDefinition-zw-lab-report-bundle.html">ZWLabReportBundle</a> profile, including a legally attested ZWLabReportComposition (ZW.LAB.A.DE80/DE82).</p>
+</div></td></tr><tr><td><b><a name="result-push-02"> </a></b>Document storage</td><td>SHALL</td><td><div><p>The Lab Result Repository SHALL store the submitted report document whole (<code>POST [base]/Bundle</code>) so the signed-off snapshot remains retrievable as submitted.</p>
+</div></td></tr><tr><td><b><a name="result-push-03"> </a></b>Order linkage</td><td>SHALL</td><td><div><p>The contained ZWLabDiagnosticReport SHALL reference the originating ZWLabServiceRequest via <code>basedOn</code>.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url">
+    <valueUri value="http://mohcc.gov.zw/fhir/lab/Requirements/zw-lab-result-push"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name">
+    <valueString value="ZWLabResultPushRequirements"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title">
+    <valueString value="Result Push Requirements"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date">
+    <valueDateTime value="2026-06-12T09:30:06+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher">
+    <valueString value="MOH Zimbabwe"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact">
+    <valueContactDetail>
+      <name value="MOH Zimbabwe"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://mohcc.org.zw"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description">
+    <valueMarkdown value="The Lab Result Provider pushes the signed-off laboratory result report document to the Lab Result Repository."/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+        <code value="716"/>
+        <display value="Zimbabwe (ZWE)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor">
+    <valueCanonical value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-provider"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor">
+    <valueCanonical value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-repository"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="result-push-01"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Report document conformance"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Result Provider SHALL submit results as a document Bundle conforming to the [ZWLabReportBundle](StructureDefinition-zw-lab-report-bundle.html) profile, including a legally attested ZWLabReportComposition (ZW.LAB.A.DE80/DE82)."/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="result-push-02"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Document storage"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The Lab Result Repository SHALL store the submitted report document whole (`POST [base]/Bundle`) so the signed-off snapshot remains retrievable as submitted."/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement">
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key">
+      <valueId value="result-push-03"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label">
+      <valueString value="Order linkage"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance">
+      <valueCode value="SHALL"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement">
+      <valueMarkdown value="The contained ZWLabDiagnosticReport SHALL reference the originating ZWLabServiceRequest via `basedOn`."/>
+    </extension>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="Requirements"/>
+    </coding>
+  </code>
+</Basic>

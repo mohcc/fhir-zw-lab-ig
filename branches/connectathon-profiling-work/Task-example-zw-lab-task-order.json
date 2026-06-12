@@ -1,0 +1,64 @@
+{
+  "resourceType" : "Task",
+  "id" : "example-zw-lab-task-order",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-task"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Task example-zw-lab-task-order</b></p><a name=\"example-zw-lab-task-order\"> </a><a name=\"hcexample-zw-lab-task-order\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-task.html\">ZW Lab Order Task</a></p></div><p><b>basedOn</b>: <a href=\"ServiceRequest-example-zw-service-request-vl.html\">ServiceRequest Viral Load Plasma</a></p><p><b>status</b>: Requested</p><p><b>intent</b>: order</p><p><b>for</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>authoredOn</b>: 2024-03-15 08:00:00+0200</p><p><b>location</b>: <a href=\"Location-example-order-facility.html\">Location Harare City Health Clinic</a></p><h3>Restrictions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Recipient</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Organization-example-national-virology-lab.html\">Organization National Virology Laboratory</a></td></tr></table><blockquote><p><b>input</b></p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type pregnant}\">Pregnant</span></p><p><b>value</b>: false</p></blockquote><blockquote><p><b>input</b></p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type breastfeeding}\">Breastfeeding</span></p><p><b>value</b>: false</p></blockquote><blockquote><p><b>input</b></p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type art-start-date}\">ART Start Date</span></p><p><b>value</b>: 2019-07-01</p></blockquote><blockquote><p><b>input</b></p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type regimen}\">Regimen</span></p><p><b>value</b>: TDF/3TC/DTG</p></blockquote></div>"
+  },
+  "basedOn" : [{
+    "reference" : "ServiceRequest/example-zw-service-request-vl"
+  }],
+  "status" : "requested",
+  "intent" : "order",
+  "for" : {
+    "reference" : "Patient/example-zw-lab-patient"
+  },
+  "authoredOn" : "2024-03-15T08:00:00+02:00",
+  "location" : {
+    "reference" : "Location/example-order-facility"
+  },
+  "restriction" : {
+    "recipient" : [{
+      "reference" : "Organization/example-national-virology-lab"
+    }]
+  },
+  "input" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type",
+        "code" : "pregnant"
+      }]
+    },
+    "valueBoolean" : false
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type",
+        "code" : "breastfeeding"
+      }]
+    },
+    "valueBoolean" : false
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type",
+        "code" : "art-start-date"
+      }]
+    },
+    "valueDate" : "2019-07-01"
+  },
+  {
+    "type" : {
+      "coding" : [{
+        "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type",
+        "code" : "regimen"
+      }]
+    },
+    "valueString" : "TDF/3TC/DTG"
+  }]
+}

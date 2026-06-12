@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="lab-order-placer"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ActorDefinition lab-order-placer</b></p><a name="lab-order-placer"> </a><a name="hclab-order-placer"> </a><table class="grid"><tr><td><b>Actor: LabOrderPlacer </b></td><td>Lab Order Placer</td><td>Type: system </td></tr><tr><td colspan="3"><div><p>Obligations: SHALL submit orders conforming to the ZWLabOrderBundle profile; SHALL populate the order Task with status <code>requested</code> and the receiving laboratory as <code>restriction.recipient</code>.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url">
+    <valueUri value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-order-placer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name">
+    <valueString value="LabOrderPlacer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title">
+    <valueString value="Lab Order Placer"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date">
+    <valueDateTime value="2026-06-12T09:30:06+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher">
+    <valueString value="MOH Zimbabwe"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact">
+    <valueContactDetail>
+      <name value="MOH Zimbabwe"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://mohcc.org.zw"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description">
+    <valueMarkdown value="System that captures a laboratory test order for a patient and pushes it to the Lab Order Repository as a ZWLabOrderBundle transaction (FHIR `POST` of a transaction Bundle carrying ZWLabTask, ZWLabServiceRequest, ZWLabPatient and ZWSpecimen). In the Zimbabwe national architecture this role is played by the Impilo EHR (transaction ① — order push)."/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+        <code value="716"/>
+        <display value="Zimbabwe (ZWE)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type">
+    <valueCode value="system"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation">
+    <valueMarkdown value="Obligations: SHALL submit orders conforming to the ZWLabOrderBundle profile; SHALL populate the order Task with status `requested` and the receiving laboratory as `restriction.recipient`."/>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="ActorDefinition"/>
+    </coding>
+  </code>
+</Basic>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-sample-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem zw-sample-types</b></p><a name="zw-sample-types"> </a><a name="hczw-sample-types"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">LST001<a name="zw-sample-types-LST001"> </a></td><td>Fluid</td><td>Body fluid (unspecified).</td></tr><tr><td style="white-space:nowrap">LST002<a name="zw-sample-types-LST002"> </a></td><td>Aspirate</td><td>Aspirated specimen.</td></tr><tr><td style="white-space:nowrap">LST003<a name="zw-sample-types-LST003"> </a></td><td>Oropharyngeal Swab</td><td>Swab from the oropharynx.</td></tr><tr><td style="white-space:nowrap">LST004<a name="zw-sample-types-LST004"> </a></td><td>Buffy Coat</td><td>Buffy coat fraction of blood.</td></tr><tr><td style="white-space:nowrap">LST005<a name="zw-sample-types-LST005"> </a></td><td>Buccal Swab</td><td>Swab from the buccal mucosa.</td></tr><tr><td style="white-space:nowrap">LST006<a name="zw-sample-types-LST006"> </a></td><td>Blood Plasma</td><td>Plasma fraction of blood.</td></tr><tr><td style="white-space:nowrap">LST007<a name="zw-sample-types-LST007"> </a></td><td>Dried Blood Spot</td><td>Dried blood spot (DBS) card.</td></tr><tr><td style="white-space:nowrap">LST008<a name="zw-sample-types-LST008"> </a></td><td>Semen</td><td>Seminal fluid.</td></tr><tr><td style="white-space:nowrap">LST009<a name="zw-sample-types-LST009"> </a></td><td>Throat Swab</td><td>Swab from the throat.</td></tr><tr><td style="white-space:nowrap">LST0010<a name="zw-sample-types-LST0010"> </a></td><td>Saliva</td><td>Saliva specimen.</td></tr><tr><td style="white-space:nowrap">LST0011<a name="zw-sample-types-LST0011"> </a></td><td>Nasopharyngeal Swab</td><td>Nasopharyngeal swab.</td></tr><tr><td style="white-space:nowrap">LST0012<a name="zw-sample-types-LST0012"> </a></td><td>Biopsy</td><td>Tissue biopsy specimen.</td></tr><tr><td style="white-space:nowrap">LST0013<a name="zw-sample-types-LST0013"> </a></td><td>Nasopharyngeal/Oropharyngeal Swab</td><td>Combined NP/OP swab.</td></tr><tr><td style="white-space:nowrap">LST0014<a name="zw-sample-types-LST0014"> </a></td><td>Blood Serum</td><td>Serum fraction of blood.</td></tr><tr><td style="white-space:nowrap">LST0015<a name="zw-sample-types-LST0015"> </a></td><td>Urine</td><td>Urine specimen.</td></tr><tr><td style="white-space:nowrap">LST0016<a name="zw-sample-types-LST0016"> </a></td><td>Whole Blood</td><td>Whole blood specimen.</td></tr><tr><td style="white-space:nowrap">LST0017<a name="zw-sample-types-LST0017"> </a></td><td>Sputum</td><td>Expectorated sputum.</td></tr><tr><td style="white-space:nowrap">LST0018<a name="zw-sample-types-LST0018"> </a></td><td>Red Blood Cells</td><td>Packed red blood cells.</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+  <version value="0.1.0"/>
+  <name value="CSZWSampleTypes"/>
+  <title value="ZW Specimen Types"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:19:15+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="18"/>
+  <concept>
+    <code value="LST001"/>
+    <display value="Fluid"/>
+    <definition value="Body fluid (unspecified)."/>
+  </concept>
+  <concept>
+    <code value="LST002"/>
+    <display value="Aspirate"/>
+    <definition value="Aspirated specimen."/>
+  </concept>
+  <concept>
+    <code value="LST003"/>
+    <display value="Oropharyngeal Swab"/>
+    <definition value="Swab from the oropharynx."/>
+  </concept>
+  <concept>
+    <code value="LST004"/>
+    <display value="Buffy Coat"/>
+    <definition value="Buffy coat fraction of blood."/>
+  </concept>
+  <concept>
+    <code value="LST005"/>
+    <display value="Buccal Swab"/>
+    <definition value="Swab from the buccal mucosa."/>
+  </concept>
+  <concept>
+    <code value="LST006"/>
+    <display value="Blood Plasma"/>
+    <definition value="Plasma fraction of blood."/>
+  </concept>
+  <concept>
+    <code value="LST007"/>
+    <display value="Dried Blood Spot"/>
+    <definition value="Dried blood spot (DBS) card."/>
+  </concept>
+  <concept>
+    <code value="LST008"/>
+    <display value="Semen"/>
+    <definition value="Seminal fluid."/>
+  </concept>
+  <concept>
+    <code value="LST009"/>
+    <display value="Throat Swab"/>
+    <definition value="Swab from the throat."/>
+  </concept>
+  <concept>
+    <code value="LST0010"/>
+    <display value="Saliva"/>
+    <definition value="Saliva specimen."/>
+  </concept>
+  <concept>
+    <code value="LST0011"/>
+    <display value="Nasopharyngeal Swab"/>
+    <definition value="Nasopharyngeal swab."/>
+  </concept>
+  <concept>
+    <code value="LST0012"/>
+    <display value="Biopsy"/>
+    <definition value="Tissue biopsy specimen."/>
+  </concept>
+  <concept>
+    <code value="LST0013"/>
+    <display value="Nasopharyngeal/Oropharyngeal Swab"/>
+    <definition value="Combined NP/OP swab."/>
+  </concept>
+  <concept>
+    <code value="LST0014"/>
+    <display value="Blood Serum"/>
+    <definition value="Serum fraction of blood."/>
+  </concept>
+  <concept>
+    <code value="LST0015"/>
+    <display value="Urine"/>
+    <definition value="Urine specimen."/>
+  </concept>
+  <concept>
+    <code value="LST0016"/>
+    <display value="Whole Blood"/>
+    <definition value="Whole blood specimen."/>
+  </concept>
+  <concept>
+    <code value="LST0017"/>
+    <display value="Sputum"/>
+    <definition value="Expectorated sputum."/>
+  </concept>
+  <concept>
+    <code value="LST0018"/>
+    <display value="Red Blood Cells"/>
+    <definition value="Packed red blood cells."/>
+  </concept>
+</CodeSystem>

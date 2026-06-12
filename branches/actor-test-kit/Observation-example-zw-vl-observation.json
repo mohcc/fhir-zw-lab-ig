@@ -1,0 +1,49 @@
+{
+  "resourceType" : "Observation",
+  "id" : "example-zw-vl-observation",
+  "meta" : {
+    "profile" : ["http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-result-observation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation example-zw-vl-observation</b></p><a name=\"example-zw-vl-observation\"> </a><a name=\"hcexample-zw-vl-observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-result-observation.html\">ZW Lab Result Observation</a></p></div><p><b>basedOn</b>: <a href=\"ServiceRequest-example-zw-service-request-vl.html\">ServiceRequest Viral Load Plasma</a></p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}, {http://loinc.org 20447-9}\">Viral Load Plasma</span></p><p><b>subject</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>effective</b>: 2024-03-18 14:00:00+0200</p><p><b>value</b>: 48 copies/mL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/mL = '/mL')</span></p><p><b>method</b>: <span title=\"Codes:\">RT-PCR</span></p><p><b>specimen</b>: <a href=\"Specimen-example-zw-specimen-plasma.html\">Specimen: identifier = http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id#ZW-SPEC-2024-00456; status = available; type = Blood Plasma</a></p></div>"
+  },
+  "basedOn" : [{
+    "reference" : "ServiceRequest/example-zw-service-request-vl"
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "laboratory"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+      "code" : "LTT0013",
+      "display" : "Viral Load Plasma"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "20447-9",
+      "display" : "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example-zw-lab-patient"
+  },
+  "effectiveDateTime" : "2024-03-18T14:00:00+02:00",
+  "valueQuantity" : {
+    "value" : 48,
+    "unit" : "copies/mL",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/mL"
+  },
+  "method" : {
+    "text" : "RT-PCR"
+  },
+  "specimen" : {
+    "reference" : "Specimen/example-zw-specimen-plasma"
+  }
+}

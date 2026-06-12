@@ -1,0 +1,10 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.4.2",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ValueSet/administrative-gender"
+http://hl7.org/fhir/observation-status,4.0.1,active,"2.16.840.1.113883.4.642.4.401",ObservationStatus,ObservationStatus,"Codes providing the status of an observation.","ValueSet/observation-status"
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests,0.1.0,active,,CSZWLabTests,ZW Laboratory Tests,"National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17).","ValueSet/zw-lab-tests"
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories,0.1.0,active,,CSZWLaboratories,ZW National Laboratory List,"National identifiers for public-health laboratories in Zimbabwe.","ValueSet/zw-laboratories"
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test,0.1.0,active,,CSZWReasonForTest,ZW Reason for Test,"Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).","ValueSet/zw-reason-for-test"
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons,0.1.0,active,,CSZWRejectionReasons,ZW Specimen Rejection Reasons,"Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88).","ValueSet/zw-rejection-reasons"
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state,0.1.0,active,,CSZWReportReviewState,ZW Report Review State,"LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73).","ValueSet/zw-report-review-state"
+http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types,0.1.0,active,,CSZWSampleTypes,ZW Specimen Types,"National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53).","ValueSet/zw-sample-types"
+urn:iso:std:iso:3166,2018,active,,Country Codes,,"This is a place holder for the code system which is fully supported through internal means (not by this code system)","ValueSet/country"

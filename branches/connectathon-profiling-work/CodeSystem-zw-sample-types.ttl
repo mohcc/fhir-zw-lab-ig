@@ -1,0 +1,123 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-sample-types"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-sample-types</b></p><a name=\"zw-sample-types\"> </a><a name=\"hczw-sample-types\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">LST001<a name=\"zw-sample-types-LST001\"> </a></td><td>Fluid</td><td>Body fluid (unspecified).</td></tr><tr><td style=\"white-space:nowrap\">LST002<a name=\"zw-sample-types-LST002\"> </a></td><td>Aspirate</td><td>Aspirated specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST003<a name=\"zw-sample-types-LST003\"> </a></td><td>Oropharyngeal Swab</td><td>Swab from the oropharynx.</td></tr><tr><td style=\"white-space:nowrap\">LST004<a name=\"zw-sample-types-LST004\"> </a></td><td>Buffy Coat</td><td>Buffy coat fraction of blood.</td></tr><tr><td style=\"white-space:nowrap\">LST005<a name=\"zw-sample-types-LST005\"> </a></td><td>Buccal Swab</td><td>Swab from the buccal mucosa.</td></tr><tr><td style=\"white-space:nowrap\">LST006<a name=\"zw-sample-types-LST006\"> </a></td><td>Blood Plasma</td><td>Plasma fraction of blood.</td></tr><tr><td style=\"white-space:nowrap\">LST007<a name=\"zw-sample-types-LST007\"> </a></td><td>Dried Blood Spot</td><td>Dried blood spot (DBS) card.</td></tr><tr><td style=\"white-space:nowrap\">LST008<a name=\"zw-sample-types-LST008\"> </a></td><td>Semen</td><td>Seminal fluid.</td></tr><tr><td style=\"white-space:nowrap\">LST009<a name=\"zw-sample-types-LST009\"> </a></td><td>Throat Swab</td><td>Swab from the throat.</td></tr><tr><td style=\"white-space:nowrap\">LST0010<a name=\"zw-sample-types-LST0010\"> </a></td><td>Saliva</td><td>Saliva specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0011<a name=\"zw-sample-types-LST0011\"> </a></td><td>Nasopharyngeal Swab</td><td>Nasopharyngeal swab.</td></tr><tr><td style=\"white-space:nowrap\">LST0012<a name=\"zw-sample-types-LST0012\"> </a></td><td>Biopsy</td><td>Tissue biopsy specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0013<a name=\"zw-sample-types-LST0013\"> </a></td><td>Nasopharyngeal/Oropharyngeal Swab</td><td>Combined NP/OP swab.</td></tr><tr><td style=\"white-space:nowrap\">LST0014<a name=\"zw-sample-types-LST0014\"> </a></td><td>Blood Serum</td><td>Serum fraction of blood.</td></tr><tr><td style=\"white-space:nowrap\">LST0015<a name=\"zw-sample-types-LST0015\"> </a></td><td>Urine</td><td>Urine specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0016<a name=\"zw-sample-types-LST0016\"> </a></td><td>Whole Blood</td><td>Whole blood specimen.</td></tr><tr><td style=\"white-space:nowrap\">LST0017<a name=\"zw-sample-types-LST0017\"> </a></td><td>Sputum</td><td>Expectorated sputum.</td></tr><tr><td style=\"white-space:nowrap\">LST0018<a name=\"zw-sample-types-LST0018\"> </a></td><td>Red Blood Cells</td><td>Packed red blood cells.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSZWSampleTypes"] ; # 
+  fhir:title [ fhir:v "ZW Specimen Types"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:17:30+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "18"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "LST001" ] ;
+     fhir:display [ fhir:v "Fluid" ] ;
+     fhir:definition [ fhir:v "Body fluid (unspecified)." ]
+  ] [
+     fhir:code [ fhir:v "LST002" ] ;
+     fhir:display [ fhir:v "Aspirate" ] ;
+     fhir:definition [ fhir:v "Aspirated specimen." ]
+  ] [
+     fhir:code [ fhir:v "LST003" ] ;
+     fhir:display [ fhir:v "Oropharyngeal Swab" ] ;
+     fhir:definition [ fhir:v "Swab from the oropharynx." ]
+  ] [
+     fhir:code [ fhir:v "LST004" ] ;
+     fhir:display [ fhir:v "Buffy Coat" ] ;
+     fhir:definition [ fhir:v "Buffy coat fraction of blood." ]
+  ] [
+     fhir:code [ fhir:v "LST005" ] ;
+     fhir:display [ fhir:v "Buccal Swab" ] ;
+     fhir:definition [ fhir:v "Swab from the buccal mucosa." ]
+  ] [
+     fhir:code [ fhir:v "LST006" ] ;
+     fhir:display [ fhir:v "Blood Plasma" ] ;
+     fhir:definition [ fhir:v "Plasma fraction of blood." ]
+  ] [
+     fhir:code [ fhir:v "LST007" ] ;
+     fhir:display [ fhir:v "Dried Blood Spot" ] ;
+     fhir:definition [ fhir:v "Dried blood spot (DBS) card." ]
+  ] [
+     fhir:code [ fhir:v "LST008" ] ;
+     fhir:display [ fhir:v "Semen" ] ;
+     fhir:definition [ fhir:v "Seminal fluid." ]
+  ] [
+     fhir:code [ fhir:v "LST009" ] ;
+     fhir:display [ fhir:v "Throat Swab" ] ;
+     fhir:definition [ fhir:v "Swab from the throat." ]
+  ] [
+     fhir:code [ fhir:v "LST0010" ] ;
+     fhir:display [ fhir:v "Saliva" ] ;
+     fhir:definition [ fhir:v "Saliva specimen." ]
+  ] [
+     fhir:code [ fhir:v "LST0011" ] ;
+     fhir:display [ fhir:v "Nasopharyngeal Swab" ] ;
+     fhir:definition [ fhir:v "Nasopharyngeal swab." ]
+  ] [
+     fhir:code [ fhir:v "LST0012" ] ;
+     fhir:display [ fhir:v "Biopsy" ] ;
+     fhir:definition [ fhir:v "Tissue biopsy specimen." ]
+  ] [
+     fhir:code [ fhir:v "LST0013" ] ;
+     fhir:display [ fhir:v "Nasopharyngeal/Oropharyngeal Swab" ] ;
+     fhir:definition [ fhir:v "Combined NP/OP swab." ]
+  ] [
+     fhir:code [ fhir:v "LST0014" ] ;
+     fhir:display [ fhir:v "Blood Serum" ] ;
+     fhir:definition [ fhir:v "Serum fraction of blood." ]
+  ] [
+     fhir:code [ fhir:v "LST0015" ] ;
+     fhir:display [ fhir:v "Urine" ] ;
+     fhir:definition [ fhir:v "Urine specimen." ]
+  ] [
+     fhir:code [ fhir:v "LST0016" ] ;
+     fhir:display [ fhir:v "Whole Blood" ] ;
+     fhir:definition [ fhir:v "Whole blood specimen." ]
+  ] [
+     fhir:code [ fhir:v "LST0017" ] ;
+     fhir:display [ fhir:v "Sputum" ] ;
+     fhir:definition [ fhir:v "Expectorated sputum." ]
+  ] [
+     fhir:code [ fhir:v "LST0018" ] ;
+     fhir:display [ fhir:v "Red Blood Cells" ] ;
+     fhir:definition [ fhir:v "Packed red blood cells." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

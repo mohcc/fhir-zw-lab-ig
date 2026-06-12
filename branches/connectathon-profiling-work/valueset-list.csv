@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests,0.1.0,active,,VSZWLabTests,ZW Laboratory Tests,"Value set of laboratory tests requestable in Zimbabwe (ZW.LAB.A.DE17).",,"Internal"
+http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories,0.1.0,active,,VSZWLaboratories,ZW National Laboratory List,"Value set of national laboratory identifiers in Zimbabwe.",,"Internal"
+http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test,0.1.0,active,,VSZWReasonForTest,ZW Reason for Test,"Value set of reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).",,"Internal"
+http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons,0.1.0,active,,VSZWRejectionReasons,ZW Specimen Rejection Reasons,"Value set of specimen rejection reasons (ZW.LAB.A.DE88).",,"Internal"
+http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state,0.1.0,active,,VSZWReportReviewState,ZW Report Review State,"Value set of LIMS workflow states for a laboratory report (ZW.LAB.A.DE73).",,"Internal"
+http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types,0.1.0,active,,VSZWSampleTypes,ZW Specimen Types,"Value set of specimen/sample types used in Zimbabwe (ZW.LAB.A.DE53).",,"Internal"

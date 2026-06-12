@@ -1,0 +1,124 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-order.html" : "ZW Lab Order (ZW.LAB.A1)"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/country",
+    "version" : "5.0.0",
+    "status" : "draft",
+    "name" : "CountryValueSet",
+    "title" : "Country ValueSet",
+    "description" : "This value set defines a base set of codes for countries.   \r\n   \r\n   Note: The codes for countries are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html).",
+    "systems" : ["urn:iso:std:iso:3166"],
+    "oids" : ["2.16.840.1.113883.4.642.3.3297"],
+    "sources" : ["2.16.840.1.113883.4.642.3.3297"],
+    "uses" : {
+    },
+    "StructureDefinition-citizenship.html" : "Patient Citizenship"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "systems" : ["http://hl7.org/fhir/observation-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.400"],
+    "sources" : ["2.16.840.1.113883.4.642.3.400"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-result-report.html" : "ZW Lab Result Report (ZW.LAB.A2)",
+    "StructureDefinition-zw-lab-result-observation.html" : "ZW Lab Result Observation"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWLabTests",
+    "title" : "ZW Laboratory Tests",
+    "description" : "Value set of laboratory tests requestable in Zimbabwe (ZW.LAB.A.DE17).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-service-request.html" : "ZW Lab Service Request",
+    "StructureDefinition-zw-lab-diagnostic-report.html" : "ZW Lab Diagnostic Report",
+    "StructureDefinition-zw-lab-order.html" : "ZW Lab Order (ZW.LAB.A1)",
+    "StructureDefinition-zw-lab-result-observation.html" : "ZW Lab Result Observation"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWLaboratories",
+    "title" : "ZW National Laboratory List",
+    "description" : "Value set of national laboratory identifiers in Zimbabwe.",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-order.html" : "ZW Lab Order (ZW.LAB.A1)"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWReasonForTest",
+    "title" : "ZW Reason for Test",
+    "description" : "Value set of reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-service-request.html" : "ZW Lab Service Request",
+    "StructureDefinition-zw-lab-order.html" : "ZW Lab Order (ZW.LAB.A1)"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWRejectionReasons",
+    "title" : "ZW Specimen Rejection Reasons",
+    "description" : "Value set of specimen rejection reasons (ZW.LAB.A.DE88).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-result-report.html" : "ZW Lab Result Report (ZW.LAB.A2)",
+    "StructureDefinition-zw-specimen.html" : "ZW Lab Specimen"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWReportReviewState",
+    "title" : "ZW Report Review State",
+    "description" : "Value set of LIMS workflow states for a laboratory report (ZW.LAB.A.DE73).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-lab-result-report.html" : "ZW Lab Result Report (ZW.LAB.A2)",
+    "StructureDefinition-report-review-state.html" : "Report Review State"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "VSZWSampleTypes",
+    "title" : "ZW Specimen Types",
+    "description" : "Value set of specimen/sample types used in Zimbabwe (ZW.LAB.A.DE53).",
+    "systems" : ["http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"],
+    "uses" : {
+    },
+    "StructureDefinition-zw-specimen.html" : "ZW Lab Specimen",
+    "StructureDefinition-zw-lab-order.html" : "ZW Lab Order (ZW.LAB.A1)"
+  }]
+}

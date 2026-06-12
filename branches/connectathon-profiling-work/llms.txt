@@ -1,0 +1,67 @@
+# zw.fhir.ig.lab#0.1.0: Zimbabwe Laboratory Ordering and Results IG
+
+## Pages
+
+* [Home](index.md)
+* [About](about.md)
+* [Downloads](downloads.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [ZW Laboratory Tests](CodeSystem-zw-lab-tests.md)
+* [ZW National Laboratory List](CodeSystem-zw-laboratories.md)
+* [ZW Reason for Test](CodeSystem-zw-reason-for-test.md)
+* [ZW Specimen Rejection Reasons](CodeSystem-zw-rejection-reasons.md)
+* [ZW Report Review State](CodeSystem-zw-report-review-state.md)
+* [ZW Specimen Types](CodeSystem-zw-sample-types.md)
+* [ZW Lab Task Input Type](CodeSystem-zw-task-input-type.md)
+* [ZW Lab Task Output Type](CodeSystem-zw-task-output-type.md)
+
+### ValueSets
+
+* [ZW Laboratory Tests](ValueSet-zw-lab-tests.md)
+* [ZW National Laboratory List](ValueSet-zw-laboratories.md)
+* [ZW Reason for Test](ValueSet-zw-reason-for-test.md)
+* [ZW Specimen Rejection Reasons](ValueSet-zw-rejection-reasons.md)
+* [ZW Report Review State](ValueSet-zw-report-review-state.md)
+* [ZW Specimen Types](ValueSet-zw-sample-types.md)
+
+### Logicals
+
+* [ZW Lab Order (ZW.LAB.A1)](StructureDefinition-zw-lab-order.md)
+* [ZW Lab Result Report (ZW.LAB.A2)](StructureDefinition-zw-lab-result-report.md)
+
+### Resource Profiles
+
+* [ZW Health Facility (Location)](StructureDefinition-zw-facility.md)
+* [ZW Lab Diagnostic Report](StructureDefinition-zw-lab-diagnostic-report.md)
+* [ZW Lab Patient](StructureDefinition-zw-lab-patient.md)
+* [ZW Lab Result Observation](StructureDefinition-zw-lab-result-observation.md)
+* [ZW Lab Service Request](StructureDefinition-zw-lab-service-request.md)
+* [ZW Lab Order Task](StructureDefinition-zw-lab-task.md)
+* [ZW Laboratory (Organization)](StructureDefinition-zw-laboratory.md)
+* [ZW Lab Specimen](StructureDefinition-zw-specimen.md)
+
+### Extensions
+
+* [Patient Citizenship](StructureDefinition-citizenship.md)
+* [Date of Birth Estimated](StructureDefinition-date-of-birth-estimated.md)
+* [Report Review State](StructureDefinition-report-review-state.md)
+
+### ImplementationGuides
+
+* [Zimbabwe Laboratory Ordering and Results IG](index.md)
+
+### Examples
+
+* [example-zw-vl-diagnostic-report (DiagnosticReport)](DiagnosticReport-example-zw-vl-diagnostic-report.md)
+* [Harare City Health Clinic (Location)](Location-example-order-facility.md)
+* [example-zw-vl-observation (Observation)](Observation-example-zw-vl-observation.md)
+* [National Virology Laboratory (Organization)](Organization-example-national-virology-lab.md)
+* [example-zw-lab-patient (Patient)](Patient-example-zw-lab-patient.md)
+* [example-zw-service-request-vl (ServiceRequest)](ServiceRequest-example-zw-service-request-vl.md)
+* [example-zw-specimen-plasma (Specimen)](Specimen-example-zw-specimen-plasma.md)
+* [example-zw-lab-task-order (Task)](Task-example-zw-lab-task-order.md)

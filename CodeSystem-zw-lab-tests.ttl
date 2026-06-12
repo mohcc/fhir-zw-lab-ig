@@ -1,0 +1,95 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-lab-tests"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-lab-tests</b></p><a name=\"zw-lab-tests\"> </a><a name=\"hczw-lab-tests\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">LTT001<a name=\"zw-lab-tests-LTT001\"> </a></td><td>Bacteriology - Smear</td><td>Bacteriological smear microscopy.</td></tr><tr><td style=\"white-space:nowrap\">LTT002<a name=\"zw-lab-tests-LTT002\"> </a></td><td>Microscopy</td><td>General microscopy examination.</td></tr><tr><td style=\"white-space:nowrap\">LTT003<a name=\"zw-lab-tests-LTT003\"> </a></td><td>Biochemical Tests</td><td>Biochemistry / chemistry panel.</td></tr><tr><td style=\"white-space:nowrap\">LTT004<a name=\"zw-lab-tests-LTT004\"> </a></td><td>COVID-19</td><td>SARS-CoV-2 detection test.</td></tr><tr><td style=\"white-space:nowrap\">LTT005<a name=\"zw-lab-tests-LTT005\"> </a></td><td>Culture (Bacteriology)</td><td>Bacterial culture and sensitivity.</td></tr><tr><td style=\"white-space:nowrap\">LTT006<a name=\"zw-lab-tests-LTT006\"> </a></td><td>GeneXpert</td><td>Xpert MTB/RIF or similar cartridge-based assay.</td></tr><tr><td style=\"white-space:nowrap\">LTT007<a name=\"zw-lab-tests-LTT007\"> </a></td><td>LPA</td><td>Line Probe Assay for drug-resistance testing.</td></tr><tr><td style=\"white-space:nowrap\">LTT008<a name=\"zw-lab-tests-LTT008\"> </a></td><td>Routine Histological Examination</td><td>Routine histopathology.</td></tr><tr><td style=\"white-space:nowrap\">LTT009<a name=\"zw-lab-tests-LTT009\"> </a></td><td>TB Culture</td><td>Mycobacterial culture.</td></tr><tr><td style=\"white-space:nowrap\">LTT0012<a name=\"zw-lab-tests-LTT0012\"> </a></td><td>Viral Load DBS</td><td>HIV viral load from dried blood spot sample.</td></tr><tr><td style=\"white-space:nowrap\">LTT0013<a name=\"zw-lab-tests-LTT0013\"> </a></td><td>Viral Load Plasma</td><td>HIV viral load from plasma sample.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSZWLabTests"] ; # 
+  fhir:title [ fhir:v "ZW Laboratory Tests"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:19:15+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "LTT001" ] ;
+     fhir:display [ fhir:v "Bacteriology - Smear" ] ;
+     fhir:definition [ fhir:v "Bacteriological smear microscopy." ]
+  ] [
+     fhir:code [ fhir:v "LTT002" ] ;
+     fhir:display [ fhir:v "Microscopy" ] ;
+     fhir:definition [ fhir:v "General microscopy examination." ]
+  ] [
+     fhir:code [ fhir:v "LTT003" ] ;
+     fhir:display [ fhir:v "Biochemical Tests" ] ;
+     fhir:definition [ fhir:v "Biochemistry / chemistry panel." ]
+  ] [
+     fhir:code [ fhir:v "LTT004" ] ;
+     fhir:display [ fhir:v "COVID-19" ] ;
+     fhir:definition [ fhir:v "SARS-CoV-2 detection test." ]
+  ] [
+     fhir:code [ fhir:v "LTT005" ] ;
+     fhir:display [ fhir:v "Culture (Bacteriology)" ] ;
+     fhir:definition [ fhir:v "Bacterial culture and sensitivity." ]
+  ] [
+     fhir:code [ fhir:v "LTT006" ] ;
+     fhir:display [ fhir:v "GeneXpert" ] ;
+     fhir:definition [ fhir:v "Xpert MTB/RIF or similar cartridge-based assay." ]
+  ] [
+     fhir:code [ fhir:v "LTT007" ] ;
+     fhir:display [ fhir:v "LPA" ] ;
+     fhir:definition [ fhir:v "Line Probe Assay for drug-resistance testing." ]
+  ] [
+     fhir:code [ fhir:v "LTT008" ] ;
+     fhir:display [ fhir:v "Routine Histological Examination" ] ;
+     fhir:definition [ fhir:v "Routine histopathology." ]
+  ] [
+     fhir:code [ fhir:v "LTT009" ] ;
+     fhir:display [ fhir:v "TB Culture" ] ;
+     fhir:definition [ fhir:v "Mycobacterial culture." ]
+  ] [
+     fhir:code [ fhir:v "LTT0012" ] ;
+     fhir:display [ fhir:v "Viral Load DBS" ] ;
+     fhir:definition [ fhir:v "HIV viral load from dried blood spot sample." ]
+  ] [
+     fhir:code [ fhir:v "LTT0013" ] ;
+     fhir:display [ fhir:v "Viral Load Plasma" ] ;
+     fhir:definition [ fhir:v "HIV viral load from plasma sample." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

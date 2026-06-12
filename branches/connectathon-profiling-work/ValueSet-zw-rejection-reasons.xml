@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="zw-rejection-reasons"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet zw-rejection-reasons</b></p><a name="zw-rejection-reasons"> </a><a name="hczw-rejection-reasons"> </a><ul><li>Include all codes defined in <a href="CodeSystem-zw-rejection-reasons.html"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons"/>
+  <version value="0.1.0"/>
+  <name value="VSZWRejectionReasons"/>
+  <title value="ZW Specimen Rejection Reasons"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:17:30+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Value set of specimen rejection reasons (ZW.LAB.A.DE88)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+    </include>
+  </compose>
+</ValueSet>

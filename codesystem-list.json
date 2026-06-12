@@ -1,0 +1,66 @@
+{
+  "codeSystems" : [{
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWLabTests",
+    "title" : "ZW Laboratory Tests",
+    "description" : "National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17)."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWLaboratories",
+    "title" : "ZW National Laboratory List",
+    "description" : "National identifiers for public-health laboratories in Zimbabwe."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWReasonForTest",
+    "title" : "ZW Reason for Test",
+    "description" : "Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30)."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWRejectionReasons",
+    "title" : "ZW Specimen Rejection Reasons",
+    "description" : "Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88)."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWReportReviewState",
+    "title" : "ZW Report Review State",
+    "description" : "LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73)."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWSampleTypes",
+    "title" : "ZW Specimen Types",
+    "description" : "National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53)."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWTaskInputType",
+    "title" : "ZW Lab Task Input Type",
+    "description" : "Type codes for Task.input slices on the ZWLabTask order profile."
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-output-type",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWTaskOutputType",
+    "title" : "ZW Lab Task Output Type",
+    "description" : "Type codes for Task.output slices on the ZWLabTask order profile."
+  }]
+}

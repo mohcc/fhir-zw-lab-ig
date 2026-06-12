@@ -1,0 +1,2589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="2d10cb77-0268-44eb-8809-552e78a72e1d"/>
+  <meta>
+    <lastUpdated value="2026-06-11T12:19:15.556+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-zw-lab-tests.html">codesystem ZW Laboratory Tests v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT001"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT001">LTT001</a>
+                </td>
+                <td>Bacteriology - Smear</td>
+                <td>Bacteriological smear microscopy.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT001&quot;, &quot;display&quot;: &quot;Bacteriology - Smear&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT001&quot;&gt;&lt;display value=&quot;Bacteriology - Smear&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT002"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT002">LTT002</a>
+                </td>
+                <td>Microscopy</td>
+                <td>General microscopy examination.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT002&quot;, &quot;display&quot;: &quot;Microscopy&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT002&quot;&gt;&lt;display value=&quot;Microscopy&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT003"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT003">LTT003</a>
+                </td>
+                <td>Biochemical Tests</td>
+                <td>Biochemistry / chemistry panel.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT003&quot;, &quot;display&quot;: &quot;Biochemical Tests&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT003&quot;&gt;&lt;display value=&quot;Biochemical Tests&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT004"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT004">LTT004</a>
+                </td>
+                <td>COVID-19</td>
+                <td>SARS-CoV-2 detection test.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT004&quot;, &quot;display&quot;: &quot;COVID-19&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT004&quot;&gt;&lt;display value=&quot;COVID-19&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT005"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT005">LTT005</a>
+                </td>
+                <td>Culture (Bacteriology)</td>
+                <td>Bacterial culture and sensitivity.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT005&quot;, &quot;display&quot;: &quot;Culture (Bacteriology)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT005&quot;&gt;&lt;display value=&quot;Culture (Bacteriology)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT006"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT006">LTT006</a>
+                </td>
+                <td>GeneXpert</td>
+                <td>Xpert MTB/RIF or similar cartridge-based assay.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT006&quot;, &quot;display&quot;: &quot;GeneXpert&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT006&quot;&gt;&lt;display value=&quot;GeneXpert&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT007"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT007">LTT007</a>
+                </td>
+                <td>LPA</td>
+                <td>Line Probe Assay for drug-resistance testing.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT007&quot;, &quot;display&quot;: &quot;LPA&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT007&quot;&gt;&lt;display value=&quot;LPA&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT008"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT008">LTT008</a>
+                </td>
+                <td>Routine Histological Examination</td>
+                <td>Routine histopathology.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT008&quot;, &quot;display&quot;: &quot;Routine Histological Examination&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT008&quot;&gt;&lt;display value=&quot;Routine Histological Examination&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT009"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT009">LTT009</a>
+                </td>
+                <td>TB Culture</td>
+                <td>Mycobacterial culture.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT009&quot;, &quot;display&quot;: &quot;TB Culture&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT009&quot;&gt;&lt;display value=&quot;TB Culture&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT0012"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT0012">LTT0012</a>
+                </td>
+                <td>Viral Load DBS</td>
+                <td>HIV viral load from dried blood spot sample.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT0012&quot;, &quot;display&quot;: &quot;Viral Load DBS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT0012&quot;&gt;&lt;display value=&quot;Viral Load DBS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests-LTT0013"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-lab-tests.html#zw-lab-tests-LTT0013">LTT0013</a>
+                </td>
+                <td>Viral Load Plasma</td>
+                <td>HIV viral load from plasma sample.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LTT0013&quot;, &quot;display&quot;: &quot;Viral Load Plasma&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LTT0013&quot;&gt;&lt;display value=&quot;Viral Load Plasma&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests"/>
+        <version value="0.1.0"/>
+        <name value="VSZWLabTests"/>
+        <title value="ZW Laboratory Tests"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:19:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8c9de25d-f9bc-4065-a3a1-32ff4e5b63e7"/>
+          <timestamp value="2026-06-11T12:21:21+00:00"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT001"/>
+            <display value="Bacteriology - Smear"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT002"/>
+            <display value="Microscopy"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT003"/>
+            <display value="Biochemical Tests"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT004"/>
+            <display value="COVID-19"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT005"/>
+            <display value="Culture (Bacteriology)"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT006"/>
+            <display value="GeneXpert"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT007"/>
+            <display value="LPA"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT008"/>
+            <display value="Routine Histological Examination"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT009"/>
+            <display value="TB Culture"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT0012"/>
+            <display value="Viral Load DBS"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+            <code value="LTT0013"/>
+            <display value="Viral Load Plasma"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-zw-laboratories.html">codesystem ZW National Laboratory List v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 15 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWLHRE002"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZWLHRE002">ZWLHRE002</a>
+                </td>
+                <td>National Microbiology Reference Laboratory (NMRL)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWLHRE002&quot;, &quot;display&quot;: &quot;National Microbiology Reference Laboratory (NMRL)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWLHRE002&quot;&gt;&lt;display value=&quot;National Microbiology Reference Laboratory (NMRL)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW000A0C"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW000A0C">ZW000A0C</a>
+                </td>
+                <td>BRIDH Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW000A0C&quot;, &quot;display&quot;: &quot;BRIDH Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW000A0C&quot;&gt;&lt;display value=&quot;BRIDH Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW04030A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW04030A">ZW04030A</a>
+                </td>
+                <td>Kadoma Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW04030A&quot;, &quot;display&quot;: &quot;Kadoma Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW04030A&quot;&gt;&lt;display value=&quot;Kadoma Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW03050A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW03050A">ZW03050A</a>
+                </td>
+                <td>Marondera Provincial Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW03050A&quot;, &quot;display&quot;: &quot;Marondera Provincial Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW03050A&quot;&gt;&lt;display value=&quot;Marondera Provincial Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW02010A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW02010A">ZW02010A</a>
+                </td>
+                <td>Bindura Provincial Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW02010A&quot;, &quot;display&quot;: &quot;Bindura Provincial Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW02010A&quot;&gt;&lt;display value=&quot;Bindura Provincial Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWL000AOD"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZWL000AOD">ZWL000AOD</a>
+                </td>
+                <td>AiBst Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWL000AOD&quot;, &quot;display&quot;: &quot;AiBst Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWL000AOD&quot;&gt;&lt;display value=&quot;AiBst Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWL000001"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZWL000001">ZWL000001</a>
+                </td>
+                <td>BRTI Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWL000001&quot;, &quot;display&quot;: &quot;BRTI Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWL000001&quot;&gt;&lt;display value=&quot;BRTI Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZWLPAR001"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZWLPAR001">ZWLPAR001</a>
+                </td>
+                <td>National Virology Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZWLPAR001&quot;, &quot;display&quot;: &quot;National Virology Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZWLPAR001&quot;&gt;&lt;display value=&quot;National Virology Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW01050A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW01050A">ZW01050A</a>
+                </td>
+                <td>Mutare Provincial Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW01050A&quot;, &quot;display&quot;: &quot;Mutare Provincial Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW01050A&quot;&gt;&lt;display value=&quot;Mutare Provincial Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW08050A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW08050A">ZW08050A</a>
+                </td>
+                <td>Masvingo Provincial Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW08050A&quot;, &quot;display&quot;: &quot;Masvingo Provincial Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW08050A&quot;&gt;&lt;display value=&quot;Masvingo Provincial Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW07030A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW07030A">ZW07030A</a>
+                </td>
+                <td>Gweru Provincial Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW07030A&quot;, &quot;display&quot;: &quot;Gweru Provincial Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW07030A&quot;&gt;&lt;display value=&quot;Gweru Provincial Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW06030A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW06030A">ZW06030A</a>
+                </td>
+                <td>Gwanda Provincial Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW06030A&quot;, &quot;display&quot;: &quot;Gwanda Provincial Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW06030A&quot;&gt;&lt;display value=&quot;Gwanda Provincial Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW05040B"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW05040B">ZW05040B</a>
+                </td>
+                <td>St Lukes Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW05040B&quot;, &quot;display&quot;: &quot;St Lukes Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW05040B&quot;&gt;&lt;display value=&quot;St Lukes Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW04050A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW04050A">ZW04050A</a>
+                </td>
+                <td>Chinhoyi Provincial Hospital Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW04050A&quot;, &quot;display&quot;: &quot;Chinhoyi Provincial Hospital Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW04050A&quot;&gt;&lt;display value=&quot;Chinhoyi Provincial Hospital Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories-ZW05030A"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-laboratories.html#zw-laboratories-ZW05030A">ZW05030A</a>
+                </td>
+                <td>Victoria Falls Laboratory</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ZW05030A&quot;, &quot;display&quot;: &quot;Victoria Falls Laboratory&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ZW05030A&quot;&gt;&lt;display value=&quot;Victoria Falls Laboratory&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-laboratories"/>
+        <version value="0.1.0"/>
+        <name value="VSZWLaboratories"/>
+        <title value="ZW National Laboratory List"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:19:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:34dbce15-643b-4b82-a5ec-7f02664c99cb"/>
+          <timestamp value="2026-06-11T12:21:23+00:00"/>
+          <total value="15"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZWLHRE002"/>
+            <display value="National Microbiology Reference Laboratory (NMRL)"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW000A0C"/>
+            <display value="BRIDH Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW04030A"/>
+            <display value="Kadoma Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW03050A"/>
+            <display value="Marondera Provincial Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW02010A"/>
+            <display value="Bindura Provincial Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZWL000AOD"/>
+            <display value="AiBst Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZWL000001"/>
+            <display value="BRTI Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZWLPAR001"/>
+            <display value="National Virology Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW01050A"/>
+            <display value="Mutare Provincial Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW08050A"/>
+            <display value="Masvingo Provincial Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW07030A"/>
+            <display value="Gweru Provincial Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW06030A"/>
+            <display value="Gwanda Provincial Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW05040B"/>
+            <display value="St Lukes Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW04050A"/>
+            <display value="Chinhoyi Provincial Hospital Laboratory"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"/>
+            <code value="ZW05030A"/>
+            <display value="Victoria Falls Laboratory"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-zw-reason-for-test.html">codesystem ZW Reason for Test v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 21 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-routine"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-routine">routine</a>
+                </td>
+                <td>Routine</td>
+                <td>Routine monitoring.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;routine&quot;, &quot;display&quot;: &quot;Routine&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;routine&quot;&gt;&lt;display value=&quot;Routine&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-target-clinical-failure"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-target-clinical-failure">target-clinical-failure</a>
+                </td>
+                <td>Target Clinical Failure</td>
+                <td>Suspected clinical treatment failure.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;target-clinical-failure&quot;, &quot;display&quot;: &quot;Target Clinical Failure&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;target-clinical-failure&quot;&gt;&lt;display value=&quot;Target Clinical Failure&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-targeted-immunological-failure"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-targeted-immunological-failure">targeted-immunological-failure</a>
+                </td>
+                <td>Targeted Immunological Failure</td>
+                <td>Suspected immunological treatment failure.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;targeted-immunological-failure&quot;, &quot;display&quot;: &quot;Targeted Immunological Failure&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;targeted-immunological-failure&quot;&gt;&lt;display value=&quot;Targeted Immunological Failure&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-repeat-after-adherence"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-repeat-after-adherence">repeat-after-adherence</a>
+                </td>
+                <td>Repeat After Enhanced Adherence Counselling</td>
+                <td>Repeat test after adherence counselling.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;repeat-after-adherence&quot;, &quot;display&quot;: &quot;Repeat After Enhanced Adherence Counselling&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;repeat-after-adherence&quot;&gt;&lt;display value=&quot;Repeat After Enhanced Adherence Counselling&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-baseline-viral-load"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-baseline-viral-load">baseline-viral-load</a>
+                </td>
+                <td>Baseline Viral Load</td>
+                <td>Baseline measurement at ART initiation.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;baseline-viral-load&quot;, &quot;display&quot;: &quot;Baseline Viral Load&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;baseline-viral-load&quot;&gt;&lt;display value=&quot;Baseline Viral Load&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-confirmation-of-treatment"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-confirmation-of-treatment">confirmation-of-treatment</a>
+                </td>
+                <td>Confirmation of Treatment</td>
+                <td>Confirmation of treatment response.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;confirmation-of-treatment&quot;, &quot;display&quot;: &quot;Confirmation of Treatment&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;confirmation-of-treatment&quot;&gt;&lt;display value=&quot;Confirmation of Treatment&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-failure-repeat-vl-3m"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-failure-repeat-vl-3m">failure-repeat-vl-3m</a>
+                </td>
+                <td>Failure — Repeat VL at 3 Months</td>
+                <td>Suspected failure; repeat at 3 months.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;failure-repeat-vl-3m&quot;, &quot;display&quot;: &quot;Failure — Repeat VL at 3 Months&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;failure-repeat-vl-3m&quot;&gt;&lt;display value=&quot;Failure — Repeat VL at 3 Months&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-single-drug-substitution"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-single-drug-substitution">single-drug-substitution</a>
+                </td>
+                <td>Single Drug Substitution</td>
+                <td>Following a single drug substitution.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;single-drug-substitution&quot;, &quot;display&quot;: &quot;Single Drug Substitution&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;single-drug-substitution&quot;&gt;&lt;display value=&quot;Single Drug Substitution&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-pregnant-mother"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-pregnant-mother">pregnant-mother</a>
+                </td>
+                <td>Pregnant Mother</td>
+                <td>Pregnant woman monitoring.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pregnant-mother&quot;, &quot;display&quot;: &quot;Pregnant Mother&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pregnant-mother&quot;&gt;&lt;display value=&quot;Pregnant Mother&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-lactating-mother"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-lactating-mother">lactating-mother</a>
+                </td>
+                <td>Lactating Mother</td>
+                <td>Lactating/breastfeeding mother monitoring.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;lactating-mother&quot;, &quot;display&quot;: &quot;Lactating Mother&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;lactating-mother&quot;&gt;&lt;display value=&quot;Lactating Mother&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-initial-birth"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-initial-birth">eid-initial-birth</a>
+                </td>
+                <td>EID: Initial at Birth</td>
+                <td>Early infant diagnosis at birth.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-initial-birth&quot;, &quot;display&quot;: &quot;EID: Initial at Birth&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-initial-birth&quot;&gt;&lt;display value=&quot;EID: Initial at Birth&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-initial-6-8wks"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-initial-6-8wks">eid-initial-6-8wks</a>
+                </td>
+                <td>EID: Initial at 6–8 Weeks</td>
+                <td>Early infant diagnosis at 6–8 weeks.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-initial-6-8wks&quot;, &quot;display&quot;: &quot;EID: Initial at 6–8 Weeks&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-initial-6-8wks&quot;&gt;&lt;display value=&quot;EID: Initial at 6–8 Weeks&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-initial-gt2m"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-initial-gt2m">eid-initial-gt2m</a>
+                </td>
+                <td>EID: Initial at &gt;2 Months</td>
+                <td>Early infant diagnosis at &gt;2 months.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-initial-gt2m&quot;, &quot;display&quot;: &quot;EID: Initial at &gt;2 Months&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-initial-gt2m&quot;&gt;&lt;display value=&quot;EID: Initial at &amp;gt;2 Months&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-repeat-6wks"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-repeat-6wks">eid-repeat-6wks</a>
+                </td>
+                <td>EID: Repeat at 6 Weeks</td>
+                <td>EID repeat test at 6 weeks.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-repeat-6wks&quot;, &quot;display&quot;: &quot;EID: Repeat at 6 Weeks&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-repeat-6wks&quot;&gt;&lt;display value=&quot;EID: Repeat at 6 Weeks&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-repeat-9m"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-repeat-9m">eid-repeat-9m</a>
+                </td>
+                <td>EID: Repeat at 9 Months</td>
+                <td>EID repeat test at 9 months.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-repeat-9m&quot;, &quot;display&quot;: &quot;EID: Repeat at 9 Months&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-repeat-9m&quot;&gt;&lt;display value=&quot;EID: Repeat at 9 Months&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-positive-rdt-gt18m"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-positive-rdt-gt18m">eid-positive-rdt-gt18m</a>
+                </td>
+                <td>EID: Following Positive RDT at &gt;18 Months</td>
+                <td>EID after positive rapid test at &gt;18 months.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-positive-rdt-gt18m&quot;, &quot;display&quot;: &quot;EID: Following Positive RDT at &gt;18 Months&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-positive-rdt-gt18m&quot;&gt;&lt;display value=&quot;EID: Following Positive RDT at &amp;gt;18 Months&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-eid-confirmatory"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-eid-confirmatory">eid-confirmatory</a>
+                </td>
+                <td>EID: Confirmatory (After First EID Positive)</td>
+                <td>Confirmatory EID after first positive result.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;eid-confirmatory&quot;, &quot;display&quot;: &quot;EID: Confirmatory (After First EID Positive)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;eid-confirmatory&quot;&gt;&lt;display value=&quot;EID: Confirmatory (After First EID Positive)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-postnatal-routine-1st"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-postnatal-routine-1st">postnatal-routine-1st</a>
+                </td>
+                <td>Routine 1st Post-natal Tests</td>
+                <td>First routine post-natal testing.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;postnatal-routine-1st&quot;, &quot;display&quot;: &quot;Routine 1st Post-natal Tests&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;postnatal-routine-1st&quot;&gt;&lt;display value=&quot;Routine 1st Post-natal Tests&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-symptomatic-child"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-symptomatic-child">symptomatic-child</a>
+                </td>
+                <td>Symptomatic Child</td>
+                <td>Testing of a symptomatic infant/child.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;symptomatic-child&quot;, &quot;display&quot;: &quot;Symptomatic Child&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;symptomatic-child&quot;&gt;&lt;display value=&quot;Symptomatic Child&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-post-weaning"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-post-weaning">post-weaning</a>
+                </td>
+                <td>Post Weaning Test</td>
+                <td>Test following cessation of breastfeeding.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;post-weaning&quot;, &quot;display&quot;: &quot;Post Weaning Test&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;post-weaning&quot;&gt;&lt;display value=&quot;Post Weaning Test&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test-other"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-reason-for-test.html#zw-reason-for-test-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other reason.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test"/>
+        <version value="0.1.0"/>
+        <name value="VSZWReasonForTest"/>
+        <title value="ZW Reason for Test"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:19:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:f43664d0-3d9c-49a5-8996-9b56c1b0ad5c"/>
+          <timestamp value="2026-06-11T12:21:23+00:00"/>
+          <total value="21"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="routine"/>
+            <display value="Routine"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="target-clinical-failure"/>
+            <display value="Target Clinical Failure"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="targeted-immunological-failure"/>
+            <display value="Targeted Immunological Failure"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="repeat-after-adherence"/>
+            <display value="Repeat After Enhanced Adherence Counselling"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="baseline-viral-load"/>
+            <display value="Baseline Viral Load"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="confirmation-of-treatment"/>
+            <display value="Confirmation of Treatment"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="failure-repeat-vl-3m"/>
+            <display value="Failure — Repeat VL at 3 Months"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="single-drug-substitution"/>
+            <display value="Single Drug Substitution"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="pregnant-mother"/>
+            <display value="Pregnant Mother"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="lactating-mother"/>
+            <display value="Lactating Mother"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-initial-birth"/>
+            <display value="EID: Initial at Birth"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-initial-6-8wks"/>
+            <display value="EID: Initial at 6–8 Weeks"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-initial-gt2m"/>
+            <display value="EID: Initial at &gt;2 Months"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-repeat-6wks"/>
+            <display value="EID: Repeat at 6 Weeks"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-repeat-9m"/>
+            <display value="EID: Repeat at 9 Months"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-positive-rdt-gt18m"/>
+            <display value="EID: Following Positive RDT at &gt;18 Months"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="eid-confirmatory"/>
+            <display value="EID: Confirmatory (After First EID Positive)"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="postnatal-routine-1st"/>
+            <display value="Routine 1st Post-natal Tests"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="symptomatic-child"/>
+            <display value="Symptomatic Child"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="post-weaning"/>
+            <display value="Post Weaning Test"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-zw-rejection-reasons.html">codesystem ZW Specimen Rejection Reasons v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 11 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-no-identification"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-no-identification">no-identification</a>
+                </td>
+                <td>Specimen Lacked Proper Identification</td>
+                <td>Sample container not labelled.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-identification&quot;, &quot;display&quot;: &quot;Specimen Lacked Proper Identification&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-identification&quot;&gt;&lt;display value=&quot;Specimen Lacked Proper Identification&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-form-mismatch"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-form-mismatch">form-mismatch</a>
+                </td>
+                <td>Mismatching Form and Specimen</td>
+                <td>Request form does not match the specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;form-mismatch&quot;, &quot;display&quot;: &quot;Mismatching Form and Specimen&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;form-mismatch&quot;&gt;&lt;display value=&quot;Mismatching Form and Specimen&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-insufficient-quantity"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-insufficient-quantity">insufficient-quantity</a>
+                </td>
+                <td>Insufficient Specimen Quantity</td>
+                <td>Sample volume too small.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;insufficient-quantity&quot;, &quot;display&quot;: &quot;Insufficient Specimen Quantity&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;insufficient-quantity&quot;&gt;&lt;display value=&quot;Insufficient Specimen Quantity&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-no-request-form"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-no-request-form">no-request-form</a>
+                </td>
+                <td>Request Form Not Submitted</td>
+                <td>No accompanying request form.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-request-form&quot;, &quot;display&quot;: &quot;Request Form Not Submitted&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-request-form&quot;&gt;&lt;display value=&quot;Request Form Not Submitted&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-no-specimen"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-no-specimen">no-specimen</a>
+                </td>
+                <td>Specimen Not Submitted</td>
+                <td>Request form received without specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;no-specimen&quot;, &quot;display&quot;: &quot;Specimen Not Submitted&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;no-specimen&quot;&gt;&lt;display value=&quot;Specimen Not Submitted&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-contamination"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-contamination">contamination</a>
+                </td>
+                <td>Cross Contamination</td>
+                <td>Specimen contaminated.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;contamination&quot;, &quot;display&quot;: &quot;Cross Contamination&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;contamination&quot;&gt;&lt;display value=&quot;Cross Contamination&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-humidity-indicator"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-humidity-indicator">humidity-indicator</a>
+                </td>
+                <td>Sample Collected on Humidity Indicator</td>
+                <td>DBS collected on humidity indicator card.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;humidity-indicator&quot;, &quot;display&quot;: &quot;Sample Collected on Humidity Indicator&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;humidity-indicator&quot;&gt;&lt;display value=&quot;Sample Collected on Humidity Indicator&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-clotted"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-clotted">clotted</a>
+                </td>
+                <td>Clotted Blood</td>
+                <td>Blood specimen is clotted.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;clotted&quot;, &quot;display&quot;: &quot;Clotted Blood&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;clotted&quot;&gt;&lt;display value=&quot;Clotted Blood&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-too-old"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-too-old">too-old</a>
+                </td>
+                <td>Specimen Too Old</td>
+                <td>Specimen transit time exceeded.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;too-old&quot;, &quot;display&quot;: &quot;Specimen Too Old&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;too-old&quot;&gt;&lt;display value=&quot;Specimen Too Old&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-haemolysed"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-haemolysed">haemolysed</a>
+                </td>
+                <td>Haemolysed</td>
+                <td>Haemolysis detected.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;haemolysed&quot;, &quot;display&quot;: &quot;Haemolysed&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;haemolysed&quot;&gt;&lt;display value=&quot;Haemolysed&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons-other"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-rejection-reasons.html#zw-rejection-reasons-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other rejection reason.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons"/>
+        <version value="0.1.0"/>
+        <name value="VSZWRejectionReasons"/>
+        <title value="ZW Specimen Rejection Reasons"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:19:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5e5f0a93-4592-4919-826d-57f3178e16c0"/>
+          <timestamp value="2026-06-11T12:21:23+00:00"/>
+          <total value="11"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="no-identification"/>
+            <display value="Specimen Lacked Proper Identification"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="form-mismatch"/>
+            <display value="Mismatching Form and Specimen"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="insufficient-quantity"/>
+            <display value="Insufficient Specimen Quantity"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="no-request-form"/>
+            <display value="Request Form Not Submitted"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="no-specimen"/>
+            <display value="Specimen Not Submitted"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="contamination"/>
+            <display value="Cross Contamination"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="humidity-indicator"/>
+            <display value="Sample Collected on Humidity Indicator"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="clotted"/>
+            <display value="Clotted Blood"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="too-old"/>
+            <display value="Specimen Too Old"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="haemolysed"/>
+            <display value="Haemolysed"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-zw-report-review-state.html">codesystem ZW Report Review State v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-pending"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-report-review-state.html#zw-report-review-state-pending">pending</a>
+                </td>
+                <td>Pending</td>
+                <td>Result entry in progress; not yet submitted.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;pending&quot;, &quot;display&quot;: &quot;Pending&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;pending&quot;&gt;&lt;display value=&quot;Pending&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-received"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-report-review-state.html#zw-report-review-state-received">received</a>
+                </td>
+                <td>Received</td>
+                <td>Specimen received by the laboratory.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;received&quot;, &quot;display&quot;: &quot;Received&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;received&quot;&gt;&lt;display value=&quot;Received&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-to-be-verified"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-report-review-state.html#zw-report-review-state-to-be-verified">to-be-verified</a>
+                </td>
+                <td>To Be Verified</td>
+                <td>Result awaiting verification.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;to-be-verified&quot;, &quot;display&quot;: &quot;To Be Verified&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;to-be-verified&quot;&gt;&lt;display value=&quot;To Be Verified&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-verified"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-report-review-state.html#zw-report-review-state-verified">verified</a>
+                </td>
+                <td>Verified</td>
+                <td>Result verified by authorised person.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;verified&quot;, &quot;display&quot;: &quot;Verified&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;verified&quot;&gt;&lt;display value=&quot;Verified&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state-published"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-report-review-state.html#zw-report-review-state-published">published</a>
+                </td>
+                <td>Published</td>
+                <td>Report published and available to the requester.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;published&quot;, &quot;display&quot;: &quot;Published&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;published&quot;&gt;&lt;display value=&quot;Published&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state"/>
+        <version value="0.1.0"/>
+        <name value="VSZWReportReviewState"/>
+        <title value="ZW Report Review State"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:19:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:24558e0d-dd9f-4bbb-8718-f1d7a017745d"/>
+          <timestamp value="2026-06-11T12:21:23+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+            <code value="pending"/>
+            <display value="Pending"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+            <code value="received"/>
+            <display value="Received"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+            <code value="to-be-verified"/>
+            <display value="To Be Verified"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+            <code value="verified"/>
+            <display value="Verified"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+            <code value="published"/>
+            <display value="Published"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-zw-sample-types.html">codesystem ZW Specimen Types v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 18 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST001"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST001">LST001</a>
+                </td>
+                <td>Fluid</td>
+                <td>Body fluid (unspecified).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST001&quot;, &quot;display&quot;: &quot;Fluid&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST001&quot;&gt;&lt;display value=&quot;Fluid&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST002"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST002">LST002</a>
+                </td>
+                <td>Aspirate</td>
+                <td>Aspirated specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST002&quot;, &quot;display&quot;: &quot;Aspirate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST002&quot;&gt;&lt;display value=&quot;Aspirate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST003"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST003">LST003</a>
+                </td>
+                <td>Oropharyngeal Swab</td>
+                <td>Swab from the oropharynx.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST003&quot;, &quot;display&quot;: &quot;Oropharyngeal Swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST003&quot;&gt;&lt;display value=&quot;Oropharyngeal Swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST004"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST004">LST004</a>
+                </td>
+                <td>Buffy Coat</td>
+                <td>Buffy coat fraction of blood.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST004&quot;, &quot;display&quot;: &quot;Buffy Coat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST004&quot;&gt;&lt;display value=&quot;Buffy Coat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST005"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST005">LST005</a>
+                </td>
+                <td>Buccal Swab</td>
+                <td>Swab from the buccal mucosa.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST005&quot;, &quot;display&quot;: &quot;Buccal Swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST005&quot;&gt;&lt;display value=&quot;Buccal Swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST006"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST006">LST006</a>
+                </td>
+                <td>Blood Plasma</td>
+                <td>Plasma fraction of blood.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST006&quot;, &quot;display&quot;: &quot;Blood Plasma&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST006&quot;&gt;&lt;display value=&quot;Blood Plasma&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST007"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST007">LST007</a>
+                </td>
+                <td>Dried Blood Spot</td>
+                <td>Dried blood spot (DBS) card.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST007&quot;, &quot;display&quot;: &quot;Dried Blood Spot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST007&quot;&gt;&lt;display value=&quot;Dried Blood Spot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST008"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST008">LST008</a>
+                </td>
+                <td>Semen</td>
+                <td>Seminal fluid.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST008&quot;, &quot;display&quot;: &quot;Semen&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST008&quot;&gt;&lt;display value=&quot;Semen&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST009"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST009">LST009</a>
+                </td>
+                <td>Throat Swab</td>
+                <td>Swab from the throat.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST009&quot;, &quot;display&quot;: &quot;Throat Swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST009&quot;&gt;&lt;display value=&quot;Throat Swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0010"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0010">LST0010</a>
+                </td>
+                <td>Saliva</td>
+                <td>Saliva specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0010&quot;, &quot;display&quot;: &quot;Saliva&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0010&quot;&gt;&lt;display value=&quot;Saliva&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0011"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0011">LST0011</a>
+                </td>
+                <td>Nasopharyngeal Swab</td>
+                <td>Nasopharyngeal swab.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0011&quot;, &quot;display&quot;: &quot;Nasopharyngeal Swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0011&quot;&gt;&lt;display value=&quot;Nasopharyngeal Swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0012"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0012">LST0012</a>
+                </td>
+                <td>Biopsy</td>
+                <td>Tissue biopsy specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0012&quot;, &quot;display&quot;: &quot;Biopsy&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0012&quot;&gt;&lt;display value=&quot;Biopsy&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0013"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0013">LST0013</a>
+                </td>
+                <td>Nasopharyngeal/Oropharyngeal Swab</td>
+                <td>Combined NP/OP swab.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0013&quot;, &quot;display&quot;: &quot;Nasopharyngeal/Oropharyngeal Swab&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0013&quot;&gt;&lt;display value=&quot;Nasopharyngeal/Oropharyngeal Swab&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0014"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0014">LST0014</a>
+                </td>
+                <td>Blood Serum</td>
+                <td>Serum fraction of blood.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0014&quot;, &quot;display&quot;: &quot;Blood Serum&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0014&quot;&gt;&lt;display value=&quot;Blood Serum&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0015"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0015">LST0015</a>
+                </td>
+                <td>Urine</td>
+                <td>Urine specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0015&quot;, &quot;display&quot;: &quot;Urine&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0015&quot;&gt;&lt;display value=&quot;Urine&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0016"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0016">LST0016</a>
+                </td>
+                <td>Whole Blood</td>
+                <td>Whole blood specimen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0016&quot;, &quot;display&quot;: &quot;Whole Blood&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0016&quot;&gt;&lt;display value=&quot;Whole Blood&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0017"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0017">LST0017</a>
+                </td>
+                <td>Sputum</td>
+                <td>Expectorated sputum.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0017&quot;, &quot;display&quot;: &quot;Sputum&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0017&quot;&gt;&lt;display value=&quot;Sputum&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types-LST0018"> </a>
+                  <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-zw-sample-types.html#zw-sample-types-LST0018">LST0018</a>
+                </td>
+                <td>Red Blood Cells</td>
+                <td>Packed red blood cells.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;LST0018&quot;, &quot;display&quot;: &quot;Red Blood Cells&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;LST0018&quot;&gt;&lt;display value=&quot;Red Blood Cells&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-sample-types"/>
+        <version value="0.1.0"/>
+        <name value="VSZWSampleTypes"/>
+        <title value="ZW Specimen Types"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-06-11T12:19:15+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="716"/>
+            <display value="Zimbabwe (ZWE)"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:4800f42b-8a98-4d8b-ba6b-46854f295d53"/>
+          <timestamp value="2026-06-11T12:21:23+00:00"/>
+          <total value="18"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST001"/>
+            <display value="Fluid"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST002"/>
+            <display value="Aspirate"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST003"/>
+            <display value="Oropharyngeal Swab"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST004"/>
+            <display value="Buffy Coat"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST005"/>
+            <display value="Buccal Swab"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST006"/>
+            <display value="Blood Plasma"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST007"/>
+            <display value="Dried Blood Spot"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST008"/>
+            <display value="Semen"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST009"/>
+            <display value="Throat Swab"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0010"/>
+            <display value="Saliva"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0011"/>
+            <display value="Nasopharyngeal Swab"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0012"/>
+            <display value="Biopsy"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0013"/>
+            <display value="Nasopharyngeal/Oropharyngeal Swab"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0014"/>
+            <display value="Blood Serum"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0015"/>
+            <display value="Urine"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0016"/>
+            <display value="Whole Blood"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0017"/>
+            <display value="Sputum"/>
+          </contains>
+          <contains>
+            <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+            <code value="LST0018"/>
+            <display value="Red Blood Cells"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

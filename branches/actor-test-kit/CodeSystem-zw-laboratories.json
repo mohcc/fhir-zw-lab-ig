@@ -1,0 +1,94 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "zw-laboratories",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-laboratories</b></p><a name=\"zw-laboratories\"> </a><a name=\"hczw-laboratories\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">ZWLHRE002<a name=\"zw-laboratories-ZWLHRE002\"> </a></td><td>National Microbiology Reference Laboratory (NMRL)</td></tr><tr><td style=\"white-space:nowrap\">ZW000A0C<a name=\"zw-laboratories-ZW000A0C\"> </a></td><td>BRIDH Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW04030A<a name=\"zw-laboratories-ZW04030A\"> </a></td><td>Kadoma Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW03050A<a name=\"zw-laboratories-ZW03050A\"> </a></td><td>Marondera Provincial Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW02010A<a name=\"zw-laboratories-ZW02010A\"> </a></td><td>Bindura Provincial Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZWL000AOD<a name=\"zw-laboratories-ZWL000AOD\"> </a></td><td>AiBst Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZWL000001<a name=\"zw-laboratories-ZWL000001\"> </a></td><td>BRTI Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZWLPAR001<a name=\"zw-laboratories-ZWLPAR001\"> </a></td><td>National Virology Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW01050A<a name=\"zw-laboratories-ZW01050A\"> </a></td><td>Mutare Provincial Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW08050A<a name=\"zw-laboratories-ZW08050A\"> </a></td><td>Masvingo Provincial Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW07030A<a name=\"zw-laboratories-ZW07030A\"> </a></td><td>Gweru Provincial Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW06030A<a name=\"zw-laboratories-ZW06030A\"> </a></td><td>Gwanda Provincial Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW05040B<a name=\"zw-laboratories-ZW05040B\"> </a></td><td>St Lukes Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW04050A<a name=\"zw-laboratories-ZW04050A\"> </a></td><td>Chinhoyi Provincial Hospital Laboratory</td></tr><tr><td style=\"white-space:nowrap\">ZW05030A<a name=\"zw-laboratories-ZW05030A\"> </a></td><td>Victoria Falls Laboratory</td></tr></table></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+  "version" : "0.1.0",
+  "name" : "CSZWLaboratories",
+  "title" : "ZW National Laboratory List",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-12T09:30:06+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "National identifiers for public-health laboratories in Zimbabwe.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 15,
+  "concept" : [{
+    "code" : "ZWLHRE002",
+    "display" : "National Microbiology Reference Laboratory (NMRL)"
+  },
+  {
+    "code" : "ZW000A0C",
+    "display" : "BRIDH Laboratory"
+  },
+  {
+    "code" : "ZW04030A",
+    "display" : "Kadoma Laboratory"
+  },
+  {
+    "code" : "ZW03050A",
+    "display" : "Marondera Provincial Laboratory"
+  },
+  {
+    "code" : "ZW02010A",
+    "display" : "Bindura Provincial Laboratory"
+  },
+  {
+    "code" : "ZWL000AOD",
+    "display" : "AiBst Laboratory"
+  },
+  {
+    "code" : "ZWL000001",
+    "display" : "BRTI Laboratory"
+  },
+  {
+    "code" : "ZWLPAR001",
+    "display" : "National Virology Laboratory"
+  },
+  {
+    "code" : "ZW01050A",
+    "display" : "Mutare Provincial Laboratory"
+  },
+  {
+    "code" : "ZW08050A",
+    "display" : "Masvingo Provincial Laboratory"
+  },
+  {
+    "code" : "ZW07030A",
+    "display" : "Gweru Provincial Laboratory"
+  },
+  {
+    "code" : "ZW06030A",
+    "display" : "Gwanda Provincial Laboratory"
+  },
+  {
+    "code" : "ZW05040B",
+    "display" : "St Lukes Laboratory"
+  },
+  {
+    "code" : "ZW04050A",
+    "display" : "Chinhoyi Provincial Hospital Laboratory"
+  },
+  {
+    "code" : "ZW05030A",
+    "display" : "Victoria Falls Laboratory"
+  }]
+}

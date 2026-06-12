@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-lab-tests"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem zw-lab-tests</b></p><a name="zw-lab-tests"> </a><a name="hczw-lab-tests"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">LTT001<a name="zw-lab-tests-LTT001"> </a></td><td>Bacteriology - Smear</td><td>Bacteriological smear microscopy.</td></tr><tr><td style="white-space:nowrap">LTT002<a name="zw-lab-tests-LTT002"> </a></td><td>Microscopy</td><td>General microscopy examination.</td></tr><tr><td style="white-space:nowrap">LTT003<a name="zw-lab-tests-LTT003"> </a></td><td>Biochemical Tests</td><td>Biochemistry / chemistry panel.</td></tr><tr><td style="white-space:nowrap">LTT004<a name="zw-lab-tests-LTT004"> </a></td><td>COVID-19</td><td>SARS-CoV-2 detection test.</td></tr><tr><td style="white-space:nowrap">LTT005<a name="zw-lab-tests-LTT005"> </a></td><td>Culture (Bacteriology)</td><td>Bacterial culture and sensitivity.</td></tr><tr><td style="white-space:nowrap">LTT006<a name="zw-lab-tests-LTT006"> </a></td><td>GeneXpert</td><td>Xpert MTB/RIF or similar cartridge-based assay.</td></tr><tr><td style="white-space:nowrap">LTT007<a name="zw-lab-tests-LTT007"> </a></td><td>LPA</td><td>Line Probe Assay for drug-resistance testing.</td></tr><tr><td style="white-space:nowrap">LTT008<a name="zw-lab-tests-LTT008"> </a></td><td>Routine Histological Examination</td><td>Routine histopathology.</td></tr><tr><td style="white-space:nowrap">LTT009<a name="zw-lab-tests-LTT009"> </a></td><td>TB Culture</td><td>Mycobacterial culture.</td></tr><tr><td style="white-space:nowrap">LTT0012<a name="zw-lab-tests-LTT0012"> </a></td><td>Viral Load DBS</td><td>HIV viral load from dried blood spot sample.</td></tr><tr><td style="white-space:nowrap">LTT0013<a name="zw-lab-tests-LTT0013"> </a></td><td>Viral Load Plasma</td><td>HIV viral load from plasma sample.</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+  <version value="0.1.0"/>
+  <name value="CSZWLabTests"/>
+  <title value="ZW Laboratory Tests"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:19:15+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="LTT001"/>
+    <display value="Bacteriology - Smear"/>
+    <definition value="Bacteriological smear microscopy."/>
+  </concept>
+  <concept>
+    <code value="LTT002"/>
+    <display value="Microscopy"/>
+    <definition value="General microscopy examination."/>
+  </concept>
+  <concept>
+    <code value="LTT003"/>
+    <display value="Biochemical Tests"/>
+    <definition value="Biochemistry / chemistry panel."/>
+  </concept>
+  <concept>
+    <code value="LTT004"/>
+    <display value="COVID-19"/>
+    <definition value="SARS-CoV-2 detection test."/>
+  </concept>
+  <concept>
+    <code value="LTT005"/>
+    <display value="Culture (Bacteriology)"/>
+    <definition value="Bacterial culture and sensitivity."/>
+  </concept>
+  <concept>
+    <code value="LTT006"/>
+    <display value="GeneXpert"/>
+    <definition value="Xpert MTB/RIF or similar cartridge-based assay."/>
+  </concept>
+  <concept>
+    <code value="LTT007"/>
+    <display value="LPA"/>
+    <definition value="Line Probe Assay for drug-resistance testing."/>
+  </concept>
+  <concept>
+    <code value="LTT008"/>
+    <display value="Routine Histological Examination"/>
+    <definition value="Routine histopathology."/>
+  </concept>
+  <concept>
+    <code value="LTT009"/>
+    <display value="TB Culture"/>
+    <definition value="Mycobacterial culture."/>
+  </concept>
+  <concept>
+    <code value="LTT0012"/>
+    <display value="Viral Load DBS"/>
+    <definition value="HIV viral load from dried blood spot sample."/>
+  </concept>
+  <concept>
+    <code value="LTT0013"/>
+    <display value="Viral Load Plasma"/>
+    <definition value="HIV viral load from plasma sample."/>
+  </concept>
+</CodeSystem>

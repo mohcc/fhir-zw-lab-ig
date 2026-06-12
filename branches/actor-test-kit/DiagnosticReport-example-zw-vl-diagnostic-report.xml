@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DiagnosticReport xmlns="http://hl7.org/fhir">
+  <id value="example-zw-vl-diagnostic-report"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-diagnostic-report"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: DiagnosticReport example-zw-vl-diagnostic-report</b></p><a name="example-zw-vl-diagnostic-report"> </a><a name="hcexample-zw-vl-diagnostic-report"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-lab-diagnostic-report.html">ZW Lab Diagnostic Report</a></p></div><h2><span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}">Viral Load Plasma</span> (<span title="Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}">Microbiology</span>) </h2><table class="grid"><tr><td>Subject</td><td>Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</td></tr><tr><td>When For</td><td>2024-03-18 14:00:00+0200</td></tr><tr><td>Reported</td><td>2024-03-18 16:30:00+0200</td></tr><tr><td>Performer</td><td> <a href="Organization-example-national-virology-lab.html">Organization National Virology Laboratory</a></td></tr></table><p><b>Report Details</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href="Observation-example-zw-vl-observation.html"><span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}, {http://loinc.org 20447-9}">Viral Load Plasma</span></a></td><td>48 copies/mL<span style="background: LightGoldenRodYellow"> (Details: UCUM  code/mL = '/mL')</span></td><td>Final</td></tr></table></div>
+  </text>
+  <extension url="http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+        <code value="verified"/>
+        <display value="Verified"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <basedOn>
+    <reference value="ServiceRequest/example-zw-service-request-vl"/>
+  </basedOn>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0074"/>
+      <code value="MB"/>
+      <display value="Microbiology"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+      <code value="LTT0013"/>
+      <display value="Viral Load Plasma"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example-zw-lab-patient"/>
+  </subject>
+  <effectiveDateTime value="2024-03-18T14:00:00+02:00"/>
+  <issued value="2024-03-18T16:30:00+02:00"/>
+  <performer>
+    <reference value="Organization/example-national-virology-lab"/>
+  </performer>
+  <resultsInterpreter>
+    <reference value="Organization/example-national-virology-lab"/>
+  </resultsInterpreter>
+  <specimen>
+    <reference value="Specimen/example-zw-specimen-plasma"/>
+  </specimen>
+  <result>
+    <reference value="Observation/example-zw-vl-observation"/>
+  </result>
+</DiagnosticReport>

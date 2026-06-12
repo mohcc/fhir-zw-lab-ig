@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "zw-report-review-state",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet zw-report-review-state</b></p><a name=\"zw-report-review-state\"> </a><a name=\"hczw-report-review-state\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-zw-report-review-state.html\"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state",
+  "version" : "0.1.0",
+  "name" : "VSZWReportReviewState",
+  "title" : "ZW Report Review State",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-11T12:19:15+00:00",
+  "publisher" : "MOH Zimbabwe",
+  "contact" : [{
+    "name" : "MOH Zimbabwe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://mohcc.org.zw"
+    }]
+  }],
+  "description" : "Value set of LIMS workflow states for a laboratory report (ZW.LAB.A.DE73).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "716",
+      "display" : "Zimbabwe (ZWE)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"
+    }]
+  }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-report-review-state"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem zw-report-review-state</b></p><a name="zw-report-review-state"> </a><a name="hczw-report-review-state"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">pending<a name="zw-report-review-state-pending"> </a></td><td>Pending</td><td>Result entry in progress; not yet submitted.</td></tr><tr><td style="white-space:nowrap">received<a name="zw-report-review-state-received"> </a></td><td>Received</td><td>Specimen received by the laboratory.</td></tr><tr><td style="white-space:nowrap">to-be-verified<a name="zw-report-review-state-to-be-verified"> </a></td><td>To Be Verified</td><td>Result awaiting verification.</td></tr><tr><td style="white-space:nowrap">verified<a name="zw-report-review-state-verified"> </a></td><td>Verified</td><td>Result verified by authorised person.</td></tr><tr><td style="white-space:nowrap">published<a name="zw-report-review-state-published"> </a></td><td>Published</td><td>Report published and available to the requester.</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"/>
+  <version value="0.1.0"/>
+  <name value="CSZWReportReviewState"/>
+  <title value="ZW Report Review State"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-12T09:30:06+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="pending"/>
+    <display value="Pending"/>
+    <definition value="Result entry in progress; not yet submitted."/>
+  </concept>
+  <concept>
+    <code value="received"/>
+    <display value="Received"/>
+    <definition value="Specimen received by the laboratory."/>
+  </concept>
+  <concept>
+    <code value="to-be-verified"/>
+    <display value="To Be Verified"/>
+    <definition value="Result awaiting verification."/>
+  </concept>
+  <concept>
+    <code value="verified"/>
+    <display value="Verified"/>
+    <definition value="Result verified by authorised person."/>
+  </concept>
+  <concept>
+    <code value="published"/>
+    <display value="Published"/>
+    <definition value="Report published and available to the requester."/>
+  </concept>
+</CodeSystem>

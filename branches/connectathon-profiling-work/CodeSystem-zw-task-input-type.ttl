@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-task-input-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-task-input-type</b></p><a name=\"zw-task-input-type\"> </a><a name=\"hczw-task-input-type\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">pregnant<a name=\"zw-task-input-type-pregnant\"> </a></td><td>Pregnant</td><td>Patient is pregnant at time of ordering.</td></tr><tr><td style=\"white-space:nowrap\">breastfeeding<a name=\"zw-task-input-type-breastfeeding\"> </a></td><td>Breastfeeding</td><td>Patient is breastfeeding at time of ordering.</td></tr><tr><td style=\"white-space:nowrap\">art-start-date<a name=\"zw-task-input-type-art-start-date\"> </a></td><td>ART Start Date</td><td>Date the patient started ART.</td></tr><tr><td style=\"white-space:nowrap\">regimen<a name=\"zw-task-input-type-regimen\"> </a></td><td>Regimen</td><td>Current ART regimen.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSZWTaskInputType"] ; # 
+  fhir:title [ fhir:v "ZW Lab Task Input Type"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-11T12:17:30+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type codes for Task.input slices on the ZWLabTask order profile."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "pregnant" ] ;
+     fhir:display [ fhir:v "Pregnant" ] ;
+     fhir:definition [ fhir:v "Patient is pregnant at time of ordering." ]
+  ] [
+     fhir:code [ fhir:v "breastfeeding" ] ;
+     fhir:display [ fhir:v "Breastfeeding" ] ;
+     fhir:definition [ fhir:v "Patient is breastfeeding at time of ordering." ]
+  ] [
+     fhir:code [ fhir:v "art-start-date" ] ;
+     fhir:display [ fhir:v "ART Start Date" ] ;
+     fhir:definition [ fhir:v "Date the patient started ART." ]
+  ] [
+     fhir:code [ fhir:v "regimen" ] ;
+     fhir:display [ fhir:v "Regimen" ] ;
+     fhir:definition [ fhir:v "Current ART regimen." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

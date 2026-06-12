@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Basic xmlns="http://hl7.org/fhir">
+  <id value="lab-result-provider"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ActorDefinition lab-result-provider</b></p><a name="lab-result-provider"> </a><a name="hclab-result-provider"> </a><table class="grid"><tr><td><b>Actor: LabResultProvider </b></td><td>Lab Result Provider</td><td>Type: system </td></tr><tr><td colspan="3"><div><p>Obligations: SHALL submit result documents conforming to the ZWLabReportBundle profile; SHALL include the legal attester sign-off (ZW.LAB.A.DE80/DE82) before submission; SHALL reference the originating ZWLabServiceRequest from the DiagnosticReport.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url">
+    <valueUri value="http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-provider"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version">
+    <valueString value="0.1.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name">
+    <valueString value="LabResultProvider"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title">
+    <valueString value="Lab Result Provider"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date">
+    <valueDateTime value="2026-06-12T09:30:06+00:00"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher">
+    <valueString value="MOH Zimbabwe"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact">
+    <valueContactDetail>
+      <name value="MOH Zimbabwe"/>
+      <telecom>
+        <system value="url"/>
+        <value value="http://mohcc.org.zw"/>
+      </telecom>
+    </valueContactDetail>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description">
+    <valueMarkdown value="System that assembles the signed-off laboratory result as a ZWLabReportBundle document (ZWLabReportComposition, ZWLabDiagnosticReport, ZWLabResultObservation) and pushes it to the Lab Result Repository (FHIR `POST /Bundle` — result push). In the Zimbabwe national architecture this role is played by the Senaite LIMS."/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+        <code value="716"/>
+        <display value="Zimbabwe (ZWE)"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type">
+    <valueCode value="system"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation">
+    <valueMarkdown value="Obligations: SHALL submit result documents conforming to the ZWLabReportBundle profile; SHALL include the legal attester sign-off (ZW.LAB.A.DE80/DE82) before submission; SHALL reference the originating ZWLabServiceRequest from the DiagnosticReport."/>
+  </extension>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/fhir-types"/>
+      <code value="ActorDefinition"/>
+    </coding>
+  </code>
+</Basic>

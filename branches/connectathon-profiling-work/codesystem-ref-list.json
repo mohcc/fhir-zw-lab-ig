@@ -1,0 +1,103 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWLabTests",
+    "title" : "ZW Laboratory Tests",
+    "description" : "National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17).",
+    "uses" : {
+    },
+    "ValueSet-zw-lab-tests.html" : "ZW Laboratory Tests"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWLaboratories",
+    "title" : "ZW National Laboratory List",
+    "description" : "National identifiers for public-health laboratories in Zimbabwe.",
+    "uses" : {
+    },
+    "ValueSet-zw-laboratories.html" : "ZW National Laboratory List"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWReasonForTest",
+    "title" : "ZW Reason for Test",
+    "description" : "Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).",
+    "uses" : {
+    },
+    "ValueSet-zw-reason-for-test.html" : "ZW Reason for Test"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-rejection-reasons",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWRejectionReasons",
+    "title" : "ZW Specimen Rejection Reasons",
+    "description" : "Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88).",
+    "uses" : {
+    },
+    "ValueSet-zw-rejection-reasons.html" : "ZW Specimen Rejection Reasons"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWReportReviewState",
+    "title" : "ZW Report Review State",
+    "description" : "LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73).",
+    "uses" : {
+    },
+    "ValueSet-zw-report-review-state.html" : "ZW Report Review State"
+  },
+  {
+    "url" : "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "CSZWSampleTypes",
+    "title" : "ZW Specimen Types",
+    "description" : "National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53).",
+    "uses" : {
+    },
+    "ValueSet-zw-sample-types.html" : "ZW Specimen Types"
+  },
+  {
+    "url" : "urn:iso:std:iso:3166",
+    "version" : "2018",
+    "status" : "active",
+    "name" : "Country Codes",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R5/valueset-country.html" : "Country ValueSet"
+  }]
+}

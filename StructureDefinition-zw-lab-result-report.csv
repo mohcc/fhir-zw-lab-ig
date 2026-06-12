@@ -1,0 +1,23 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"zw-lab-result-report","zw-lab-result-report","","","",0,*,"","","","null {[]} {[]}
+","ZW Lab Result Report (ZW.LAB.A2)","Logical model for reporting a laboratory result in Zimbabwe. Covers all data elements defined in activity ZW.LAB.A2 of the Zimbabwe Lab DAK data dictionary.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"zw-lab-result-report.reportReviewState","zw-lab-result-report.reportReviewState","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Report Review State (ZW.LAB.A.DE73)","Review/publication state of the result report in the laboratory workflow.","","","","","","","","","",,"required","","http://mohcc.gov.zw/fhir/lab/ValueSet/zw-report-review-state","",,,,"zw-lab-result-report.reportReviewState",0,1,"",""
+"zw-lab-result-report.resultSubmitter","zw-lab-result-report.resultSubmitter","","","",1,1,"","","","string {[]} {[]}
+","Result Submitter (ZW.LAB.A.DE79)","Person who submitted the result.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.resultSubmitter",1,1,"",""
+"zw-lab-result-report.resultVerifier","zw-lab-result-report.resultVerifier","","","",1,1,"","","","string {[]} {[]}
+","Results Verifier (ZW.LAB.A.DE80)","Person who verified/interpreted the result.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.resultVerifier",1,1,"",""
+"zw-lab-result-report.dateSubmitted","zw-lab-result-report.dateSubmitted","","","",1,1,"","","","dateTime {[]} {[]}
+","Date Submitted (ZW.LAB.A.DE81)","Date and time the result was submitted.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.dateSubmitted",1,1,"",""
+"zw-lab-result-report.dateVerified","zw-lab-result-report.dateVerified","","","",1,1,"","","","dateTime {[]} {[]}
+","Date Verified (ZW.LAB.A.DE82)","Date and time the result was verified/issued.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.dateVerified",1,1,"",""
+"zw-lab-result-report.resultValue","zw-lab-result-report.resultValue","","","",1,1,"","","","string {[]} {[]}
+","Result Value (ZW.LAB.A.DE83)","Measured/observed value of the test result.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.resultValue",1,1,"",""
+"zw-lab-result-report.resultUnit","zw-lab-result-report.resultUnit","","","",0,1,"","","","string {[]} {[]}
+","Result Unit (ZW.LAB.A.DE84)","Unit of measure for the result value (UCUM). Required when the result is a quantity.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.resultUnit",0,1,"",""
+"zw-lab-result-report.resultStatus","zw-lab-result-report.resultStatus","","","",1,1,"","","","code {[]} {[]}
+","Result Status (ZW.LAB.A.DE85)","Status of the individual result (e.g. preliminary, final, amended).","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/observation-status","",,,,"zw-lab-result-report.resultStatus",1,1,"",""
+"zw-lab-result-report.testingMethod","zw-lab-result-report.testingMethod","","","",0,1,"","","","string {[]} {[]}
+","Testing Method (ZW.LAB.A.DE86)","Method used to produce the result.","","","","","","","","","",,,,,"",,,,"zw-lab-result-report.testingMethod",0,1,"",""
+"zw-lab-result-report.specimenRejectionReason","zw-lab-result-report.specimenRejectionReason","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Specimen Rejection Reason (ZW.LAB.A.DE88)","Reason(s) the specimen was rejected by the laboratory, if applicable.","","","","","","","","","",,"required","","http://mohcc.gov.zw/fhir/lab/ValueSet/zw-rejection-reasons","",,,,"zw-lab-result-report.specimenRejectionReason",0,*,"",""

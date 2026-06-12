@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="zw-reason-for-test"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet zw-reason-for-test</b></p><a name="zw-reason-for-test"> </a><a name="hczw-reason-for-test"> </a><ul><li>Include all codes defined in <a href="CodeSystem-zw-reason-for-test.html"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-reason-for-test"/>
+  <version value="0.1.0"/>
+  <name value="VSZWReasonForTest"/>
+  <title value="ZW Reason for Test"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:17:30+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Value set of reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"/>
+    </include>
+  </compose>
+</ValueSet>

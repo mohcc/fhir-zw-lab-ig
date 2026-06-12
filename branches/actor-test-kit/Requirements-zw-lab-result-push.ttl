@@ -1,0 +1,276 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/Basic/zw-lab-result-push> a fhir:Basic ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-lab-result-push"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Requirements zw-lab-result-push</b></p><a name=\"zw-lab-result-push\"> </a><a name=\"hczw-lab-result-push\"> </a><p>These requirements apply to the following actors: </p><ul><li><a href=\"ActorDefinition-lab-result-provider.html\">Lab Result Provider</a></li><li><a href=\"ActorDefinition-lab-result-repository.html\">Lab Result Repository</a></li></ul><table class=\"grid\"><tr><td><b><a name=\"result-push-01\"> </a></b>Report document conformance</td><td>SHALL</td><td><div><p>The Lab Result Provider SHALL submit results as a document Bundle conforming to the <a href=\"StructureDefinition-zw-lab-report-bundle.html\">ZWLabReportBundle</a> profile, including a legally attested ZWLabReportComposition (ZW.LAB.A.DE80/DE82).</p>\n</div></td></tr><tr><td><b><a name=\"result-push-02\"> </a></b>Document storage</td><td>SHALL</td><td><div><p>The Lab Result Repository SHALL store the submitted report document whole (<code>POST [base]/Bundle</code>) so the signed-off snapshot remains retrievable as submitted.</p>\n</div></td></tr><tr><td><b><a name=\"result-push-03\"> </a></b>Order linkage</td><td>SHALL</td><td><div><p>The contained ZWLabDiagnosticReport SHALL reference the originating ZWLabServiceRequest via <code>basedOn</code>.</p>\n</div></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url>
+     ] ;
+     fhir:value [
+       a fhir:Uri ;
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Requirements/zw-lab-result-push"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Requirements/zw-lab-result-push>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "0.1.0"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "ZWLabResultPushRequirements"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "Result Push Requirements"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "draft"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date>
+     ] ;
+     fhir:value [
+       a fhir:DateTime ;
+       fhir:v "2026-06-12T09:30:06+00:00"^^xsd:dateTime
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher>
+     ] ;
+     fhir:value [
+       a fhir:String ;
+       fhir:v "MOH Zimbabwe"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact>
+     ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+       fhir:telecom ( [
+         fhir:system [ fhir:v "url" ] ;
+         fhir:value [ fhir:v "http://mohcc.org.zw" ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description>
+     ] ;
+     fhir:value [
+       a fhir:Markdown ;
+       fhir:v "The Lab Result Provider pushes the signed-off laboratory result report document to the Lab Result Repository."
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction>
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+           fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+         ] ;
+         fhir:code [ fhir:v "716" ] ;
+         fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor>
+     ] ;
+     fhir:value [
+       a fhir:Canonical ;
+       fhir:v "http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-provider"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-provider>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor>
+     ] ;
+     fhir:value [
+       a fhir:Canonical ;
+       fhir:v "http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-repository"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/ActorDefinition/lab-result-repository>
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key>
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "result-push-01"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label>
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Report document conformance"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SHALL"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement>
+       ] ;
+       fhir:value [
+         a fhir:Markdown ;
+         fhir:v "The Lab Result Provider SHALL submit results as a document Bundle conforming to the [ZWLabReportBundle](StructureDefinition-zw-lab-report-bundle.html) profile, including a legally attested ZWLabReportComposition (ZW.LAB.A.DE80/DE82)."
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement>
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key>
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "result-push-02"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label>
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Document storage"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SHALL"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement>
+       ] ;
+       fhir:value [
+         a fhir:Markdown ;
+         fhir:v "The Lab Result Repository SHALL store the submitted report document whole (`POST [base]/Bundle`) so the signed-off snapshot remains retrievable as submitted."
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement>
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key>
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "result-push-03"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label>
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Order linkage"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance>
+       ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "SHALL"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement>
+       ] ;
+       fhir:value [
+         a fhir:Markdown ;
+         fhir:v "The contained ZWLabDiagnosticReport SHALL reference the originating ZWLabServiceRequest via `basedOn`."
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement>
+     ]
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:code [ fhir:v "Requirements" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

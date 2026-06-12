@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - Zimbabwe Laboratory Ordering and Results IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+<!-- Left logo -->
+<div id="hl7-nav"> 
+    <a id="hl7-logo" no-external="true" href="about.html">
+    <img height="50" alt="Visit MyProject" src="assets/images/mohlogo.png"/>
+    </a>
+</div>
+
+<!-- Right Logo -->
+<div id="family-nav">
+    <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Zimbabwe Laboratory Ordering and Results IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  Zimbabwe (ZWE)
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Home
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="index.html">Summary</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Deployment
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="artifacts.html">Artifacts</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="about.html">About</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Zimbabwe Laboratory Ordering and Results IG, published by MOH Zimbabwe. This guide is not an authorized publication; it is the continuous build for version 0.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/mohcc/fhir-zw-lab-ig/tree/2/merge'>https://github.com/mohcc/fhir-zw-lab-ig/tree/2/merge</a> and changes regularly. See the <a href='http://mohcc.gov.zw/fhir/lab/history.html'>Directory of published versions</a><br/><span data-smart-ci-extra="1" style="font-size:.85em;">Built from commit <a href="https://github.com/mohcc/fhir-zw-lab-ig/commit/f32be23cd80db9f944368063f02306a617baccc2"><code>f32be23c</code></a>. &nbsp; Branch: <a href="https://github.com/mohcc/fhir-zw-lab-ig/tree/connectathon-profiling-work"><code>connectathon-profiling-work</code></a>.</span></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Logical Models</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#6">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Logical Models </h3>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-order.html"
+                  title="StructureDefinition/zw-lab-order">ZW Lab Order (ZW.LAB.A1)</a>
+            </td>
+            <td>
+<p>Logical model for ordering a laboratory test in Zimbabwe. Covers all data elements defined in activity ZW.LAB.A1 of the Zimbabwe Lab DAK data dictionary.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-result-report.html"
+                  title="StructureDefinition/zw-lab-result-report">ZW Lab Result Report (ZW.LAB.A2)</a>
+            </td>
+            <td>
+<p>Logical model for reporting a laboratory result in Zimbabwe. Covers all data elements defined in activity ZW.LAB.A2 of the Zimbabwe Lab DAK data dictionary.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-facility.html"
+                  title="StructureDefinition/zw-facility">ZW Health Facility (Location)</a>
+            </td>
+            <td>
+<p>A health facility placing a laboratory order in Zimbabwe (ZW.LAB.A.DE11).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-diagnostic-report.html"
+                  title="StructureDefinition/zw-lab-diagnostic-report">ZW Lab Diagnostic Report</a>
+            </td>
+            <td>
+<p>A laboratory result report produced by a Zimbabwe LIMS and pushed to the Shared Health Record (ZW.LAB.A2 DE73–DE99).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-task.html"
+                  title="StructureDefinition/zw-lab-task">ZW Lab Order Task</a>
+            </td>
+            <td>
+<p>Task that wraps a laboratory test order sent from Impilo (EHR) to a LIMS via OpenHIM. Carries the ServiceRequest plus contextual clinical information (ZW.LAB.A1).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-patient.html"
+                  title="StructureDefinition/zw-lab-patient">ZW Lab Patient</a>
+            </td>
+            <td>
+<p>Patient demographics exchanged in the Zimbabwe lab ordering workflow (ZW.LAB.A1 DE1–DE9).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-result-observation.html"
+                  title="StructureDefinition/zw-lab-result-observation">ZW Lab Result Observation</a>
+            </td>
+            <td>
+<p>A single laboratory test result measured by a Zimbabwe LIMS (ZW.LAB.A2 DE83–DE87).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-lab-service-request.html"
+                  title="StructureDefinition/zw-lab-service-request">ZW Lab Service Request</a>
+            </td>
+            <td>
+<p>A laboratory test request from a Zimbabwe health facility to a laboratory (ZW.LAB.A1 DE17–DE72).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-specimen.html"
+                  title="StructureDefinition/zw-specimen">ZW Lab Specimen</a>
+            </td>
+            <td>
+<p>A laboratory specimen collected in the Zimbabwe lab workflow (ZW.LAB.A1 DE52–DE72).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-zw-laboratory.html"
+                  title="StructureDefinition/zw-laboratory">ZW Laboratory (Organization)</a>
+            </td>
+            <td>
+<p>A laboratory in the national Zimbabwe laboratory network. Used as the receiving laboratory for an order (ZW.LAB.A.DE10) and as the reporting organisation for a DiagnosticReport.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
+   <h3>Structures: Extension Definitions </h3>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-date-of-birth-estimated.html"
+                  title="StructureDefinition/date-of-birth-estimated">Date of Birth Estimated</a>
+            </td>
+            <td>
+<p>Indicates that the client's date of birth is an estimate rather than the precise birth date. Corresponds to the Impilo→Senaite contract field <code class="language-plaintext highlighter-rouge">dateOfBirthEstimated</code>.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-citizenship.html"
+                  title="StructureDefinition/citizenship">Patient Citizenship</a>
+            </td>
+            <td>
+<p>The patient's legal status as citizen of a country.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-report-review-state.html"
+                  title="StructureDefinition/report-review-state">Report Review State</a>
+            </td>
+            <td>
+<p>The LIMS workflow/publication state of a laboratory report (ZW.LAB.A.DE73). This mutable status is separate from the FHIR <code class="language-plaintext highlighter-rouge">DiagnosticReport.status</code> lifecycle status, which tracks the clinical finality of the report.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="4"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-zw-lab-tests.html" title="ValueSet/zw-lab-tests">ZW Laboratory Tests</a>
+            </td>
+            <td>
+<p>Value set of laboratory tests requestable in Zimbabwe (ZW.LAB.A.DE17).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-zw-laboratories.html" title="ValueSet/zw-laboratories">ZW National Laboratory List</a>
+            </td>
+            <td>
+<p>Value set of national laboratory identifiers in Zimbabwe.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-zw-reason-for-test.html"
+                  title="ValueSet/zw-reason-for-test">ZW Reason for Test</a>
+            </td>
+            <td>
+<p>Value set of reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-zw-report-review-state.html"
+                  title="ValueSet/zw-report-review-state">ZW Report Review State</a>
+            </td>
+            <td>
+<p>Value set of LIMS workflow states for a laboratory report (ZW.LAB.A.DE73).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-zw-rejection-reasons.html"
+                  title="ValueSet/zw-rejection-reasons">ZW Specimen Rejection Reasons</a>
+            </td>
+            <td>
+<p>Value set of specimen rejection reasons (ZW.LAB.A.DE88).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-zw-sample-types.html" title="ValueSet/zw-sample-types">ZW Specimen Types</a>
+            </td>
+            <td>
+<p>Value set of specimen/sample types used in Zimbabwe (ZW.LAB.A.DE53).</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="5"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-task-input-type.html"
+                  title="CodeSystem/zw-task-input-type">ZW Lab Task Input Type</a>
+            </td>
+            <td>
+<p>Type codes for Task.input slices on the ZWLabTask order profile.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-task-output-type.html"
+                  title="CodeSystem/zw-task-output-type">ZW Lab Task Output Type</a>
+            </td>
+            <td>
+<p>Type codes for Task.output slices on the ZWLabTask order profile.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-lab-tests.html" title="CodeSystem/zw-lab-tests">ZW Laboratory Tests</a>
+            </td>
+            <td>
+<p>National code list for laboratory tests ordered in Zimbabwe (ZW.LAB.A.DE17).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-laboratories.html"
+                  title="CodeSystem/zw-laboratories">ZW National Laboratory List</a>
+            </td>
+            <td>
+<p>National identifiers for public-health laboratories in Zimbabwe.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-reason-for-test.html"
+                  title="CodeSystem/zw-reason-for-test">ZW Reason for Test</a>
+            </td>
+            <td>
+<p>Coded reasons for laboratory test requests in Zimbabwe (ZW.LAB.A.DE30).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-report-review-state.html"
+                  title="CodeSystem/zw-report-review-state">ZW Report Review State</a>
+            </td>
+            <td>
+<p>LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-rejection-reasons.html"
+                  title="CodeSystem/zw-rejection-reasons">ZW Specimen Rejection Reasons</a>
+            </td>
+            <td>
+<p>Reasons a specimen was rejected by the laboratory (ZW.LAB.A.DE88).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-zw-sample-types.html"
+                  title="CodeSystem/zw-sample-types">ZW Specimen Types</a>
+            </td>
+            <td>
+<p>National code list for specimen/sample types collected in Zimbabwe (ZW.LAB.A.DE53).</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="6"> </a>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Specimen-example-zw-specimen-plasma.html"
+                  title="Specimen/example-zw-specimen-plasma">Example — Blood Plasma Specimen</a>
+            </td>
+            <td>
+<p>Example blood plasma specimen for the Viral Load Plasma order.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Task-example-zw-lab-task-order.html"
+                  title="Task/example-zw-lab-task-order">Example — Lab Order Task</a>
+            </td>
+            <td>
+<p>Task sent by Impilo EHR to the LIMS via OpenHIM representing the lab order (step 1 of the HIE transaction flow).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Organization-example-national-virology-lab.html"
+                  title="Organization/example-national-virology-lab">Example — National Virology Laboratory</a>
+            </td>
+            <td>
+<p>Example Organization instance for the National Virology Laboratory (ZWLPAR001).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Location-example-order-facility.html"
+                  title="Location/example-order-facility">Example — Ordering Health Facility</a>
+            </td>
+            <td>
+<p>Example Location instance for a primary health facility placing the order.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="DiagnosticReport-example-zw-vl-diagnostic-report.html"
+                  title="DiagnosticReport/example-zw-vl-diagnostic-report">Example — Viral Load Diagnostic Report</a>
+            </td>
+            <td>
+<p>DiagnosticReport for the Viral Load Plasma result, pushed by the LIMS to the Shared Health Record (step 5 of the HIE transaction flow).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ServiceRequest-example-zw-service-request-vl.html"
+                  title="ServiceRequest/example-zw-service-request-vl">Example — Viral Load Plasma Service Request</a>
+            </td>
+            <td>
+<p>Example ServiceRequest for a Viral Load Plasma test (baseline monitoring).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Observation-example-zw-vl-observation.html"
+                  title="Observation/example-zw-vl-observation">Example — Viral Load Result Observation</a>
+            </td>
+            <td>
+<p>Example HIV Viral Load Plasma result (copies/mL) returned by the LIMS.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-example-zw-lab-patient.html"
+                  title="Patient/example-zw-lab-patient">Example — ZW Lab Patient</a>
+            </td>
+            <td>
+<p>Example Patient for the Viral Load end-to-end scenario.</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://mohcc.org.zw">MOH Zimbabwe</a>.  Package zw.fhir.ig.lab#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 11, 2026 12:17+0000">2026-06-11</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

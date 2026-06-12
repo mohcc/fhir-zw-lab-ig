@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="example-zw-specimen-plasma"/>
+  <meta>
+    <profile value="http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Specimen example-zw-specimen-plasma</b></p><a name="example-zw-specimen-plasma"> </a><a name="hcexample-zw-specimen-plasma"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-zw-specimen.html">ZW Lab Specimen</a></p></div><p><b>identifier</b>: <code>http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id</code>/ZW-SPEC-2024-00456</p><p><b>status</b>: Available</p><p><b>type</b>: <span title="Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types LST006}">Blood Plasma</span></p><p><b>subject</b>: <a href="Patient-example-zw-lab-patient.html">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><h3>Collections</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Collected[x]</b></td></tr><tr><td style="display: none">*</td><td>2024-03-15 08:30:00+0200</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id"/>
+    <value value="ZW-SPEC-2024-00456"/>
+  </identifier>
+  <status value="available"/>
+  <type>
+    <coding>
+      <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"/>
+      <code value="LST006"/>
+      <display value="Blood Plasma"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/example-zw-lab-patient"/>
+  </subject>
+  <collection>
+    <collectedDateTime value="2024-03-15T08:30:00+02:00"/>
+  </collection>
+</Specimen>

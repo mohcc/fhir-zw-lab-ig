@@ -1,0 +1,482 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/Bundle/example-zw-vl-report-bundle> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-zw-vl-report-bundle"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-bundle"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-bundle>
+     ] )
+  ] ; # 
+  fhir:identifier [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/identifier/report-document"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/identifier/report-document>
+     ] ;
+     fhir:value [ fhir:v "ZW-LABDOC-2024-00456" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2024-03-18T16:35:00+02:00"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Composition/example-zw-vl-composition"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Composition/example-zw-vl-composition>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/Composition/example-zw-vl-composition> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/DiagnosticReport/example-zw-vl-diagnostic-report"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/DiagnosticReport/example-zw-vl-diagnostic-report>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/DiagnosticReport/example-zw-vl-diagnostic-report> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Observation/example-zw-vl-observation"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Observation/example-zw-vl-observation>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/Observation/example-zw-vl-observation> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> )
+  ] [
+     fhir:fullUrl [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/Location/example-order-facility"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Location/example-order-facility>
+     ] ;
+     fhir:resource ( <http://mohcc.gov.zw/fhir/lab/Location/example-order-facility> )
+  ] ) . # 
+
+<http://mohcc.gov.zw/fhir/lab/Composition/example-zw-vl-composition> a fhir:Composition ;
+  fhir:id [ fhir:v "example-zw-vl-composition"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-composition"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-report-composition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_example-zw-vl-composition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition example-zw-vl-composition</b></p><a name=\"example-zw-vl-composition\"> </a><a name=\"hcexample-zw-vl-composition\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-report-composition.html\">ZW Lab Report Composition</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 11502-2}\">Laboratory report</span></p><p><b>date</b>: 2024-03-18 16:30:00+0200</p><p><b>author</b>: <a href=\"Organization-example-national-virology-lab.html\">Organization National Virology Laboratory</a></p><p><b>title</b>: Laboratory Result Report — Viral Load Plasma</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style=\"display: none\">*</td><td>Legal</td><td>2024-03-18 16:30:00+0200</td><td><a href=\"Organization-example-national-virology-lab.html\">Organization National Virology Laboratory</a></td></tr></table><p><b>custodian</b>: <a href=\"Organization-example-national-virology-lab.html\">Organization National Virology Laboratory</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       a loinc:11502-2 ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:code [ fhir:v "11502-2" ] ;
+       fhir:display [ fhir:v "Laboratory report" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:date [ fhir:v "2024-03-18T16:30:00+02:00"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> ;
+     fhir:reference [ fhir:v "Organization/example-national-virology-lab" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Laboratory Result Report — Viral Load Plasma"] ; # 
+  fhir:attester ( [
+     fhir:mode [ fhir:v "legal" ] ;
+     fhir:time [ fhir:v "2024-03-18T16:30:00+02:00"^^xsd:dateTime ] ;
+     fhir:party [
+       fhir:l <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> ;
+       fhir:reference [ fhir:v "Organization/example-national-virology-lab" ]
+     ]
+  ] ) ; # 
+  fhir:custodian [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> ;
+     fhir:reference [ fhir:v "Organization/example-national-virology-lab" ]
+  ] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Laboratory Results" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:30954-2 ;
+         fhir:system [
+           fhir:v "http://loinc.org"^^xsd:anyURI ;
+           fhir:l <http://loinc.org>
+         ] ;
+         fhir:code [ fhir:v "30954-2" ] ;
+         fhir:display [ fhir:v "Relevant diagnostic tests/laboratory data note" ]
+       ] )
+     ] ;
+     fhir:entry ( [
+       fhir:l <http://mohcc.gov.zw/fhir/lab/DiagnosticReport/example-zw-vl-diagnostic-report> ;
+       fhir:reference [ fhir:v "DiagnosticReport/example-zw-vl-diagnostic-report" ]
+     ] )
+  ] ) . # 
+
+<http://mohcc.gov.zw/fhir/lab/DiagnosticReport/example-zw-vl-diagnostic-report> a fhir:DiagnosticReport ;
+  fhir:id [ fhir:v "example-zw-vl-diagnostic-report"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-diagnostic-report"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-diagnostic-report>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_example-zw-vl-diagnostic-report\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport example-zw-vl-diagnostic-report</b></p><a name=\"example-zw-vl-diagnostic-report\"> </a><a name=\"hcexample-zw-vl-diagnostic-report\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-diagnostic-report.html\">ZW Lab Diagnostic Report</a></p></div><h2><span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}\">Viral Load Plasma</span> (<span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v2-0074 MB}\">Microbiology</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</td></tr><tr><td>When For</td><td>2024-03-18 14:00:00+0200</td></tr><tr><td>Reported</td><td>2024-03-18 16:30:00+0200</td></tr><tr><td>Performer</td><td> <a href=\"Organization-example-national-virology-lab.html\">Organization National Virology Laboratory</a></td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Flags</b></td></tr><tr><td><a href=\"Observation-example-zw-vl-observation.html\"><span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}, {http://loinc.org 20447-9}\">Viral Load Plasma</span></a></td><td>48 copies/mL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/mL = '/mL')</span></td><td>Final</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/report-review-state>
+     ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [
+           fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"^^xsd:anyURI ;
+           fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state>
+         ] ;
+         fhir:code [ fhir:v "verified" ] ;
+         fhir:display [ fhir:v "Verified" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:basedOn ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl> ;
+     fhir:reference [ fhir:v "ServiceRequest/example-zw-service-request-vl" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0074"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0074>
+       ] ;
+       fhir:code [ fhir:v "MB" ] ;
+       fhir:display [ fhir:v "Microbiology" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests>
+       ] ;
+       fhir:code [ fhir:v "LTT0013" ] ;
+       fhir:display [ fhir:v "Viral Load Plasma" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:DateTime ;
+     fhir:v "2024-03-18T14:00:00+02:00"^^xsd:dateTime
+  ] ; # 
+  fhir:issued [ fhir:v "2024-03-18T16:30:00+02:00"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> ;
+     fhir:reference [ fhir:v "Organization/example-national-virology-lab" ]
+  ] ) ; # 
+  fhir:resultsInterpreter ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> ;
+     fhir:reference [ fhir:v "Organization/example-national-virology-lab" ]
+  ] ) ; # 
+  fhir:specimen ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> ;
+     fhir:reference [ fhir:v "Specimen/example-zw-specimen-plasma" ]
+  ] ) ; # 
+  fhir:result ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Observation/example-zw-vl-observation> ;
+     fhir:reference [ fhir:v "Observation/example-zw-vl-observation" ]
+  ] ) . # 
+
+<http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> a fhir:Patient ;
+  fhir:id [ fhir:v "example-zw-lab-patient"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-patient"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-patient>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_example-zw-lab-patient\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient example-zw-lab-patient</b></p><a name=\"example-zw-lab-patient\"> </a><a name=\"hcexample-zw-lab-patient\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-patient.html\">ZW Lab Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\"><code>http://mohcc.gov.zw/fhir/lab/identifier/art-number</code>/HRE/2019/005678</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Indicates that the client's date of birth is an estimate rather than the precise birth date. Corresponds to the Impilo→Senaite contract field `dateOfBirthEstimated`.\"><a href=\"StructureDefinition-date-of-birth-estimated.html\">Date of Birth Estimated</a></td><td colspan=\"3\">false</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/date-of-birth-estimated>
+     ] ;
+     fhir:value [
+       a fhir:Boolean ;
+       fhir:v false
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id>
+     ] ;
+     fhir:value [ fhir:v "EHR-ZW-00123" ]
+  ] [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/identifier/art-number"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/identifier/art-number>
+     ] ;
+     fhir:value [ fhir:v "HRE/2019/005678" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Moyo" ] ;
+     fhir:given ( [ fhir:v "Rutendo" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1988-04-15"^^xsd:date] ; # 
+  fhir:maritalStatus [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-MaritalStatus>
+       ] ;
+       fhir:code [ fhir:v "M" ] ;
+       fhir:display [ fhir:v "Married" ]
+     ] )
+  ] . # 
+
+<http://mohcc.gov.zw/fhir/lab/Observation/example-zw-vl-observation> a fhir:Observation ;
+  fhir:id [ fhir:v "example-zw-vl-observation"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-result-observation"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-result-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_example-zw-vl-observation\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation example-zw-vl-observation</b></p><a name=\"example-zw-vl-observation\"> </a><a name=\"hcexample-zw-vl-observation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-result-observation.html\">ZW Lab Result Observation</a></p></div><p><b>basedOn</b>: <a href=\"ServiceRequest-example-zw-service-request-vl.html\">ServiceRequest Viral Load Plasma</a></p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category laboratory}\">Laboratory</span></p><p><b>code</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}, {http://loinc.org 20447-9}\">Viral Load Plasma</span></p><p><b>subject</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>effective</b>: 2024-03-18 14:00:00+0200</p><p><b>value</b>: 48 copies/mL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/mL = '/mL')</span></p><p><b>method</b>: <span title=\"Codes:\">RT-PCR</span></p><p><b>specimen</b>: <a href=\"Specimen-example-zw-specimen-plasma.html\">Specimen: identifier = http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id#ZW-SPEC-2024-00456; status = available; type = Blood Plasma</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:basedOn ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl> ;
+     fhir:reference [ fhir:v "ServiceRequest/example-zw-service-request-vl" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
+       fhir:code [ fhir:v "laboratory" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests>
+       ] ;
+       fhir:code [ fhir:v "LTT0013" ] ;
+       fhir:display [ fhir:v "Viral Load Plasma" ]
+     ] [
+       a loinc:20447-9 ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:code [ fhir:v "20447-9" ] ;
+       fhir:display [ fhir:v "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:effective [
+     a fhir:DateTime ;
+     fhir:v "2024-03-18T14:00:00+02:00"^^xsd:dateTime
+  ] ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "48"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "copies/mL" ] ;
+     fhir:system [
+       fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+       fhir:l <http://unitsofmeasure.org>
+     ] ;
+     fhir:code [ fhir:v "/mL" ]
+  ] ; # 
+  fhir:method [
+     fhir:text [ fhir:v "RT-PCR" ]
+  ] ; # 
+  fhir:specimen [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> ;
+     fhir:reference [ fhir:v "Specimen/example-zw-specimen-plasma" ]
+  ] . # 
+
+<http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> a fhir:Specimen ;
+  fhir:id [ fhir:v "example-zw-specimen-plasma"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-specimen>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Specimen_example-zw-specimen-plasma\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Specimen example-zw-specimen-plasma</b></p><a name=\"example-zw-specimen-plasma\"> </a><a name=\"hcexample-zw-specimen-plasma\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-specimen.html\">ZW Lab Specimen</a></p></div><p><b>identifier</b>: <code>http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id</code>/ZW-SPEC-2024-00456</p><p><b>status</b>: Available</p><p><b>type</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types LST006}\">Blood Plasma</span></p><p><b>subject</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collected[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>2024-03-15 08:30:00+0200</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id>
+     ] ;
+     fhir:value [ fhir:v "ZW-SPEC-2024-00456" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "available"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-sample-types>
+       ] ;
+       fhir:code [ fhir:v "LST006" ] ;
+       fhir:display [ fhir:v "Blood Plasma" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:collection [
+     fhir:collected [
+       a fhir:DateTime ;
+       fhir:v "2024-03-15T08:30:00+02:00"^^xsd:dateTime
+     ]
+  ] . # 
+
+<http://mohcc.gov.zw/fhir/lab/ServiceRequest/example-zw-service-request-vl> a fhir:ServiceRequest ;
+  fhir:id [ fhir:v "example-zw-service-request-vl"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-lab-service-request>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ServiceRequest_example-zw-service-request-vl\"> </a><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest example-zw-service-request-vl</b></p><a name=\"example-zw-service-request-vl\"> </a><a name=\"hcexample-zw-service-request-vl\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-lab-service-request.html\">ZW Lab Service Request</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>code</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests LTT0013}\">Viral Load Plasma</span></p><p><b>subject</b>: <a href=\"Patient-example-zw-lab-patient.html\">Rutendo Moyo  Female, DoB: 1988-04-15 ( http://mohcc.gov.zw/fhir/lab/identifier/ehr-patient-id#EHR-ZW-00123)</a></p><p><b>authoredOn</b>: 2024-03-15 08:00:00+0200</p><p><b>locationReference</b>: <a href=\"Location-example-order-facility.html\">Location Harare City Health Clinic</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test routine}\">Routine</span></p><p><b>specimen</b>: <a href=\"Specimen-example-zw-specimen-plasma.html\">Specimen: identifier = http://mohcc.gov.zw/fhir/lab/identifier/client-sample-id#ZW-SPEC-2024-00456; status = available; type = Blood Plasma</a></p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests>
+       ] ;
+       fhir:code [ fhir:v "LTT0013" ] ;
+       fhir:display [ fhir:v "Viral Load Plasma" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Patient/example-zw-lab-patient> ;
+     fhir:reference [ fhir:v "Patient/example-zw-lab-patient" ]
+  ] ; # 
+  fhir:authoredOn [ fhir:v "2024-03-15T08:00:00+02:00"^^xsd:dateTime] ; # 
+  fhir:locationReference ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Location/example-order-facility> ;
+     fhir:reference [ fhir:v "Location/example-order-facility" ]
+  ] ) ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test"^^xsd:anyURI ;
+         fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-reason-for-test>
+       ] ;
+       fhir:code [ fhir:v "routine" ] ;
+       fhir:display [ fhir:v "Routine" ]
+     ] )
+  ] ) ; # 
+  fhir:specimen ( [
+     fhir:l <http://mohcc.gov.zw/fhir/lab/Specimen/example-zw-specimen-plasma> ;
+     fhir:reference [ fhir:v "Specimen/example-zw-specimen-plasma" ]
+  ] ) . # 
+
+<http://mohcc.gov.zw/fhir/lab/Organization/example-national-virology-lab> a fhir:Organization ;
+  fhir:id [ fhir:v "example-national-virology-lab"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-laboratory"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-laboratory>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_example-national-virology-lab\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization example-national-virology-lab</b></p><a name=\"example-national-virology-lab\"> </a><a name=\"hcexample-national-virology-lab\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-laboratory.html\">ZW Laboratory (Organization)</a></p></div><p><b>identifier</b>: <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories</code>/ZWLPAR001</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/organization-type other}\">Laboratory</span></p><p><b>name</b>: National Virology Laboratory</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-laboratories>
+     ] ;
+     fhir:value [ fhir:v "ZWLPAR001" ]
+  ] ) ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/organization-type>
+       ] ;
+       fhir:code [ fhir:v "other" ] ;
+       fhir:display [ fhir:v "Other" ]
+     ] ) ;
+     fhir:text [ fhir:v "Laboratory" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "National Virology Laboratory"] . # 
+
+<http://mohcc.gov.zw/fhir/lab/Location/example-order-facility> a fhir:Location ;
+  fhir:id [ fhir:v "example-order-facility"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-facility"^^xsd:anyURI ;
+       fhir:l <http://mohcc.gov.zw/fhir/lab/StructureDefinition/zw-facility>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Location_example-order-facility\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Location example-order-facility</b></p><a name=\"example-order-facility\"> </a><a name=\"hcexample-order-facility\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-zw-facility.html\">ZW Health Facility (Location)</a></p></div><p><b>status</b>: Active</p><p><b>name</b>: Harare City Health Clinic</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:name [ fhir:v "Harare City Health Clinic"] . # 
+
+# -------------------------------------------------------------------------------------
+

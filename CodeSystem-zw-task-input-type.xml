@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="zw-task-input-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem zw-task-input-type</b></p><a name="zw-task-input-type"> </a><a name="hczw-task-input-type"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">pregnant<a name="zw-task-input-type-pregnant"> </a></td><td>Pregnant</td><td>Patient is pregnant at time of ordering.</td></tr><tr><td style="white-space:nowrap">breastfeeding<a name="zw-task-input-type-breastfeeding"> </a></td><td>Breastfeeding</td><td>Patient is breastfeeding at time of ordering.</td></tr><tr><td style="white-space:nowrap">art-start-date<a name="zw-task-input-type-art-start-date"> </a></td><td>ART Start Date</td><td>Date the patient started ART.</td></tr><tr><td style="white-space:nowrap">regimen<a name="zw-task-input-type-regimen"> </a></td><td>Regimen</td><td>Current ART regimen.</td></tr></table></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-task-input-type"/>
+  <version value="0.1.0"/>
+  <name value="CSZWTaskInputType"/>
+  <title value="ZW Lab Task Input Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-11T12:19:15+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Type codes for Task.input slices on the ZWLabTask order profile."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="pregnant"/>
+    <display value="Pregnant"/>
+    <definition value="Patient is pregnant at time of ordering."/>
+  </concept>
+  <concept>
+    <code value="breastfeeding"/>
+    <display value="Breastfeeding"/>
+    <definition value="Patient is breastfeeding at time of ordering."/>
+  </concept>
+  <concept>
+    <code value="art-start-date"/>
+    <display value="ART Start Date"/>
+    <definition value="Date the patient started ART."/>
+  </concept>
+  <concept>
+    <code value="regimen"/>
+    <display value="Regimen"/>
+    <definition value="Current ART regimen."/>
+  </concept>
+</CodeSystem>

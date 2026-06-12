@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="zw-lab-tests"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet zw-lab-tests</b></p><a name="zw-lab-tests"> </a><a name="hczw-lab-tests"> </a><ul><li>Include all codes defined in <a href="CodeSystem-zw-lab-tests.html"><code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://mohcc.gov.zw/fhir/lab/ValueSet/zw-lab-tests"/>
+  <version value="0.1.0"/>
+  <name value="VSZWLabTests"/>
+  <title value="ZW Laboratory Tests"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-06-12T09:30:06+00:00"/>
+  <publisher value="MOH Zimbabwe"/>
+  <contact>
+    <name value="MOH Zimbabwe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://mohcc.org.zw"/>
+    </telecom>
+  </contact>
+  <description value="Value set of laboratory tests requestable in Zimbabwe (ZW.LAB.A.DE17)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="716"/>
+      <display value="Zimbabwe (ZWE)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-lab-tests"/>
+    </include>
+  </compose>
+</ValueSet>

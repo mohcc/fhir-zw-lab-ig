@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "zw-report-review-state"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem zw-report-review-state</b></p><a name=\"zw-report-review-state\"> </a><a name=\"hczw-report-review-state\"> </a><p>This case-sensitive code system <code>http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">pending<a name=\"zw-report-review-state-pending\"> </a></td><td>Pending</td><td>Result entry in progress; not yet submitted.</td></tr><tr><td style=\"white-space:nowrap\">received<a name=\"zw-report-review-state-received\"> </a></td><td>Received</td><td>Specimen received by the laboratory.</td></tr><tr><td style=\"white-space:nowrap\">to-be-verified<a name=\"zw-report-review-state-to-be-verified\"> </a></td><td>To Be Verified</td><td>Result awaiting verification.</td></tr><tr><td style=\"white-space:nowrap\">verified<a name=\"zw-report-review-state-verified\"> </a></td><td>Verified</td><td>Result verified by authorised person.</td></tr><tr><td style=\"white-space:nowrap\">published<a name=\"zw-report-review-state-published\"> </a></td><td>Published</td><td>Report published and available to the requester.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state"^^xsd:anyURI ;
+     fhir:l <http://mohcc.gov.zw/fhir/lab/CodeSystem/zw-report-review-state>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CSZWReportReviewState"] ; # 
+  fhir:title [ fhir:v "ZW Report Review State"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-12T09:30:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "MOH Zimbabwe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "MOH Zimbabwe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://mohcc.org.zw" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "LIMS workflow/review state for a laboratory report (ZW.LAB.A.DE73)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "716" ] ;
+       fhir:display [ fhir:v "Zimbabwe (ZWE)" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "pending" ] ;
+     fhir:display [ fhir:v "Pending" ] ;
+     fhir:definition [ fhir:v "Result entry in progress; not yet submitted." ]
+  ] [
+     fhir:code [ fhir:v "received" ] ;
+     fhir:display [ fhir:v "Received" ] ;
+     fhir:definition [ fhir:v "Specimen received by the laboratory." ]
+  ] [
+     fhir:code [ fhir:v "to-be-verified" ] ;
+     fhir:display [ fhir:v "To Be Verified" ] ;
+     fhir:definition [ fhir:v "Result awaiting verification." ]
+  ] [
+     fhir:code [ fhir:v "verified" ] ;
+     fhir:display [ fhir:v "Verified" ] ;
+     fhir:definition [ fhir:v "Result verified by authorised person." ]
+  ] [
+     fhir:code [ fhir:v "published" ] ;
+     fhir:display [ fhir:v "Published" ] ;
+     fhir:definition [ fhir:v "Report published and available to the requester." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
